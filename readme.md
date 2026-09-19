@@ -14,18 +14,14 @@
 | Attention Is All You Need | [查看 Transformer 论文](research/papers/Transformer.pdf) | [Transformer 论文笔记](research/papernotes/transformer.md) |
 | Segment Anything | [查看 SAM 论文](research/papers/SAM.pdf)                 |                                                            |
 | SAM 2: Segment Anything in Images and Videos | [查看 SAM2 论文](research/papers/SAM2.pdf) |  |
-|  |  |  |
 
 
 
 ## 工程部分
 
-说明：我的专业是计算机科学与技术，工程部分以深度学习模型代码复现和实验流程整理为主。
+说明：我的专业是计算机科学与技术，目前以开展科研、发表论文为主线。工程部分主要围绕深度学习模型的代码复现和实验整理展开，为后续论文写作积累基础。
 
 | 项目名称 | 项目代码 | 实验报告 |
 | --- | --- | --- |
-| U-Net 在 FIVES 上的血管分割 | [复现说明](research/reproduction/01-unet-fives/README.md) |  |
-|  |  |  |
-|  |  |  |
+| U-Net 在 FIVES 上的血管分割 | [下载 UNet 源码](engineering/src/UNet源码.zip) | [U-Net](engineering/U-net复现.md) |
 
-工程实践总览见[工程说明](engineering/README.md)。运行截图、源代码和最终实验结果将在实际完成后补入；当前不把计划内容标记为已完成。
