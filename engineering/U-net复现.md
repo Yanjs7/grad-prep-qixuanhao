@@ -14,21 +14,17 @@
 
 ### 三、训练过程
 
-实验原计划训练 20 轮，并在每轮结束后计算验证集 Dice。
-
-![image-20260918203810453](/Users/qixuanhao/Library/Application Support/typora-user-images/image-20260918203810453.png)
+实验原计划训练 20 轮，并在每轮结束后计算验证集 Dice。![训练结果](screenshots/train.png)
 
 
 
-### 四、训练与测试结果
+四、训练与测试结果
 
-本次实验完成了数据读取、预处理、模型训练、验证集模型选择、独立测试评估和结果导出的完整流程。
+本次实验完成了数据读取、预处理、模型训练、验证集模型选择、独立测试评估和结果导出的完整流程。![训练曲线](screenshots/curves.png)
 
-![curves](/Users/qixuanhao/Downloads/20260918-200716-796748/curves.png)
+
 
 #### 分割示例
 
-从左到右：原图、真实标注、预测
-
-![image-20260918204950367](/Users/qixuanhao/Library/Application Support/typora-user-images/image-20260918204950367.png)
+从左到右：原图、真实标注、预测![临时结果](screenshots/temp.png)
 
