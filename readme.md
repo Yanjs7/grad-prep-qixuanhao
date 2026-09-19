@@ -9,12 +9,12 @@
 
 | 论文/方向 | 论文位置 | 论文笔记 |
 | --- | --- | --- |
-| U-Net: Convolutional Networks for Biomedical Image Segmentation | [查看论文](research/papers/U-Net.pdf) | [U-Net 笔记](research/paper-notes/01-unet.md) |
-| nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation | [论文 PDF](research/papers/Isensee%20-%20nnU-Net%20a%20self-configuring%20method%20for%20deep%20learning-based%20biomedical%20image%20segmentation.no_watermark.zh-CN.LR_dual.pdf) | [nnU-Net 笔记](research/paper-notes/02-nnunet.md) |
-| Attention Is All You Need | [论文 PDF](research/papers/Vaswani%20%E7%AD%89%20-%20Attention%20is%20All%20you%20Need.no_watermark.zh-CN.LR_dual.pdf) | [Transformer 笔记](research/paper-notes/03-transformer.md) |
-| Segment Anything | [论文 PDF](research/papers/SAM.no_watermark.zh-CN.LR_dual.pdf) | [SAM 笔记](research/paper-notes/04-sam.md) |
-| SAM 2: Segment Anything in Images and Videos | [论文 PDF](research/papers/Ravi%20%E7%AD%89%20-%20SAM%202%20Segment%20Anything%20in%20Images%20and%20Videos.no_watermark.zh-CN.LR_dual.pdf) | [SAM2 笔记](research/paper-notes/05-sam2.md) |
-| Mamba / 视觉状态空间模型 | 待补充（papers 中暂无对应文件） | [Mamba 笔记](research/paper-notes/06-mamba.md) |
+| U-Net: Convolutional Networks for Biomedical Image Segmentation | [查看 U-Net 论文](research/papers/U-Net.pdf) | [U-Net 论文笔记](research/papernotes/unet.md) |
+| nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation | [查看 nnU-Net 论文](research/papers/nnU-Net.pdf)         | [nnU-Net 论文笔记](research/papernotes/nnunet.md) |
+| Attention Is All You Need | [查看 Transformer 论文](research/papers/Transformer.pdf) | [Transformer 论文笔记](research/papernotes/transformer.md) |
+| Segment Anything | [查看 SAM 论文](research/papers/SAM.pdf)                 | [SAM 笔记](research/paper-notes/04-sam.md) |
+| SAM 2: Segment Anything in Images and Videos | [查看 SAM2 论文](research/papers/SAM2.pdf) | [SAM2 笔记](research/paper-notes/05-sam2.md) |
+|  |  |  |
 
 
 
