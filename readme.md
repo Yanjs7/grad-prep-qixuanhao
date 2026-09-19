@@ -12,8 +12,8 @@
 | U-Net: Convolutional Networks for Biomedical Image Segmentation | [查看 U-Net 论文](research/papers/U-Net.pdf) | [U-Net 论文笔记](research/papernotes/unet.md) |
 | nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation | [查看 nnU-Net 论文](research/papers/nnU-Net.pdf)         | [nnU-Net 论文笔记](research/papernotes/nnunet.md) |
 | Attention Is All You Need | [查看 Transformer 论文](research/papers/Transformer.pdf) | [Transformer 论文笔记](research/papernotes/transformer.md) |
-| Segment Anything | [查看 SAM 论文](research/papers/SAM.pdf)                 | [SAM 笔记](research/paper-notes/04-sam.md) |
-| SAM 2: Segment Anything in Images and Videos | [查看 SAM2 论文](research/papers/SAM2.pdf) | [SAM2 笔记](research/paper-notes/05-sam2.md) |
+| Segment Anything | [查看 SAM 论文](research/papers/SAM.pdf)                 |                                                            |
+| SAM 2: Segment Anything in Images and Videos | [查看 SAM2 论文](research/papers/SAM2.pdf) |  |
 |  |  |  |
 
 
