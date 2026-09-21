@@ -14,6 +14,7 @@
 | Attention Is All You Need | [查看 Transformer 论文](research/papers/Transformer.pdf) | [Transformer 论文笔记](research/papernotes/transformer.md) |
 | Segment Anything | [查看 SAM 论文](research/papers/SAM.pdf)                 | [SAM论文笔记](research/papernotes/SAM.md) |
 | SAM 2: Segment Anything in Images and Videos | [查看 SAM2 论文](research/papers/SAM2.pdf) | [SAM2论文笔记](research/papernotes/SAM2.md) |
+| AI-based diagnosis of acute aortic syndrome from noncontrast CT | [查看iAorta论文](research/papers/iAorta.pdf) | [iAorta 论文笔记](research/papernotes/iAorta.md) |
 
 
 
