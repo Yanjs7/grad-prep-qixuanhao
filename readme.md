@@ -7,7 +7,7 @@
 
 ## 科研部分
 
-| 论文名称 | 论文位置 | 论文笔记 |
+| 论文名称 | 论文原文 | 论文笔记 |
 | --- | --- | --- |
 | U-Net: Convolutional Networks for Biomedical Image Segmentation | [查看 U-Net 论文](research/papers/U-Net.pdf) | [U-Net 论文笔记](research/papernotes/unet.md) |
 | nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation | [查看 nnU-Net 论文](research/papers/nnU-Net.pdf)         | [nnU-Net 论文笔记](research/papernotes/nnunet.md) |
