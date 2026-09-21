@@ -24,5 +24,5 @@
 | 项目名称 | 项目代码 | 实验报告 |
 | --- | --- | --- |
 | U-Net 在 FIVES 上的血管分割 | [下载 UNet 源码](<engineering/U-Net 在 FIVES 上的血管分割/UNet源码.zip>) | [U-Net 在 FIVES 上的血管分割实验报告](<engineering/U-Net 在 FIVES 上的血管分割/U-net复现.md>) |
-| 基于U-net和ResNet的皮肤病灶分析与分类平台 | [下载源码](engineering/基于U-net和ResNet的皮肤病灶分析与分类平台/基于U-net和ResNet的皮肤病灶分析与分类平台.zip) | [基于U-net和ResNet的皮肤病灶分析与分类平台实验报告](engineering/基于U-net和ResNet的皮肤病灶分析与分类平台/项目实验报告.md) |
+| 基于U-net和ResNet的皮肤病灶分析与分类平台 | [下载源码](engineering/基于U-net和ResNet的皮肤病灶分析与分类平台) | [基于U-net和ResNet的皮肤病灶分析与分类平台实验报告](engineering/基于U-net和ResNet的皮肤病灶分析与分类平台/项目实验报告.md) |
 
