@@ -89,7 +89,7 @@
 | Semi-supervised Medical Image Segmentation through Dual-task Consistency | 双任务一致性与未标注影像的训练约束 | [PDF](research/papers/DTC.pdf) | [DTC 笔记](research/papernotes/dtc.md) |
 | Bidirectional Copy-Paste for Semi-Supervised Medical Image Segmentation | 双向复制粘贴、Teacher–Student 与混合标签训练 | [PDF](research/papers/BCP.pdf) | [BCP 笔记](research/papernotes/bcp.md) |
 | Orthogonal Annotation Benefits Barely-Supervised Medical Image Segmentation | 正交切片标注、标签传播与三维分割 | [PDF](research/papers/DeSCO.pdf) | [DeSCO 笔记](research/papernotes/desco.md) |
-| Self-Supervised Pre-Training of Swin Transformers for 3D Medical Image Analysis | 三维 CT 自监督预训练与有标注数据微调 | [PDF](research/papers/Swin UNETR.pdf) | [Swin UNETR 笔记](research/papernotes/swin-unetr.md) |
+| Self-Supervised Pre-Training of Swin Transformers for 3D Medical Image Analysis | 三维 CT 自监督预训练与有标注数据微调 | [PDF](research/papers/Swin.pdf) | [Swin UNETR 笔记](research/papernotes/swin-unetr.md) |
 
 经典论文用于补足基础；后续阅读将结合任务说明，补充近三年的相关顶会／顶刊工作，并在笔记中注明来源。
 
