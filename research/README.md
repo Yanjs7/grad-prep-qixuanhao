@@ -2,13 +2,13 @@
 
 [返回仓库首页](../readme.md)
 
-本目录收录医学图像分析相关论文与个人阅读记录，当前共有 6 篇论文 PDF 和 6 篇笔记。模型实践保存在工程目录，通过本页统一导航。
+本目录收录医学图像分析相关论文与个人阅读记录，当前收录 10 篇论文的阅读笔记，其中 6 篇已附论文 PDF，新增的 4 篇原文待补充。模型实践保存在工程目录，通过本页统一导航。
 
 ## 当前进度与实践入口
 
 | 内容 | 当前状态 | 入口 |
 | --- | --- | --- |
-| 论文阅读 | 6 篇已有笔记，继续深化精读 | 见下方论文列表 |
+| 论文阅读 | 10 篇已有笔记，继续深化精读 | 见下方论文列表 |
 | U-Net 血管分割实践 | 已有源码压缩包、实验报告与可视化 | [FIVES 报告](<../engineering/U-Net 在 FIVES 上的血管分割/U-net复现.md>) |
 | U-Net 病灶分割与 ResNet18 分类 | 已有验证指标、训练曲线与误判分析 | [ISIC 实验报告](../engineering/基于U-net和ResNet的皮肤病灶分析与分类平台/项目实验报告.md) |
 | 论文核心实验对照 | 尚未建立逐篇复现对照表 | 后续补充原论文设置、复现配置、指标及差异 |
@@ -24,6 +24,7 @@
 2. **如何建立可靠的实验流程？** 通过 nnU-Net 学习预处理、模型配置与训练策略之间的关系，关注数据划分、模型选择和评价口径。
 3. **如何理解注意力与提示式分割？** 阅读 Transformer、SAM 与 SAM 2，梳理基础结构、交互方式和图像／视频任务之间的联系。
 4. **如何从模型走向实际应用？** 结合 iAorta 的阅读笔记与自己的平台实践，思考定位、分割、分类和结果展示如何服务具体问题。
+5. **如何减少分割标注需求？** 结合 DTC、BCP、DeSCO 与 Swin UNETR，区分训练阶段利用未标注数据、减少每份影像的标注切片，以及先自监督预训练再微调这几种路径。
 
 ### 2. 论文列表与阅读记录
 
@@ -35,6 +36,12 @@
 | Segment Anything | 提示式分割、模型使用方式与数据构建 | [PDF](papers/SAM.pdf) | [SAM 笔记](papernotes/SAM.md) | 已有阅读笔记，尚未整理独立复现 |
 | SAM 2: Segment Anything in Images and Videos | 图像与视频分割、与 SAM 的联系和区别 | [PDF](papers/SAM2.pdf) | [SAM 2 笔记](papernotes/SAM2.md) | 已有阅读笔记，尚未整理独立复现 |
 | AI-based diagnosis of acute aortic syndrome from noncontrast CT | 两阶段医学影像分析、多任务学习与应用流程 | [PDF](papers/iAorta.pdf) | [iAorta 笔记](papernotes/iAorta.md) | 已有阅读笔记，尚未整理独立复现 |
+| Semi-supervised Medical Image Segmentation through Dual-task Consistency | 双任务一致性与未标注影像的训练约束 | 待补充：`dtc.pdf` | [DTC 笔记](papernotes/dtc.md) | 已有阅读笔记，尚未整理独立复现 |
+| Bidirectional Copy-Paste for Semi-Supervised Medical Image Segmentation | 双向复制粘贴、Teacher–Student 与混合标签训练 | 待补充：`bcp.pdf` | [BCP 笔记](papernotes/bcp.md) | 已有阅读笔记，尚未整理独立复现 |
+| Orthogonal Annotation Benefits Barely-Supervised Medical Image Segmentation | 正交切片标注、标签传播与三维分割 | 待补充：`desco.pdf` | [DeSCO 笔记](papernotes/desco.md) | 已有阅读笔记，尚未整理独立复现 |
+| Self-Supervised Pre-Training of Swin Transformers for 3D Medical Image Analysis | 三维 CT 自监督预训练与有标注数据微调 | 待补充：`swin-unetr.pdf` | [Swin UNETR 笔记](papernotes/swin-unetr.md) | 已有阅读笔记，尚未整理独立复现 |
+
+新增四篇论文原文统一放入 `papers/`，建议文件名为 `dtc.pdf`、`bcp.pdf`、`desco.pdf` 和 `swin-unetr.pdf`；当前标为待补充，不创建空 PDF 或失效链接。
 
 经典论文用于补足基础；后续阅读将结合任务说明，补充近三年的相关顶会／顶刊工作，并在笔记中注明来源。
 

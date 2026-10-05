@@ -23,7 +23,7 @@
 
 | 项目 | 状态 | 当前进度 |
 | --- | --- | --- |
-| 论文阅读与笔记 | 持续完善 | 6 篇已有笔记，继续补充方法、实验与局限分析 |
+| 论文阅读与笔记 | 持续完善 | 10 篇已有笔记，继续补充方法、实验与局限分析 |
 | 模型实现与实验 | 已有成果 | 2 项实践：FIVES 血管分割、ISIC 病灶分割与分类 |
 
 进度按现有笔记和实践项目统计；阅读笔记数量不等同于已完成精读的篇数，模型实践数量也不等同于论文核心实验复现篇数。
@@ -47,6 +47,10 @@
 - [nnU-Net](research/papernotes/nnunet.md)：关注固定参数、规则参数和经验参数，以及如何组织可复用的实验流程。
 - [Transformer](research/papernotes/transformer.md)、[SAM](research/papernotes/SAM.md) 与 [SAM 2](research/papernotes/SAM2.md)：梳理注意力基础、提示式分割及图像／视频分割的联系。
 - [iAorta](research/papernotes/iAorta.md)：理解主动脉定位、多任务分析与临床预警流程，记录对多模态扩展的思考。
+- [DTC](research/papernotes/dtc.md)：双任务一致性与未标注影像的训练约束。
+- [BCP](research/papernotes/bcp.md)：双向复制粘贴、Teacher–Student 与混合标签训练。
+- [DeSCO](research/papernotes/desco.md)：正交切片标注、标签传播与三维分割。
+- [Swin UNETR](research/papernotes/swin-unetr.md)：三维 CT 自监督预训练与有标注数据微调。
 
 ### 实验与应用
 
@@ -69,6 +73,7 @@
 2. **如何建立可靠的实验流程？** 通过 nnU-Net 学习预处理、模型配置与训练策略之间的关系，关注数据划分、模型选择和评价口径。
 3. **如何理解注意力与提示式分割？** 阅读 Transformer、SAM 与 SAM 2，梳理基础结构、交互方式和图像／视频任务之间的联系。
 4. **如何从模型走向实际应用？** 结合 iAorta 的阅读笔记与自己的平台实践，思考定位、分割、分类和结果展示如何服务具体问题。
+5. **如何减少分割标注需求？** 结合 DTC、BCP、DeSCO 与 Swin UNETR，区分训练阶段利用未标注数据、减少每份影像的标注切片，以及先自监督预训练再微调这几种路径。
 
 ### 2. 论文列表与阅读记录
 
@@ -80,6 +85,11 @@
 | Segment Anything | 提示式分割、模型使用方式与数据构建 | [PDF](research/papers/SAM.pdf) | [SAM 笔记](research/papernotes/SAM.md) |
 | SAM 2: Segment Anything in Images and Videos | 图像与视频分割、与 SAM 的联系和区别 | [PDF](research/papers/SAM2.pdf) | [SAM 2 笔记](research/papernotes/SAM2.md) |
 | AI-based diagnosis of acute aortic syndrome from noncontrast CT | 两阶段医学影像分析、多任务学习与应用流程 | [PDF](research/papers/iAorta.pdf) | [iAorta 笔记](research/papernotes/iAorta.md) |
+| 少标签： |  |  |  |
+| Semi-supervised Medical Image Segmentation through Dual-task Consistency | 双任务一致性与未标注影像的训练约束 | [PDF](research/papers/DTC.pdf) | [DTC 笔记](research/papernotes/dtc.md) |
+| Bidirectional Copy-Paste for Semi-Supervised Medical Image Segmentation | 双向复制粘贴、Teacher–Student 与混合标签训练 | [PDF](research/papers/BCP.pdf) | [BCP 笔记](research/papernotes/bcp.md) |
+| Orthogonal Annotation Benefits Barely-Supervised Medical Image Segmentation | 正交切片标注、标签传播与三维分割 | [PDF](research/papers/DeSCO.pdf) | [DeSCO 笔记](research/papernotes/desco.md) |
+| Self-Supervised Pre-Training of Swin Transformers for 3D Medical Image Analysis | 三维 CT 自监督预训练与有标注数据微调 | [PDF](research/papers/Swin UNETR.pdf) | [Swin UNETR 笔记](research/papernotes/swin-unetr.md) |
 
 经典论文用于补足基础；后续阅读将结合任务说明，补充近三年的相关顶会／顶刊工作，并在笔记中注明来源。
 
