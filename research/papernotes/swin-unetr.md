@@ -2,7 +2,7 @@
 
 **论文名称**：Self-Supervised Pre-Training of Swin Transformers for 3D Medical Image Analysis
 
-[返回论文列表](../README.md#2-论文列表与阅读记录)
+[论文原文](../papers/Swin.pdf) · [返回论文列表](../README.md#2-论文列表与阅读记录)
 
 模型叫 **Swin UNETR**。
 

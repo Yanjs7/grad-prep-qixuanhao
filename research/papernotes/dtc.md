@@ -2,7 +2,7 @@
 
 **论文名称**：Semi-supervised Medical Image Segmentation through Dual-task Consistency
 
-[返回论文列表](../README.md#2-论文列表与阅读记录)
+[论文原文](../papers/DTC.pdf) · [返回论文列表](../README.md#2-论文列表与阅读记录)
 
 输入同一份三维 CT，网络会同时给出两种结果：
 

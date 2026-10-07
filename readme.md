@@ -26,8 +26,6 @@
 | 论文阅读与笔记 | 持续完善 | 10 篇已有笔记，继续补充方法、实验与局限分析 |
 | 模型实现与实验 | 已有成果 | 2 项实践：FIVES 血管分割、ISIC 病灶分割与分类 |
 
-进度按现有笔记和实践项目统计；阅读笔记数量不等同于已完成精读的篇数，模型实践数量也不等同于论文核心实验复现篇数。
-
 科研总览：[research/README.md](research/README.md)。
 
 ### 工程任务
@@ -61,8 +59,6 @@
 | ISIC 2017 | ResNet18 / 三类分类 | 最佳验证宏平均 F1 0.7907，同轮准确率 81.33% | [实验报告](engineering/基于U-net和ResNet的皮肤病灶分析与分类平台/项目实验报告.md) |
 | 皮肤镜图像应用 | FastAPI Web 平台 | 图像上传、模型分析、历史查询、结果导出与打印 | [使用文档](engineering/基于U-net和ResNet的皮肤病灶分析与分类平台/readme.md) |
 
-以上为自己的模型实践与验证结果；尚未建立与原论文一致设置下的指标对照表。
-
 ## 科研学习
 
 ### 1. 学习主线
@@ -77,6 +73,8 @@
 
 ### 2. 论文列表与阅读记录
 
+#### 基础模型与医学影像应用
+
 | 论文名称 | 学习重点 | 论文原文 | 阅读笔记 |
 | --- | --- | --- | --- |
 | U-Net: Convolutional Networks for Biomedical Image Segmentation | 编码器—解码器结构、跳跃连接、像素级预测 | [PDF](research/papers/U-Net.pdf) | [U-Net 笔记](research/papernotes/unet.md) |
@@ -85,13 +83,17 @@
 | Segment Anything | 提示式分割、模型使用方式与数据构建 | [PDF](research/papers/SAM.pdf) | [SAM 笔记](research/papernotes/SAM.md) |
 | SAM 2: Segment Anything in Images and Videos | 图像与视频分割、与 SAM 的联系和区别 | [PDF](research/papers/SAM2.pdf) | [SAM 2 笔记](research/papernotes/SAM2.md) |
 | AI-based diagnosis of acute aortic syndrome from noncontrast CT | 两阶段医学影像分析、多任务学习与应用流程 | [PDF](research/papers/iAorta.pdf) | [iAorta 笔记](research/papernotes/iAorta.md) |
-| 少标签： |  |  |  |
+
+#### 少标签医学图像分割
+
+| 论文名称 | 学习重点 | 论文原文 | 阅读笔记 |
+| --- | --- | --- | --- |
 | Semi-supervised Medical Image Segmentation through Dual-task Consistency | 双任务一致性与未标注影像的训练约束 | [PDF](research/papers/DTC.pdf) | [DTC 笔记](research/papernotes/dtc.md) |
 | Bidirectional Copy-Paste for Semi-Supervised Medical Image Segmentation | 双向复制粘贴、Teacher–Student 与混合标签训练 | [PDF](research/papers/BCP.pdf) | [BCP 笔记](research/papernotes/bcp.md) |
 | Orthogonal Annotation Benefits Barely-Supervised Medical Image Segmentation | 正交切片标注、标签传播与三维分割 | [PDF](research/papers/DeSCO.pdf) | [DeSCO 笔记](research/papernotes/desco.md) |
 | Self-Supervised Pre-Training of Swin Transformers for 3D Medical Image Analysis | 三维 CT 自监督预训练与有标注数据微调 | [PDF](research/papers/Swin.pdf) | [Swin UNETR 笔记](research/papernotes/swin-unetr.md) |
 
-经典论文用于补足基础；后续阅读将结合任务说明，补充近三年的相关顶会／顶刊工作，并在笔记中注明来源。
+
 
 ## 工程实践
 
@@ -141,7 +143,7 @@
 
 #### 已记录的实验结果
 
-使用 ISIC 2017 官方训练／验证划分，实际训练样本为 1999 张，验证样本为 150 张。官方训练集为 2000 张，少用 1 张的原因和对应样本尚需补充记录。下列指标均来自现有实验报告中的**验证集结果**，不作为独立测试集结果或论文原始指标的复现声明。
+使用 ISIC 2017 官方训练／验证划分，实际训练样本为 1999 张，验证样本为 150 张。官方训练集为 2000 张；分类数据检查记录将 `ISIC_0012970` 标为 `ISIC_0012127` 的重复项并排除，实际使用 1999 张。该记录直接证明分类数据的排除情况。下列指标均来自现有实验报告中的**验证集结果**，不作为独立测试集结果或论文原始指标的复现声明。
 
 | 任务 | 最佳模型选择依据 | 最佳轮次 | 同轮验证结果 |
 | --- | --- | ---: | --- |

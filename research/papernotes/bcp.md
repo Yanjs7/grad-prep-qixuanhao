@@ -2,7 +2,7 @@
 
 **论文名称**：Bidirectional Copy-Paste for Semi-Supervised Medical Image Segmentation
 
-[返回论文列表](../README.md#2-论文列表与阅读记录)
+[论文原文](../papers/BCP.pdf) · [返回论文列表](../README.md#2-论文列表与阅读记录)
 
 **BCP（Bidirectional Copy-Paste，双向复制粘贴）**。手里有少量**完整标注**的三维影像，以及大量**没有标注**的影像。
 

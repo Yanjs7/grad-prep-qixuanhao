@@ -2,7 +2,7 @@
 
 **论文名称**：Orthogonal Annotation Benefits Barely-Supervised Medical Image Segmentation
 
-[返回论文列表](../README.md#2-论文列表与阅读记录)
+[论文原文](../papers/DeSCO.pdf) · [返回论文列表](../README.md#2-论文列表与阅读记录)
 
 医生每份只标两个互相垂直的切片。比如一份肾脏 CT，可以标一张**横着切**的图，再标一张**竖着切**的图。两个方向看到的肾脏形状不同，提供了互补信息；
 

@@ -1,0 +1,25 @@
+{
+  "val": {
+    "count": 150,
+    "classes": [
+      78,
+      30,
+      42
+    ],
+    "excluded": []
+  },
+  "train": {
+    "count": 1999,
+    "classes": [
+      1371,
+      374,
+      254
+    ],
+    "excluded": [
+      {
+        "id": "ISIC_0012970",
+        "duplicate_of": "ISIC_0012127"
+      }
+    ]
+  }
+}
