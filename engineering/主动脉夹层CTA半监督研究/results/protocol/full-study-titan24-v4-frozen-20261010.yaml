@@ -1,0 +1,46 @@
+# Frozen after exact QC, fixed grouped folds and genuine CUDA profiling.
+seed: 42
+manifest: /root/CTA/data/manifests/full-approved-canonical-v4-20261010.csv
+folds: /root/CTA/data/manifests/full-folds-canonical-v4-20261010.json
+output: /root/CTA/runs/full-titan24-v4-20261010
+model:
+  encoder: mass
+  feature_dim: 512
+  pooling: attention
+  activation_checkpointing: true
+  encoder_chunk_size: 32
+  head_precision: float32
+  vendor: /root/CTA/vendor/MASS
+  checkpoint: /root/CTA/weights/MASS/mass_base.pth
+  trainable: last_stage
+preprocess:
+  spacing_xyz:
+  - 1.5
+  - 1.5
+  - 1.5
+  hu:
+  - -991
+  - 500
+  normalization: zscore_roi
+  patch_dhw:
+  - 32
+  - 96
+  - 96
+  patches: 8
+  ensure_roi_coverage: true
+  max_supplemental_patches: 128
+training:
+  selection_source: AortaSeg
+  initial_steps: 600
+  continuation_steps: 400
+  evaluate_every: 50
+  lr: 0.0001
+  weight_decay: 0.0001
+  ema: 0.99
+  preserve_ema_on_init: true
+  consistency_max: 0.1
+  consistency_ramp_steps: 200
+  amp: false
+  compute_precision: float32
+  memory_warning_threshold_percent: 0
+  device: cuda

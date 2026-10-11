@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "2026-10-09T18:08:15.822885+00:00",
+  "script": "/root/CTA/tools/generate_full_study_final_20261010.py",
+  "sha256": "b91599e627b9e04d4389f25821afc9e3a8b6576e49d324bb046f2bfe2313db4e",
+  "controls": [
+    "AUROC perfect/reversed/tied",
+    "paired identical phase predictions and zero CI",
+    "exact McNemar no discordance p1",
+    "positive partition-unit bootstrap perfect sensitivity"
+  ],
+  "all_passed": true,
+  "data": "synthetic statistical controls only; no actual test predictions/model training read or modified"
+}

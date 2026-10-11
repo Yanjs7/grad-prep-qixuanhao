@@ -1,0 +1,52 @@
+{
+  "at_utc": "2026-10-09T05:24:39.432293+00:00",
+  "leakage_groups": {
+    "suspected-same-anatomy-TAAD1-TAAD111-20261008": [
+      "ImageTAAD:TAAD_1",
+      "ImageTAAD:TAAD_111"
+    ],
+    "suspected-same-anatomy-TAAD120-TAAD121-20261008": [
+      "ImageTAAD:TAAD_120",
+      "ImageTAAD:TAAD_121"
+    ],
+    "suspected-same-anatomy-TAAD6-TAAD118-20261008": [
+      "ImageTAAD:TAAD_6",
+      "ImageTAAD:TAAD_118"
+    ],
+    "suspected-related-native-TAAD9-TAAD17-20261009": [
+      "ImageTAAD:TAAD_9",
+      "ImageTAAD:TAAD_17"
+    ],
+    "suspected-related-native-DBd9bda0ac-DBd18b6dfa-20261009": [
+      "internal:d9bda0ac88a1cc85",
+      "internal:d18b6dfa9ca994cb"
+    ]
+  },
+  "source_constraint": "/root/CTA/reports/data-audit/taad1-taad111-near-duplicate-split-constraint-20261008.json",
+  "source_constraint_sha256": "ddde5e6c143811b5a9e00da7e79d8d3e7fe02152d0559c51a0539ff3d3dd2d62",
+  "required_before_full_study_freeze": true,
+  "scan_independence_audit_complete": false,
+  "prior_groups_file": "/root/CTA/data/manifests/near-duplicate-identity-groups-v3-20261008.json",
+  "prior_groups_sha256": "4d9d9910be330659a2909478d738e12e40f9614070db2913dd4a79ea18c37b82",
+  "source_constraints": [
+    {
+      "path": "/root/CTA/reports/data-audit/taad1-taad111-near-duplicate-split-constraint-20261008.json",
+      "sha256": "ddde5e6c143811b5a9e00da7e79d8d3e7fe02152d0559c51a0539ff3d3dd2d62"
+    },
+    {
+      "path": "/root/CTA/reports/data-audit/taad120-taad121-near-duplicate-split-constraint-20261008.json",
+      "sha256": "4d6e7c3a5805c72b37afdbdd3a2228773cfaa290d51aac88125ab49a131d5e64"
+    },
+    {
+      "path": "/root/CTA/reports/data-audit/taad6-taad118-near-duplicate-split-constraint-20261008.json",
+      "sha256": "eec3cfa7f9428bfd03a49d161679e5b68c2448450760223bd5e319767cfc601b",
+      "current_binding_validation": "/root/CTA/reports/data-audit/taad6-taad118-constraint-server-validation-20261008.json",
+      "current_binding_validation_sha256": "2975bceab2136efd54e7d0cedfb10e75c6c62c76bf72f77a15817e612e670bf3"
+    },
+    {
+      "path": "/root/CTA/reports/data-audit/two-pending-native-pairs-actual-review-and-partition-constraint-20261009.json",
+      "sha256": "365a3e8e1113cf39b830e324acc1f746e7f19b8a27c270231aa68abb9e0e00cd"
+    }
+  ],
+  "scope": "Five conservative same-partition constraints. TAAD9/17 unresolved similarity is grouped conservatively; DB pair has strong reverse/crop source overlap. Not confirmed patient identities; no scan count/diagnosis/hold/cache change. Other unknown overlaps remain."
+}

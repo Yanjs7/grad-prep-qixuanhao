@@ -1,0 +1,97 @@
+{
+  "at_utc": "2026-10-09T19:19:54.755964+00:00",
+  "all_planned_training_complete": true,
+  "all_planned_evaluation_complete": true,
+  "labeled_scans": 243,
+  "phase_prediction_rows": 729,
+  "training_step_rows": 7000,
+  "analysis_seed": 20261010,
+  "bootstrap_repetitions": 10000,
+  "primary_comparison": "S1 minus S0+",
+  "primary_source": "AortaSeg",
+  "no_model_or_threshold_selection_from_test": true,
+  "config_sha256": "9abfde13399a265245d6d94f53839f3c3b3bcfe6fecad1128e600112b1ba08c7",
+  "generator_sha256": "5cf8db4764ef7c3127423418d8ca8b471371e297dc480365e642a0b011242e7a",
+  "files": {
+    "own_process_resources.csv": {
+      "bytes": 14146,
+      "sha256": "974de545084b04878df1babc0062e4f0181433950fe74203923d0f6f3d9c7cea"
+    },
+    "misclassified_cases.csv": {
+      "bytes": 33936,
+      "sha256": "e7aa126a534d26b98db7c90405839827d1e186b8d1eeca749da6f3027e8b00ec"
+    },
+    "roc_pr.pdf": {
+      "bytes": 15605,
+      "sha256": "2e842179ee87948174aa020662a5604270b4aad88783c1e74ded3412381314ed"
+    },
+    "paired_comparisons.json": {
+      "bytes": 1979,
+      "sha256": "670600b5b394de24c8a5eed491b488dd1ee54fd98dc0e1a3152846a398b8a999"
+    },
+    "CTA半监督完整研究报告.md": {
+      "bytes": 12164,
+      "sha256": "56d49e1809093659167b899e6ac0f995664bc1925bda8be73ebad635fe0b8c0a"
+    },
+    "training_steps.csv": {
+      "bytes": 590226,
+      "sha256": "530b900af3a2119ff98719c66c5670f4c6883392aaf3cff935df73d7aaa6beea"
+    },
+    "metrics.csv": {
+      "bytes": 2352,
+      "sha256": "61a1c5cfd56030f76ea9e3f74bd43b07b9a6099a819993b54e64d7b48eab08ad"
+    },
+    "fold_metrics.csv": {
+      "bytes": 922,
+      "sha256": "c04bd043918dd6011a3b635180240c1d5adf43e8ed2fccdaa962ef8c35fb9c52"
+    },
+    "time_memory.png": {
+      "bytes": 104115,
+      "sha256": "30185e9a251e39ba82e67983e592b62ce5b8417b7be90702c892122b2d0a6f2e"
+    },
+    "training_curves.png": {
+      "bytes": 618345,
+      "sha256": "2581fcab80a2a550d955a2ca29d93db5d5bcc2f16ecf0fa2cfbd2de1c7ff8d50"
+    },
+    "source_counts.csv": {
+      "bytes": 94,
+      "sha256": "258cd71988ead901d8685b5aae7e9e98f3212c3a4cc8e97d2418526f22007604"
+    },
+    "frozen_protocol.json": {
+      "bytes": 2399,
+      "sha256": "a9ec0ba812f9311cacb98b54e39f695c5a1994cfeec78ce2ee8b3ac4434853ea"
+    },
+    "roc_pr.png": {
+      "bytes": 95771,
+      "sha256": "71addcf20c2d527f02ef2aea7e4285ad5a0327bee8bd9c472e3881251820ca95"
+    },
+    "time_memory.pdf": {
+      "bytes": 20241,
+      "sha256": "4f9db90a19d447c8be24083cf7ac9e040db57fb3c120c1bb86043e6156f5b67d"
+    },
+    "completed_job_snapshot.json": {
+      "bytes": 24320,
+      "sha256": "ac90feb48fdcc94ce9dc231877705e88f5cc8504a7dbb3451bd0129f3424624c"
+    },
+    "frozen_included_scans.csv": {
+      "bytes": 1871589,
+      "sha256": "1075f603558cc4016d182e4760f57d2ba132647c0218d03c76b64955a0af0697"
+    },
+    "training_curves.pdf": {
+      "bytes": 72215,
+      "sha256": "e27bc11b504789f86514c009db9f9abeec93e335268ae44b9b390f107624117a"
+    },
+    "time_memory_summary.csv": {
+      "bytes": 409,
+      "sha256": "34ec44093e641a19271bdbea888aa5e1469ef99cee1a595cb6bab95f07bf5eeb"
+    },
+    "out_of_fold_predictions.csv": {
+      "bytes": 358998,
+      "sha256": "19e8d76abc794eb5eb41ee1399f8f31c078096276fc620bda4955ffbabe0fb7f"
+    },
+    "excluded_scans.csv": {
+      "bytes": 12260,
+      "sha256": "547c02383efb38ebf83ff1e26e51ece72f3a629205736fdfda28877ed9c9c3e0"
+    }
+  }
+}

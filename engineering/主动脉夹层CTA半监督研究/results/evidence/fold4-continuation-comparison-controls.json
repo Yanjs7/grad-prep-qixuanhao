@@ -1,0 +1,9 @@
+{
+  "fold": 4,
+  "parent_sha256": "b85335e462476cd0b110247b9914b3a90154634267461c1425d72f6f79f59ffe",
+  "supervised_visits_equal": true,
+  "steps": 400,
+  "supervised_visits_sha256": "bc44a65f3ecb465e281e51a551da4f2d57b8ec67ee0b96a0bfac4d8335752317",
+  "preserved_parent_ema": true,
+  "seeds_equal": true
+}

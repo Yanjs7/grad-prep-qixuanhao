@@ -1,0 +1,1547 @@
+{
+  "created_utc": "2026-10-10T03:41:54.867597+00:00",
+  "scope": "Read-only descriptive calculations from the frozen delivered experiment; no retraining, threshold changes, case selection, extra inferential comparison or raw CT reads.",
+  "inputs": {
+    "frozen_included_scans.csv": {
+      "bytes": 1871589,
+      "sha256": "1075f603558cc4016d182e4760f57d2ba132647c0218d03c76b64955a0af0697"
+    },
+    "excluded_scans.csv": {
+      "bytes": 12260,
+      "sha256": "547c02383efb38ebf83ff1e26e51ece72f3a629205736fdfda28877ed9c9c3e0"
+    },
+    "protocol/full-folds-canonical-v4-20261010.json": {
+      "bytes": 49717,
+      "sha256": "10e6ed34345adfdbecf2d68b50e7ac70bbf53e7a32db4aff544aef97a7e5db2c"
+    },
+    "out_of_fold_predictions.csv": {
+      "bytes": 358998,
+      "sha256": "19e8d76abc794eb5eb41ee1399f8f31c078096276fc620bda4955ffbabe0fb7f"
+    },
+    "training_steps.csv": {
+      "bytes": 590226,
+      "sha256": "530b900af3a2119ff98719c66c5670f4c6883392aaf3cff935df73d7aaa6beea"
+    },
+    "own_process_resources.csv": {
+      "bytes": 14146,
+      "sha256": "974de545084b04878df1babc0062e4f0181433950fe74203923d0f6f3d9c7cea"
+    },
+    "metrics.csv": {
+      "bytes": 2352,
+      "sha256": "61a1c5cfd56030f76ea9e3f74bd43b07b9a6099a819993b54e64d7b48eab08ad"
+    },
+    "fold_metrics.csv": {
+      "bytes": 922,
+      "sha256": "c04bd043918dd6011a3b635180240c1d5adf43e8ed2fccdaa962ef8c35fb9c52"
+    }
+  },
+  "source_flow_canonical_only": [
+    {
+      "source": "AortaSeg",
+      "canonical_candidates_before_existing_holds": 30,
+      "existing_holds": 1,
+      "included": 29,
+      "included_by_label": {
+        "1": 10,
+        "0": 19
+      }
+    },
+    {
+      "source": "DB-SNet",
+      "canonical_candidates_before_existing_holds": 473,
+      "existing_holds": 4,
+      "included": 469,
+      "included_by_label": {
+        "-1": 469
+      }
+    },
+    {
+      "source": "ImageTAAD",
+      "canonical_candidates_before_existing_holds": 117,
+      "existing_holds": 3,
+      "included": 114,
+      "included_by_label": {
+        "1": 114
+      }
+    },
+    {
+      "source": "ImageTBAD",
+      "canonical_candidates_before_existing_holds": 100,
+      "existing_holds": 0,
+      "included": 100,
+      "included_by_label": {
+        "1": 100
+      }
+    }
+  ],
+  "fold_partition_composition": [
+    {
+      "fold": 0,
+      "train": {
+        "total": 156,
+        "labels": {
+          "0": 12,
+          "1": 144
+        },
+        "source_and_label": {
+          "AortaSeg|0": 12,
+          "AortaSeg|1": 6,
+          "ImageTAAD|1": 74,
+          "ImageTBAD|1": 64
+        },
+        "subgroup": {
+          "AortaSeg|Dissec": 6,
+          "AortaSeg|Old": 5,
+          "AortaSeg|Young": 7,
+          "ImageTAAD|ImageTAAD": 74,
+          "ImageTBAD|ImageTBAD": 64
+        }
+      },
+      "val": {
+        "total": 39,
+        "labels": {
+          "0": 3,
+          "1": 36
+        },
+        "source_and_label": {
+          "AortaSeg|0": 3,
+          "AortaSeg|1": 2,
+          "ImageTAAD|1": 18,
+          "ImageTBAD|1": 16
+        },
+        "subgroup": {
+          "AortaSeg|Dissec": 2,
+          "AortaSeg|Old": 2,
+          "AortaSeg|Young": 1,
+          "ImageTAAD|ImageTAAD": 18,
+          "ImageTBAD|ImageTBAD": 16
+        }
+      },
+      "test": {
+        "total": 48,
+        "labels": {
+          "0": 4,
+          "1": 44
+        },
+        "source_and_label": {
+          "AortaSeg|0": 4,
+          "AortaSeg|1": 2,
+          "ImageTAAD|1": 22,
+          "ImageTBAD|1": 20
+        },
+        "subgroup": {
+          "AortaSeg|Dissec": 2,
+          "AortaSeg|Old": 2,
+          "AortaSeg|Young": 2,
+          "ImageTAAD|ImageTAAD": 22,
+          "ImageTBAD|ImageTBAD": 20
+        }
+      },
+      "unlabeled": {
+        "total": 469,
+        "labels": {
+          "-1": 469
+        },
+        "source_and_label": {
+          "DB-SNet|-1": 469
+        },
+        "subgroup": {
+          "DB-SNet|internal": 469
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "train": {
+        "total": 156,
+        "labels": {
+          "0": 12,
+          "1": 144
+        },
+        "source_and_label": {
+          "AortaSeg|0": 12,
+          "AortaSeg|1": 6,
+          "ImageTAAD|1": 74,
+          "ImageTBAD|1": 64
+        },
+        "subgroup": {
+          "AortaSeg|Dissec": 6,
+          "AortaSeg|Old": 5,
+          "AortaSeg|Young": 7,
+          "ImageTAAD|ImageTAAD": 74,
+          "ImageTBAD|ImageTBAD": 64
+        }
+      },
+      "val": {
+        "total": 39,
+        "labels": {
+          "0": 3,
+          "1": 36
+        },
+        "source_and_label": {
+          "AortaSeg|0": 3,
+          "AortaSeg|1": 2,
+          "ImageTAAD|1": 18,
+          "ImageTBAD|1": 16
+        },
+        "subgroup": {
+          "AortaSeg|Dissec": 2,
+          "AortaSeg|Old": 3,
+          "ImageTAAD|ImageTAAD": 18,
+          "ImageTBAD|ImageTBAD": 16
+        }
+      },
+      "test": {
+        "total": 48,
+        "labels": {
+          "0": 4,
+          "1": 44
+        },
+        "source_and_label": {
+          "AortaSeg|0": 4,
+          "AortaSeg|1": 2,
+          "ImageTAAD|1": 22,
+          "ImageTBAD|1": 20
+        },
+        "subgroup": {
+          "AortaSeg|Dissec": 2,
+          "AortaSeg|Old": 1,
+          "AortaSeg|Young": 3,
+          "ImageTAAD|ImageTAAD": 22,
+          "ImageTBAD|ImageTBAD": 20
+        }
+      },
+      "unlabeled": {
+        "total": 469,
+        "labels": {
+          "-1": 469
+        },
+        "source_and_label": {
+          "DB-SNet|-1": 469
+        },
+        "subgroup": {
+          "DB-SNet|internal": 469
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "train": {
+        "total": 153,
+        "labels": {
+          "0": 12,
+          "1": 141
+        },
+        "source_and_label": {
+          "AortaSeg|0": 12,
+          "AortaSeg|1": 6,
+          "ImageTAAD|1": 71,
+          "ImageTBAD|1": 64
+        },
+        "subgroup": {
+          "AortaSeg|Dissec": 6,
+          "AortaSeg|Old": 5,
+          "AortaSeg|Young": 7,
+          "ImageTAAD|ImageTAAD": 71,
+          "ImageTBAD|ImageTBAD": 64
+        }
+      },
+      "val": {
+        "total": 39,
+        "labels": {
+          "0": 3,
+          "1": 36
+        },
+        "source_and_label": {
+          "AortaSeg|0": 3,
+          "AortaSeg|1": 2,
+          "ImageTAAD|1": 18,
+          "ImageTBAD|1": 16
+        },
+        "subgroup": {
+          "AortaSeg|Dissec": 2,
+          "AortaSeg|Old": 3,
+          "ImageTAAD|ImageTAAD": 18,
+          "ImageTBAD|ImageTBAD": 16
+        }
+      },
+      "test": {
+        "total": 51,
+        "labels": {
+          "0": 4,
+          "1": 47
+        },
+        "source_and_label": {
+          "AortaSeg|0": 4,
+          "AortaSeg|1": 2,
+          "ImageTAAD|1": 25,
+          "ImageTBAD|1": 20
+        },
+        "subgroup": {
+          "AortaSeg|Dissec": 2,
+          "AortaSeg|Old": 1,
+          "AortaSeg|Young": 3,
+          "ImageTAAD|ImageTAAD": 25,
+          "ImageTBAD|ImageTBAD": 20
+        }
+      },
+      "unlabeled": {
+        "total": 469,
+        "labels": {
+          "-1": 469
+        },
+        "source_and_label": {
+          "DB-SNet|-1": 469
+        },
+        "subgroup": {
+          "DB-SNet|internal": 469
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "train": {
+        "total": 155,
+        "labels": {
+          "0": 12,
+          "1": 143
+        },
+        "source_and_label": {
+          "AortaSeg|0": 12,
+          "AortaSeg|1": 6,
+          "ImageTAAD|1": 73,
+          "ImageTBAD|1": 64
+        },
+        "subgroup": {
+          "AortaSeg|Dissec": 6,
+          "AortaSeg|Old": 5,
+          "AortaSeg|Young": 7,
+          "ImageTAAD|ImageTAAD": 73,
+          "ImageTBAD|ImageTBAD": 64
+        }
+      },
+      "val": {
+        "total": 39,
+        "labels": {
+          "0": 3,
+          "1": 36
+        },
+        "source_and_label": {
+          "AortaSeg|0": 3,
+          "AortaSeg|1": 2,
+          "ImageTAAD|1": 18,
+          "ImageTBAD|1": 16
+        },
+        "subgroup": {
+          "AortaSeg|Dissec": 2,
+          "AortaSeg|Old": 1,
+          "AortaSeg|Young": 2,
+          "ImageTAAD|ImageTAAD": 18,
+          "ImageTBAD|ImageTBAD": 16
+        }
+      },
+      "test": {
+        "total": 49,
+        "labels": {
+          "0": 4,
+          "1": 45
+        },
+        "source_and_label": {
+          "AortaSeg|0": 4,
+          "AortaSeg|1": 2,
+          "ImageTAAD|1": 23,
+          "ImageTBAD|1": 20
+        },
+        "subgroup": {
+          "AortaSeg|Dissec": 2,
+          "AortaSeg|Old": 3,
+          "AortaSeg|Young": 1,
+          "ImageTAAD|ImageTAAD": 23,
+          "ImageTBAD|ImageTBAD": 20
+        }
+      },
+      "unlabeled": {
+        "total": 469,
+        "labels": {
+          "-1": 469
+        },
+        "source_and_label": {
+          "DB-SNet|-1": 469
+        },
+        "subgroup": {
+          "DB-SNet|internal": 469
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "train": {
+        "total": 155,
+        "labels": {
+          "0": 13,
+          "1": 142
+        },
+        "source_and_label": {
+          "AortaSeg|0": 13,
+          "AortaSeg|1": 6,
+          "ImageTAAD|1": 72,
+          "ImageTBAD|1": 64
+        },
+        "subgroup": {
+          "AortaSeg|Dissec": 6,
+          "AortaSeg|Old": 5,
+          "AortaSeg|Young": 8,
+          "ImageTAAD|ImageTAAD": 72,
+          "ImageTBAD|ImageTBAD": 64
+        }
+      },
+      "val": {
+        "total": 41,
+        "labels": {
+          "0": 3,
+          "1": 38
+        },
+        "source_and_label": {
+          "AortaSeg|0": 3,
+          "AortaSeg|1": 2,
+          "ImageTAAD|1": 20,
+          "ImageTBAD|1": 16
+        },
+        "subgroup": {
+          "AortaSeg|Dissec": 2,
+          "AortaSeg|Old": 2,
+          "AortaSeg|Young": 1,
+          "ImageTAAD|ImageTAAD": 20,
+          "ImageTBAD|ImageTBAD": 16
+        }
+      },
+      "test": {
+        "total": 47,
+        "labels": {
+          "0": 3,
+          "1": 44
+        },
+        "source_and_label": {
+          "AortaSeg|0": 3,
+          "AortaSeg|1": 2,
+          "ImageTAAD|1": 22,
+          "ImageTBAD|1": 20
+        },
+        "subgroup": {
+          "AortaSeg|Dissec": 2,
+          "AortaSeg|Old": 2,
+          "AortaSeg|Young": 1,
+          "ImageTAAD|ImageTAAD": 22,
+          "ImageTBAD|ImageTBAD": 20
+        }
+      },
+      "unlabeled": {
+        "total": 469,
+        "labels": {
+          "-1": 469
+        },
+        "source_and_label": {
+          "DB-SNet|-1": 469
+        },
+        "subgroup": {
+          "DB-SNet|internal": 469
+        }
+      }
+    }
+  ],
+  "as_independent_metric_checks": [
+    {
+      "phase": "s0",
+      "n": 29,
+      "confusion": {
+        "tp": 5,
+        "tn": 16,
+        "fn": 5,
+        "fp": 3
+      },
+      "auroc_independently_recomputed": 0.6736842105263158,
+      "average_precision_independently_recomputed": 0.5658336181362498,
+      "average_precision_note": "Noninterpolated average precision; not trapezoidal PR area."
+    },
+    {
+      "phase": "s0plus",
+      "n": 29,
+      "confusion": {
+        "tp": 5,
+        "fp": 4,
+        "tn": 15,
+        "fn": 5
+      },
+      "auroc_independently_recomputed": 0.7315789473684211,
+      "average_precision_independently_recomputed": 0.6451840776182881,
+      "average_precision_note": "Noninterpolated average precision; not trapezoidal PR area."
+    },
+    {
+      "phase": "s1",
+      "n": 29,
+      "confusion": {
+        "tp": 5,
+        "tn": 16,
+        "fn": 5,
+        "fp": 3
+      },
+      "auroc_independently_recomputed": 0.7263157894736842,
+      "average_precision_independently_recomputed": 0.6057793157135263,
+      "average_precision_note": "Noninterpolated average precision; not trapezoidal PR area."
+    }
+  ],
+  "s1_vs_s0plus_correctness_changes": [
+    {
+      "source": "AortaSeg",
+      "n": 29,
+      "correctness_counts": {
+        "both_wrong": 8,
+        "both_correct": 20,
+        "s1_correct_s0plus_wrong": 1
+      },
+      "changed_prediction_cases_local_only": [
+        {
+          "scan_id": "Old:Old_03",
+          "fold": 0,
+          "label": 0,
+          "s0plus_prediction": 1,
+          "s1_prediction": 0,
+          "s0plus_score": 0.999930739402771,
+          "s1_score": 0.4972559213638305,
+          "s0plus_threshold": 0.9997138381004333,
+          "s1_threshold": 0.5143727660179138
+        }
+      ]
+    },
+    {
+      "source": "ImageTAAD",
+      "n": 114,
+      "correctness_counts": {
+        "both_correct": 109,
+        "both_wrong": 4,
+        "s1_correct_s0plus_wrong": 1
+      },
+      "changed_prediction_cases_local_only": [
+        {
+          "scan_id": "ImageTAAD:TAAD_57",
+          "fold": 0,
+          "label": 1,
+          "s0plus_prediction": 0,
+          "s1_prediction": 1,
+          "s0plus_score": 0.998989999294281,
+          "s1_score": 0.5735743045806885,
+          "s0plus_threshold": 0.9997138381004333,
+          "s1_threshold": 0.5143727660179138
+        }
+      ]
+    },
+    {
+      "source": "ImageTBAD",
+      "n": 100,
+      "correctness_counts": {
+        "both_wrong": 11,
+        "s0plus_correct_s1_wrong": 2,
+        "both_correct": 82,
+        "s1_correct_s0plus_wrong": 5
+      },
+      "changed_prediction_cases_local_only": [
+        {
+          "scan_id": "ImageTBAD:102",
+          "fold": 0,
+          "label": 1,
+          "s0plus_prediction": 1,
+          "s1_prediction": 0,
+          "s0plus_score": 0.999722182750702,
+          "s1_score": 0.4948669970035553,
+          "s0plus_threshold": 0.9997138381004333,
+          "s1_threshold": 0.5143727660179138
+        },
+        {
+          "scan_id": "ImageTBAD:130",
+          "fold": 0,
+          "label": 1,
+          "s0plus_prediction": 0,
+          "s1_prediction": 1,
+          "s0plus_score": 0.9996032118797302,
+          "s1_score": 0.6425568461418152,
+          "s0plus_threshold": 0.9997138381004333,
+          "s1_threshold": 0.5143727660179138
+        },
+        {
+          "scan_id": "ImageTBAD:152",
+          "fold": 0,
+          "label": 1,
+          "s0plus_prediction": 0,
+          "s1_prediction": 1,
+          "s0plus_score": 0.9986326098442078,
+          "s1_score": 0.5874689817428589,
+          "s0plus_threshold": 0.9997138381004333,
+          "s1_threshold": 0.5143727660179138
+        },
+        {
+          "scan_id": "ImageTBAD:159",
+          "fold": 0,
+          "label": 1,
+          "s0plus_prediction": 0,
+          "s1_prediction": 1,
+          "s0plus_score": 0.9947978258132936,
+          "s1_score": 0.6435158252716064,
+          "s0plus_threshold": 0.9997138381004333,
+          "s1_threshold": 0.5143727660179138
+        },
+        {
+          "scan_id": "ImageTBAD:31",
+          "fold": 0,
+          "label": 1,
+          "s0plus_prediction": 0,
+          "s1_prediction": 1,
+          "s0plus_score": 0.9994599223136902,
+          "s1_score": 0.5437446236610413,
+          "s0plus_threshold": 0.9997138381004333,
+          "s1_threshold": 0.5143727660179138
+        },
+        {
+          "scan_id": "ImageTBAD:50",
+          "fold": 0,
+          "label": 1,
+          "s0plus_prediction": 1,
+          "s1_prediction": 0,
+          "s0plus_score": 0.9998762607574464,
+          "s1_score": 0.4330416023731231,
+          "s0plus_threshold": 0.9997138381004333,
+          "s1_threshold": 0.5143727660179138
+        },
+        {
+          "scan_id": "ImageTBAD:68",
+          "fold": 0,
+          "label": 1,
+          "s0plus_prediction": 0,
+          "s1_prediction": 1,
+          "s0plus_score": 0.9975538849830629,
+          "s1_score": 0.5576034188270569,
+          "s0plus_threshold": 0.9997138381004333,
+          "s1_threshold": 0.5143727660179138
+        }
+      ]
+    },
+    {
+      "source": "all_labeled",
+      "n": 243,
+      "correctness_counts": {
+        "both_wrong": 23,
+        "both_correct": 211,
+        "s1_correct_s0plus_wrong": 7,
+        "s0plus_correct_s1_wrong": 2
+      },
+      "changed_prediction_cases_local_only": [
+        {
+          "scan_id": "ImageTAAD:TAAD_57",
+          "fold": 0,
+          "label": 1,
+          "s0plus_prediction": 0,
+          "s1_prediction": 1,
+          "s0plus_score": 0.998989999294281,
+          "s1_score": 0.5735743045806885,
+          "s0plus_threshold": 0.9997138381004333,
+          "s1_threshold": 0.5143727660179138
+        },
+        {
+          "scan_id": "ImageTBAD:102",
+          "fold": 0,
+          "label": 1,
+          "s0plus_prediction": 1,
+          "s1_prediction": 0,
+          "s0plus_score": 0.999722182750702,
+          "s1_score": 0.4948669970035553,
+          "s0plus_threshold": 0.9997138381004333,
+          "s1_threshold": 0.5143727660179138
+        },
+        {
+          "scan_id": "ImageTBAD:130",
+          "fold": 0,
+          "label": 1,
+          "s0plus_prediction": 0,
+          "s1_prediction": 1,
+          "s0plus_score": 0.9996032118797302,
+          "s1_score": 0.6425568461418152,
+          "s0plus_threshold": 0.9997138381004333,
+          "s1_threshold": 0.5143727660179138
+        },
+        {
+          "scan_id": "ImageTBAD:152",
+          "fold": 0,
+          "label": 1,
+          "s0plus_prediction": 0,
+          "s1_prediction": 1,
+          "s0plus_score": 0.9986326098442078,
+          "s1_score": 0.5874689817428589,
+          "s0plus_threshold": 0.9997138381004333,
+          "s1_threshold": 0.5143727660179138
+        },
+        {
+          "scan_id": "ImageTBAD:159",
+          "fold": 0,
+          "label": 1,
+          "s0plus_prediction": 0,
+          "s1_prediction": 1,
+          "s0plus_score": 0.9947978258132936,
+          "s1_score": 0.6435158252716064,
+          "s0plus_threshold": 0.9997138381004333,
+          "s1_threshold": 0.5143727660179138
+        },
+        {
+          "scan_id": "ImageTBAD:31",
+          "fold": 0,
+          "label": 1,
+          "s0plus_prediction": 0,
+          "s1_prediction": 1,
+          "s0plus_score": 0.9994599223136902,
+          "s1_score": 0.5437446236610413,
+          "s0plus_threshold": 0.9997138381004333,
+          "s1_threshold": 0.5143727660179138
+        },
+        {
+          "scan_id": "ImageTBAD:50",
+          "fold": 0,
+          "label": 1,
+          "s0plus_prediction": 1,
+          "s1_prediction": 0,
+          "s0plus_score": 0.9998762607574464,
+          "s1_score": 0.4330416023731231,
+          "s0plus_threshold": 0.9997138381004333,
+          "s1_threshold": 0.5143727660179138
+        },
+        {
+          "scan_id": "ImageTBAD:68",
+          "fold": 0,
+          "label": 1,
+          "s0plus_prediction": 0,
+          "s1_prediction": 1,
+          "s0plus_score": 0.9975538849830629,
+          "s1_score": 0.5576034188270569,
+          "s0plus_threshold": 0.9997138381004333,
+          "s1_threshold": 0.5143727660179138
+        },
+        {
+          "scan_id": "Old:Old_03",
+          "fold": 0,
+          "label": 0,
+          "s0plus_prediction": 1,
+          "s1_prediction": 0,
+          "s0plus_score": 0.999930739402771,
+          "s1_score": 0.4972559213638305,
+          "s0plus_threshold": 0.9997138381004333,
+          "s1_threshold": 0.5143727660179138
+        }
+      ]
+    }
+  ],
+  "training_phase_audit": [
+    {
+      "fold": 0,
+      "phase": "s0",
+      "steps": 600,
+      "supervised_visits_by_label": {
+        "1": 292,
+        "0": 308
+      },
+      "supervised_visits_by_source": {
+        "ImageTBAD": 128,
+        "ImageTAAD": 148,
+        "AortaSeg": 324
+      },
+      "unique_supervised_scans_seen": 138,
+      "unique_seen_by_label": {
+        "1": 126,
+        "0": 12
+      },
+      "available_train_scans": 156,
+      "available_train_by_label": {
+        "1": 144,
+        "0": 12
+      },
+      "unseen_train_scans": 18,
+      "unseen_train_by_label": {
+        "1": 18
+      },
+      "per_scan_visits_min_among_seen": 1,
+      "per_scan_visits_max": 33,
+      "first50_mean_supervised_bce": 1.3168626038753428,
+      "last50_mean_supervised_bce": 0.20273367189860436,
+      "first50_mean_consistency_mse": 0.0,
+      "last50_mean_consistency_mse": 0.0,
+      "as_validation_points": 12,
+      "as_validation_best_auroc": 0.6666666666666667,
+      "as_validation_first_best_step": 100,
+      "as_validation_final_auroc": 0.5,
+      "fixed_validation_youden_threshold": 0.44328001141548157,
+      "training_loop_seconds": 342.5050915302709,
+      "training_invocation_seconds": 361.0355848511681,
+      "own_peak_allocated_mib": 5306.55712890625,
+      "own_peak_reserved_mib": 10598.0
+    },
+    {
+      "fold": 0,
+      "phase": "s0plus",
+      "steps": 400,
+      "supervised_visits_by_label": {
+        "1": 197,
+        "0": 203
+      },
+      "supervised_visits_by_source": {
+        "ImageTBAD": 91,
+        "ImageTAAD": 92,
+        "AortaSeg": 217
+      },
+      "unique_supervised_scans_seen": 120,
+      "unique_seen_by_label": {
+        "1": 108,
+        "0": 12
+      },
+      "available_train_scans": 156,
+      "available_train_by_label": {
+        "1": 144,
+        "0": 12
+      },
+      "unseen_train_scans": 36,
+      "unseen_train_by_label": {
+        "1": 36
+      },
+      "per_scan_visits_min_among_seen": 1,
+      "per_scan_visits_max": 25,
+      "first50_mean_supervised_bce": 0.47830691358540206,
+      "last50_mean_supervised_bce": 0.061860697881083976,
+      "first50_mean_consistency_mse": 0.0,
+      "last50_mean_consistency_mse": 0.0,
+      "as_validation_points": 8,
+      "as_validation_best_auroc": 0.6666666666666667,
+      "as_validation_first_best_step": 400,
+      "as_validation_final_auroc": 0.6666666666666667,
+      "fixed_validation_youden_threshold": 0.9997138381004333,
+      "training_loop_seconds": 225.33105131424963,
+      "training_invocation_seconds": 251.07106803078204,
+      "own_peak_allocated_mib": 5613.736328125,
+      "own_peak_reserved_mib": 11118.0
+    },
+    {
+      "fold": 0,
+      "phase": "s1",
+      "steps": 400,
+      "supervised_visits_by_label": {
+        "1": 197,
+        "0": 203
+      },
+      "supervised_visits_by_source": {
+        "ImageTBAD": 91,
+        "ImageTAAD": 92,
+        "AortaSeg": 217
+      },
+      "unique_supervised_scans_seen": 120,
+      "unique_seen_by_label": {
+        "1": 108,
+        "0": 12
+      },
+      "available_train_scans": 156,
+      "available_train_by_label": {
+        "1": 144,
+        "0": 12
+      },
+      "unseen_train_scans": 36,
+      "unseen_train_by_label": {
+        "1": 36
+      },
+      "per_scan_visits_min_among_seen": 1,
+      "per_scan_visits_max": 25,
+      "first50_mean_supervised_bce": 0.4818020042509306,
+      "last50_mean_supervised_bce": 0.13390432118532772,
+      "first50_mean_consistency_mse": 0.13498531526740407,
+      "last50_mean_consistency_mse": 0.02500976488862566,
+      "as_validation_points": 8,
+      "as_validation_best_auroc": 0.5,
+      "as_validation_first_best_step": 50,
+      "as_validation_final_auroc": 0.5,
+      "fixed_validation_youden_threshold": 0.5143727660179138,
+      "training_loop_seconds": 430.0237354170531,
+      "training_invocation_seconds": 454.08197987265885,
+      "own_peak_allocated_mib": 5647.04443359375,
+      "own_peak_reserved_mib": 13424.0
+    },
+    {
+      "fold": 1,
+      "phase": "s0",
+      "steps": 600,
+      "supervised_visits_by_label": {
+        "0": 317,
+        "1": 283
+      },
+      "supervised_visits_by_source": {
+        "AortaSeg": 331,
+        "ImageTBAD": 131,
+        "ImageTAAD": 138
+      },
+      "unique_supervised_scans_seen": 132,
+      "unique_seen_by_label": {
+        "0": 12,
+        "1": 120
+      },
+      "available_train_scans": 156,
+      "available_train_by_label": {
+        "1": 144,
+        "0": 12
+      },
+      "unseen_train_scans": 24,
+      "unseen_train_by_label": {
+        "1": 24
+      },
+      "per_scan_visits_min_among_seen": 1,
+      "per_scan_visits_max": 36,
+      "first50_mean_supervised_bce": 1.2886604596860707,
+      "last50_mean_supervised_bce": 0.03025624060930568,
+      "first50_mean_consistency_mse": 0.0,
+      "last50_mean_consistency_mse": 0.0,
+      "as_validation_points": 12,
+      "as_validation_best_auroc": 0.8333333333333334,
+      "as_validation_first_best_step": 50,
+      "as_validation_final_auroc": 0.5,
+      "fixed_validation_youden_threshold": 0.6006652116775513,
+      "training_loop_seconds": 332.3411838784814,
+      "training_invocation_seconds": 354.4582158597186,
+      "own_peak_allocated_mib": 5298.2666015625,
+      "own_peak_reserved_mib": 14642.0
+    },
+    {
+      "fold": 1,
+      "phase": "s0plus",
+      "steps": 400,
+      "supervised_visits_by_label": {
+        "0": 204,
+        "1": 196
+      },
+      "supervised_visits_by_source": {
+        "AortaSeg": 213,
+        "ImageTBAD": 85,
+        "ImageTAAD": 102
+      },
+      "unique_supervised_scans_seen": 113,
+      "unique_seen_by_label": {
+        "0": 12,
+        "1": 101
+      },
+      "available_train_scans": 156,
+      "available_train_by_label": {
+        "1": 144,
+        "0": 12
+      },
+      "unseen_train_scans": 43,
+      "unseen_train_by_label": {
+        "1": 43
+      },
+      "per_scan_visits_min_among_seen": 1,
+      "per_scan_visits_max": 22,
+      "first50_mean_supervised_bce": 1.2255190521478654,
+      "last50_mean_supervised_bce": 0.23612522162642563,
+      "first50_mean_consistency_mse": 0.0,
+      "last50_mean_consistency_mse": 0.0,
+      "as_validation_points": 8,
+      "as_validation_best_auroc": 0.8333333333333334,
+      "as_validation_first_best_step": 50,
+      "as_validation_final_auroc": 0.5,
+      "fixed_validation_youden_threshold": 0.4425811171531677,
+      "training_loop_seconds": 217.31188595946878,
+      "training_invocation_seconds": 238.90690537076443,
+      "own_peak_allocated_mib": 5605.44580078125,
+      "own_peak_reserved_mib": 14884.0
+    },
+    {
+      "fold": 1,
+      "phase": "s1",
+      "steps": 400,
+      "supervised_visits_by_label": {
+        "0": 204,
+        "1": 196
+      },
+      "supervised_visits_by_source": {
+        "AortaSeg": 213,
+        "ImageTBAD": 85,
+        "ImageTAAD": 102
+      },
+      "unique_supervised_scans_seen": 113,
+      "unique_seen_by_label": {
+        "0": 12,
+        "1": 101
+      },
+      "available_train_scans": 156,
+      "available_train_by_label": {
+        "1": 144,
+        "0": 12
+      },
+      "unseen_train_scans": 43,
+      "unseen_train_by_label": {
+        "1": 43
+      },
+      "per_scan_visits_min_among_seen": 1,
+      "per_scan_visits_max": 22,
+      "first50_mean_supervised_bce": 1.221891838312149,
+      "last50_mean_supervised_bce": 0.1895706123484706,
+      "first50_mean_consistency_mse": 0.1231420542467822,
+      "last50_mean_consistency_mse": 0.061037722568548426,
+      "as_validation_points": 8,
+      "as_validation_best_auroc": 0.8333333333333334,
+      "as_validation_first_best_step": 50,
+      "as_validation_final_auroc": 0.5,
+      "fixed_validation_youden_threshold": 0.44086453318595886,
+      "training_loop_seconds": 421.97228773124516,
+      "training_invocation_seconds": 448.6727329287678,
+      "own_peak_allocated_mib": 5662.87890625,
+      "own_peak_reserved_mib": 10278.0
+    },
+    {
+      "fold": 2,
+      "phase": "s0",
+      "steps": 600,
+      "supervised_visits_by_label": {
+        "0": 296,
+        "1": 304
+      },
+      "supervised_visits_by_source": {
+        "AortaSeg": 307,
+        "ImageTAAD": 139,
+        "ImageTBAD": 154
+      },
+      "unique_supervised_scans_seen": 139,
+      "unique_seen_by_label": {
+        "0": 12,
+        "1": 127
+      },
+      "available_train_scans": 153,
+      "available_train_by_label": {
+        "1": 141,
+        "0": 12
+      },
+      "unseen_train_scans": 14,
+      "unseen_train_by_label": {
+        "1": 14
+      },
+      "per_scan_visits_min_among_seen": 1,
+      "per_scan_visits_max": 31,
+      "first50_mean_supervised_bce": 1.7516860841959714,
+      "last50_mean_supervised_bce": 0.24730317055043996,
+      "first50_mean_consistency_mse": 0.0,
+      "last50_mean_consistency_mse": 0.0,
+      "as_validation_points": 12,
+      "as_validation_best_auroc": 1.0,
+      "as_validation_first_best_step": 300,
+      "as_validation_final_auroc": 1.0,
+      "fixed_validation_youden_threshold": 0.011300400830805302,
+      "training_loop_seconds": 328.3055923245847,
+      "training_invocation_seconds": 350.2186058377847,
+      "own_peak_allocated_mib": 5299.2666015625,
+      "own_peak_reserved_mib": 15350.0
+    },
+    {
+      "fold": 2,
+      "phase": "s0plus",
+      "steps": 400,
+      "supervised_visits_by_label": {
+        "0": 198,
+        "1": 202
+      },
+      "supervised_visits_by_source": {
+        "AortaSeg": 203,
+        "ImageTAAD": 91,
+        "ImageTBAD": 106
+      },
+      "unique_supervised_scans_seen": 122,
+      "unique_seen_by_label": {
+        "0": 12,
+        "1": 110
+      },
+      "available_train_scans": 153,
+      "available_train_by_label": {
+        "1": 141,
+        "0": 12
+      },
+      "unseen_train_scans": 31,
+      "unseen_train_by_label": {
+        "1": 31
+      },
+      "per_scan_visits_min_among_seen": 1,
+      "per_scan_visits_max": 22,
+      "first50_mean_supervised_bce": 0.6148190269106999,
+      "last50_mean_supervised_bce": 0.0002773441244789865,
+      "first50_mean_consistency_mse": 0.0,
+      "last50_mean_consistency_mse": 0.0,
+      "as_validation_points": 8,
+      "as_validation_best_auroc": 1.0,
+      "as_validation_first_best_step": 50,
+      "as_validation_final_auroc": 1.0,
+      "fixed_validation_youden_threshold": 0.008014692924916744,
+      "training_loop_seconds": 214.532156907022,
+      "training_invocation_seconds": 234.08760497253388,
+      "own_peak_allocated_mib": 5606.974609375,
+      "own_peak_reserved_mib": 15870.0
+    },
+    {
+      "fold": 2,
+      "phase": "s1",
+      "steps": 400,
+      "supervised_visits_by_label": {
+        "0": 198,
+        "1": 202
+      },
+      "supervised_visits_by_source": {
+        "AortaSeg": 203,
+        "ImageTAAD": 91,
+        "ImageTBAD": 106
+      },
+      "unique_supervised_scans_seen": 122,
+      "unique_seen_by_label": {
+        "0": 12,
+        "1": 110
+      },
+      "available_train_scans": 153,
+      "available_train_by_label": {
+        "1": 141,
+        "0": 12
+      },
+      "unseen_train_scans": 31,
+      "unseen_train_by_label": {
+        "1": 31
+      },
+      "per_scan_visits_min_among_seen": 1,
+      "per_scan_visits_max": 22,
+      "first50_mean_supervised_bce": 0.6028032226522919,
+      "last50_mean_supervised_bce": 0.00032029739253630396,
+      "first50_mean_consistency_mse": 0.10899874803367539,
+      "last50_mean_consistency_mse": 0.00033875970786215957,
+      "as_validation_points": 8,
+      "as_validation_best_auroc": 1.0,
+      "as_validation_first_best_step": 50,
+      "as_validation_final_auroc": 1.0,
+      "fixed_validation_youden_threshold": 0.007967054843902588,
+      "training_loop_seconds": 423.74622402340174,
+      "training_invocation_seconds": 443.55395630467683,
+      "own_peak_allocated_mib": 5666.640625,
+      "own_peak_reserved_mib": 16412.0
+    },
+    {
+      "fold": 3,
+      "phase": "s0",
+      "steps": 600,
+      "supervised_visits_by_label": {
+        "0": 325,
+        "1": 275
+      },
+      "supervised_visits_by_source": {
+        "AortaSeg": 340,
+        "ImageTAAD": 129,
+        "ImageTBAD": 131
+      },
+      "unique_supervised_scans_seen": 135,
+      "unique_seen_by_label": {
+        "0": 12,
+        "1": 123
+      },
+      "available_train_scans": 155,
+      "available_train_by_label": {
+        "1": 143,
+        "0": 12
+      },
+      "unseen_train_scans": 20,
+      "unseen_train_by_label": {
+        "1": 20
+      },
+      "per_scan_visits_min_among_seen": 1,
+      "per_scan_visits_max": 37,
+      "first50_mean_supervised_bce": 1.7315370968263597,
+      "last50_mean_supervised_bce": 0.0019354437213769415,
+      "first50_mean_consistency_mse": 0.0,
+      "last50_mean_consistency_mse": 0.0,
+      "as_validation_points": 12,
+      "as_validation_best_auroc": 1.0,
+      "as_validation_first_best_step": 100,
+      "as_validation_final_auroc": 0.8333333333333334,
+      "fixed_validation_youden_threshold": 0.5424418449401855,
+      "training_loop_seconds": 327.0839498350397,
+      "training_invocation_seconds": 344.3252175524831,
+      "own_peak_allocated_mib": 5305.0283203125,
+      "own_peak_reserved_mib": 13814.0
+    },
+    {
+      "fold": 3,
+      "phase": "s0plus",
+      "steps": 400,
+      "supervised_visits_by_label": {
+        "0": 212,
+        "1": 188
+      },
+      "supervised_visits_by_source": {
+        "AortaSeg": 223,
+        "ImageTAAD": 98,
+        "ImageTBAD": 79
+      },
+      "unique_supervised_scans_seen": 120,
+      "unique_seen_by_label": {
+        "0": 12,
+        "1": 108
+      },
+      "available_train_scans": 155,
+      "available_train_by_label": {
+        "1": 143,
+        "0": 12
+      },
+      "unseen_train_scans": 35,
+      "unseen_train_by_label": {
+        "1": 35
+      },
+      "per_scan_visits_min_among_seen": 1,
+      "per_scan_visits_max": 27,
+      "first50_mean_supervised_bce": 1.0194823896512388,
+      "last50_mean_supervised_bce": 0.1817406948583084,
+      "first50_mean_consistency_mse": 0.0,
+      "last50_mean_consistency_mse": 0.0,
+      "as_validation_points": 8,
+      "as_validation_best_auroc": 1.0,
+      "as_validation_first_best_step": 50,
+      "as_validation_final_auroc": 1.0,
+      "fixed_validation_youden_threshold": 0.6766523718833923,
+      "training_loop_seconds": 220.2500544982031,
+      "training_invocation_seconds": 239.31346758734435,
+      "own_peak_allocated_mib": 5612.20751953125,
+      "own_peak_reserved_mib": 14344.0
+    },
+    {
+      "fold": 3,
+      "phase": "s1",
+      "steps": 400,
+      "supervised_visits_by_label": {
+        "0": 212,
+        "1": 188
+      },
+      "supervised_visits_by_source": {
+        "AortaSeg": 223,
+        "ImageTAAD": 98,
+        "ImageTBAD": 79
+      },
+      "unique_supervised_scans_seen": 120,
+      "unique_seen_by_label": {
+        "0": 12,
+        "1": 108
+      },
+      "available_train_scans": 155,
+      "available_train_by_label": {
+        "1": 143,
+        "0": 12
+      },
+      "unseen_train_scans": 35,
+      "unseen_train_by_label": {
+        "1": 35
+      },
+      "per_scan_visits_min_among_seen": 1,
+      "per_scan_visits_max": 27,
+      "first50_mean_supervised_bce": 1.022630235310644,
+      "last50_mean_supervised_bce": 0.2159593828475772,
+      "first50_mean_consistency_mse": 0.10494344110833481,
+      "last50_mean_consistency_mse": 0.003042512878537309,
+      "as_validation_points": 8,
+      "as_validation_best_auroc": 1.0,
+      "as_validation_first_best_step": 50,
+      "as_validation_final_auroc": 0.8333333333333334,
+      "fixed_validation_youden_threshold": 0.6779105067253113,
+      "training_loop_seconds": 419.75390866957605,
+      "training_invocation_seconds": 439.08264614176005,
+      "own_peak_allocated_mib": 5649.140625,
+      "own_peak_reserved_mib": 15750.0
+    },
+    {
+      "fold": 4,
+      "phase": "s0",
+      "steps": 600,
+      "supervised_visits_by_label": {
+        "1": 307,
+        "0": 293
+      },
+      "supervised_visits_by_source": {
+        "ImageTAAD": 154,
+        "AortaSeg": 306,
+        "ImageTBAD": 140
+      },
+      "unique_supervised_scans_seen": 138,
+      "unique_seen_by_label": {
+        "1": 125,
+        "0": 13
+      },
+      "available_train_scans": 155,
+      "available_train_by_label": {
+        "1": 142,
+        "0": 13
+      },
+      "unseen_train_scans": 17,
+      "unseen_train_by_label": {
+        "1": 17
+      },
+      "per_scan_visits_min_among_seen": 1,
+      "per_scan_visits_max": 27,
+      "first50_mean_supervised_bce": 1.1738813026994466,
+      "last50_mean_supervised_bce": 0.0005446910682076122,
+      "first50_mean_consistency_mse": 0.0,
+      "last50_mean_consistency_mse": 0.0,
+      "as_validation_points": 12,
+      "as_validation_best_auroc": 1.0,
+      "as_validation_first_best_step": 50,
+      "as_validation_final_auroc": 0.6666666666666667,
+      "fixed_validation_youden_threshold": 0.613859236240387,
+      "training_loop_seconds": 319.71325392182916,
+      "training_invocation_seconds": 335.51878913119435,
+      "own_peak_allocated_mib": 5305.7607421875,
+      "own_peak_reserved_mib": 15582.0
+    },
+    {
+      "fold": 4,
+      "phase": "s0plus",
+      "steps": 400,
+      "supervised_visits_by_label": {
+        "1": 199,
+        "0": 201
+      },
+      "supervised_visits_by_source": {
+        "ImageTAAD": 97,
+        "AortaSeg": 212,
+        "ImageTBAD": 91
+      },
+      "unique_supervised_scans_seen": 121,
+      "unique_seen_by_label": {
+        "1": 108,
+        "0": 13
+      },
+      "available_train_scans": 155,
+      "available_train_by_label": {
+        "1": 142,
+        "0": 13
+      },
+      "unseen_train_scans": 34,
+      "unseen_train_by_label": {
+        "1": 34
+      },
+      "per_scan_visits_min_among_seen": 1,
+      "per_scan_visits_max": 21,
+      "first50_mean_supervised_bce": 0.2667539751320146,
+      "last50_mean_supervised_bce": 0.19177318534646473,
+      "first50_mean_consistency_mse": 0.0,
+      "last50_mean_consistency_mse": 0.0,
+      "as_validation_points": 8,
+      "as_validation_best_auroc": 1.0,
+      "as_validation_first_best_step": 50,
+      "as_validation_final_auroc": 0.8333333333333334,
+      "fixed_validation_youden_threshold": 0.4419664442539215,
+      "training_loop_seconds": 211.09935876633972,
+      "training_invocation_seconds": 228.3804368423298,
+      "own_peak_allocated_mib": 5612.58251953125,
+      "own_peak_reserved_mib": 15556.0
+    },
+    {
+      "fold": 4,
+      "phase": "s1",
+      "steps": 400,
+      "supervised_visits_by_label": {
+        "1": 199,
+        "0": 201
+      },
+      "supervised_visits_by_source": {
+        "ImageTAAD": 97,
+        "AortaSeg": 212,
+        "ImageTBAD": 91
+      },
+      "unique_supervised_scans_seen": 121,
+      "unique_seen_by_label": {
+        "1": 108,
+        "0": 13
+      },
+      "available_train_scans": 155,
+      "available_train_by_label": {
+        "1": 142,
+        "0": 13
+      },
+      "unseen_train_scans": 34,
+      "unseen_train_by_label": {
+        "1": 34
+      },
+      "per_scan_visits_min_among_seen": 1,
+      "per_scan_visits_max": 21,
+      "first50_mean_supervised_bce": 0.26626957538654095,
+      "last50_mean_supervised_bce": 0.22249343820745707,
+      "first50_mean_consistency_mse": 0.10151860114710871,
+      "last50_mean_consistency_mse": 0.013674146554707107,
+      "as_validation_points": 8,
+      "as_validation_best_auroc": 1.0,
+      "as_validation_first_best_step": 50,
+      "as_validation_final_auroc": 0.8333333333333334,
+      "fixed_validation_youden_threshold": 0.4429025650024414,
+      "training_loop_seconds": 416.17106728442013,
+      "training_invocation_seconds": 434.7273479644209,
+      "own_peak_allocated_mib": 5655.02734375,
+      "own_peak_reserved_mib": 15882.0
+    }
+  ],
+  "selected_model_training_paths": [
+    {
+      "fold": 0,
+      "s0_selected_parent_step": 100,
+      "parent_unique_supervised_scans_seen": 53,
+      "parent_unique_seen_by_label": {
+        "1": 41,
+        "0": 12
+      },
+      "s0plus_selected_continuation_step": 400,
+      "s1_selected_continuation_step": 50,
+      "s0plus_selected_training_path_optimizer_updates": 500,
+      "s1_selected_training_path_optimizer_updates": 150,
+      "training_path_note": "Describes the selected checkpoint ancestry, not total compute executed; S0 always executed all 600 steps and each continuation all 400."
+    },
+    {
+      "fold": 1,
+      "s0_selected_parent_step": 50,
+      "parent_unique_supervised_scans_seen": 31,
+      "parent_unique_seen_by_label": {
+        "1": 21,
+        "0": 10
+      },
+      "s0plus_selected_continuation_step": 50,
+      "s1_selected_continuation_step": 50,
+      "s0plus_selected_training_path_optimizer_updates": 100,
+      "s1_selected_training_path_optimizer_updates": 100,
+      "training_path_note": "Describes the selected checkpoint ancestry, not total compute executed; S0 always executed all 600 steps and each continuation all 400."
+    },
+    {
+      "fold": 2,
+      "s0_selected_parent_step": 300,
+      "parent_unique_supervised_scans_seen": 106,
+      "parent_unique_seen_by_label": {
+        "1": 94,
+        "0": 12
+      },
+      "s0plus_selected_continuation_step": 50,
+      "s1_selected_continuation_step": 50,
+      "s0plus_selected_training_path_optimizer_updates": 350,
+      "s1_selected_training_path_optimizer_updates": 350,
+      "training_path_note": "Describes the selected checkpoint ancestry, not total compute executed; S0 always executed all 600 steps and each continuation all 400."
+    },
+    {
+      "fold": 3,
+      "s0_selected_parent_step": 100,
+      "parent_unique_supervised_scans_seen": 56,
+      "parent_unique_seen_by_label": {
+        "1": 44,
+        "0": 12
+      },
+      "s0plus_selected_continuation_step": 50,
+      "s1_selected_continuation_step": 50,
+      "s0plus_selected_training_path_optimizer_updates": 150,
+      "s1_selected_training_path_optimizer_updates": 150,
+      "training_path_note": "Describes the selected checkpoint ancestry, not total compute executed; S0 always executed all 600 steps and each continuation all 400."
+    },
+    {
+      "fold": 4,
+      "s0_selected_parent_step": 50,
+      "parent_unique_supervised_scans_seen": 34,
+      "parent_unique_seen_by_label": {
+        "1": 22,
+        "0": 12
+      },
+      "s0plus_selected_continuation_step": 50,
+      "s1_selected_continuation_step": 50,
+      "s0plus_selected_training_path_optimizer_updates": 100,
+      "s1_selected_training_path_optimizer_updates": 100,
+      "training_path_note": "Describes the selected checkpoint ancestry, not total compute executed; S0 always executed all 600 steps and each continuation all 400."
+    }
+  ],
+  "cost": {
+    "training_invocation_seconds_by_phase": {
+      "s0": 1745.5564132323489,
+      "s0plus": 1191.7594828037545,
+      "s1": 2220.1186632122844
+    },
+    "training_loop_seconds_by_phase": {
+      "s0": 1649.9490714902058,
+      "s0plus": 1088.5245074452832,
+      "s1": 2111.667223125696
+    },
+    "s1_vs_s0plus_total_invocation_ratio": 1.8628915441807048,
+    "s1_vs_s0plus_extra_invocation_seconds": 1028.35918040853,
+    "s1_vs_s0plus_total_loop_ratio": 1.9399353975793174,
+    "fold_specific": [
+      {
+        "fold": 0,
+        "s1_vs_s0plus_invocation_ratio": 1.8085794728725457,
+        "s1_vs_s0plus_loop_ratio": 1.9084086853939024,
+        "s1_extra_invocation_seconds": 203.0109118418768
+      },
+      {
+        "fold": 1,
+        "s1_vs_s0plus_invocation_ratio": 1.87802329209557,
+        "s1_vs_s0plus_loop_ratio": 1.941781904234856,
+        "s1_extra_invocation_seconds": 209.76582755800337
+      },
+      {
+        "fold": 2,
+        "s1_vs_s0plus_invocation_ratio": 1.8948203445317842,
+        "s1_vs_s0plus_loop_ratio": 1.9752107568985702,
+        "s1_extra_invocation_seconds": 209.46635133214295
+      },
+      {
+        "fold": 3,
+        "s1_vs_s0plus_invocation_ratio": 1.8347594498897317,
+        "s1_vs_s0plus_loop_ratio": 1.9058061512216362,
+        "s1_extra_invocation_seconds": 199.7691785544157
+      },
+      {
+        "fold": 4,
+        "s1_vs_s0plus_invocation_ratio": 1.903522709629239,
+        "s1_vs_s0plus_loop_ratio": 1.971446382956894,
+        "s1_extra_invocation_seconds": 206.34691112209111
+      }
+    ]
+  },
+  "interpretation_notes": [
+    "CSV uses patient_id as a legacy field name; it identifies dataset scans, not confirmed unique patients.",
+    "Supervised sampling chooses each class with probability 0.5 and then one scan uniformly within class, with replacement. One supervised scan is loaded per optimization step.",
+    "S0plus and S1 share all 400 labeled visits and their per-step augmentations; their visit sequence is also the first 400 visits of S0. This does not mean an extra full supervised epoch or 400 additional unique scans.",
+    "Continued checkpoints descend from validation-selected early S0 parents. Executing 600 + 400 compute steps does not mean every selected continuation checkpoint has a 1000-update ancestral training path.",
+    "S1 builds exactly one unknown scan teacher-weak/student-strong graph per step, hence 400 unknown visits per fold and 2000 across folds. Unknown scan identities are absent from the delivered training_steps log; this audit does not claim observed unique DB coverage.",
+    "AS validation has 2 positives and 3 negatives. Without ties, AUROC changes in 1/6 increments; 50-step validation snapshots are too sparse and small to demonstrate convergence or clinically stable selection.",
+    "Loss first/last-50 averages describe logged sampled cases and augmentation. They do not measure independent validation diagnosis quality or separate architecture contribution.",
+    "AP is sklearn average_precision_score, a recall-weighted precision sum, rather than trapezoidal integration of the PR line.",
+    "TAAD canonical candidates are 117 (114 included and 3 held). Public-paper 120 refers to the published cohort and must not be silently treated as a match to the local canonical file inventory.",
+    "No source allocation of the original 725 or 5 byte-identical duplicates was inferred from included/excluded counts."
+  ],
+  "original_report_wording_audit": [
+    {
+      "section": "2",
+      "issue": "The source table says negative in headers, but the prose correctly limits 19 AS label-0 scans to source-supported negative candidates; preserve candidate wording prominently in a new report."
+    },
+    {
+      "section": "4",
+      "issue": "7000 supervised optimization steps is correct; clarify label-balanced replacement sampling, repeated negatives, and that S0plus/S1 continue the selected S0 checkpoint rather than the final S0 step."
+    },
+    {
+      "section": "5",
+      "issue": "AUPRC values are average precision. Rename the column AP (average precision) or define the computational convention."
+    },
+    {
+      "section": "5",
+      "issue": "Pooled cross-fold scores need not share calibration. Existing fold mean/SD and CI limitations are appropriate; add the actual fold thresholds and confusion matrices."
+    },
+    {
+      "section": "7",
+      "issue": "Positive-only sensitivity is correctly distinguished from source-specific AUROC/specificity; no DB diagnosis metrics should be added."
+    },
+    {
+      "section": "8",
+      "issue": "Resources are correctly own-process allocator measures; additionally quantify S1 compute cost ratio, and avoid calling a hardware-dependent single run a general efficiency benchmark."
+    },
+    {
+      "section": "10",
+      "issue": "No clear benefit is supported. Intervals crossing zero do not establish equivalence, lack of possible benefit, sufficient convergence, or clinical validity."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "fold": 1,
+  "parent": "/root/CTA/runs/full-titan24-v4-20261010/mass/seed43/fold1/s0/best.pt",
+  "sha256": "045fce50c9c31b64da48e20f25382d4aa7cf4c2e730cf9591bc65d98b17dd699",
+  "selection": "S0 AortaSeg validation AUROC best; full 600-step S0 budget completed"
+}

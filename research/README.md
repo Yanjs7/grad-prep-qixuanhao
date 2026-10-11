@@ -11,6 +11,7 @@
 | 论文阅读 | 10 篇已有笔记，继续深化精读 | 见下方论文列表 |
 | U-Net 血管分割实践 | 已有源码压缩包、实验报告与可视化 | [FIVES 报告](<../engineering/U-Net 在 FIVES 上的血管分割/U-net复现.md>) |
 | U-Net 病灶分割与 ResNet18 分类 | 已有验证指标、训练曲线与误判分析 | [ISIC 实验报告](../engineering/基于U-net和ResNet的皮肤病灶分析与分类平台/项目实验报告.md) |
+| 主动脉夹层CTA半监督研究 | 已完成固定5折、15训练及15评估阶段 | [第三项实践报告](../engineering/主动脉夹层CTA半监督研究/项目实验报告.md) |
 
 ## 阅读内容与研究思考
 
@@ -33,7 +34,7 @@
 | Attention Is All You Need | 自注意力与 Transformer 基础结构 | [PDF](papers/Transformer.pdf) | [Transformer 笔记](papernotes/transformer.md) | 已有阅读笔记，尚未整理独立复现 |
 | Segment Anything | 提示式分割、模型使用方式与数据构建 | [PDF](papers/SAM.pdf) | [SAM 笔记](papernotes/SAM.md) | 已有阅读笔记，尚未整理独立复现 |
 | SAM 2: Segment Anything in Images and Videos | 图像与视频分割、与 SAM 的联系和区别 | [PDF](papers/SAM2.pdf) | [SAM 2 笔记](papernotes/SAM2.md) | 已有阅读笔记，尚未整理独立复现 |
-| AI-based diagnosis of acute aortic syndrome from noncontrast CT | 两阶段医学影像分析、多任务学习与应用流程 | [PDF](papers/iAorta.pdf) | [iAorta 笔记](papernotes/iAorta.md) | 已有阅读笔记，尚未整理独立复现 |
+| AI-based diagnosis of acute aortic syndrome from noncontrast CT | 两阶段医学影像分析、多任务学习与应用流程 | [PDF](papers/iAorta.pdf) | [iAorta 笔记](papernotes/iAorta.md) | 已有阅读笔记；[CTA相关实践](../engineering/主动脉夹层CTA半监督研究/项目实验报告.md)使用不同影像与任务，未复现iAorta完整系统 |
 | Semi-supervised Medical Image Segmentation through Dual-task Consistency | 双任务一致性与未标注影像的训练约束 | [PDF](papers/DTC.pdf) | [DTC 笔记](papernotes/dtc.md) | 已有阅读笔记，尚未整理独立复现 |
 | Bidirectional Copy-Paste for Semi-Supervised Medical Image Segmentation | 双向复制粘贴、Teacher–Student 与混合标签训练 | [PDF](papers/BCP.pdf) | [BCP 笔记](papernotes/bcp.md) | 已有阅读笔记，尚未整理独立复现 |
 | Orthogonal Annotation Benefits Barely-Supervised Medical Image Segmentation | 正交切片标注、标签传播与三维分割 | [PDF](papers/DeSCO.pdf) | [DeSCO 笔记](papernotes/desco.md) | 已有阅读笔记，尚未整理独立复现 |

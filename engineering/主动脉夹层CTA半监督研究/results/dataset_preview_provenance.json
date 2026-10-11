@@ -1,0 +1,478 @@
+[
+  {
+    "patient_id": "Dissec:Dissec_02",
+    "source_dataset": "AortaSeg",
+    "label": 1,
+    "kind": "patch",
+    "image_filename": "dissec02_patch.png",
+    "source_image": "artifacts/data-audit/expedited/new-real-patches/aortaseg-nine-patch-previews/case_e99fb64745b34ad17407eeb442b02084044ebaf8642161ea2e4706569fe95dd5.png",
+    "preview_sha256": "d1d4ee125b3d89bf01204c4cf83db9542b155b0cdfe3dade1351666ac5b79926",
+    "declared_preview_sha256": "d1d4ee125b3d89bf01204c4cf83db9542b155b0cdfe3dade1351666ac5b79926",
+    "frozen_prepared_path": "/root/CTA/data/processed/expedited-aortaseg-nine-v3/case_e99fb64745b34ad17407eeb442b02084044ebaf8642161ea2e4706569fe95dd5.npz",
+    "frozen_input_sha256": "0eaf94063c72766f52f7f21b72775b456724cfb75172ae2c6d165eff0e5ef196",
+    "frozen_cache_sha256": "762b1ab2a165092aa63e4dea1c7f6da99024cc80766cbce9479b507292e79299",
+    "preview_cache_sha256": "762b1ab2a165092aa63e4dea1c7f6da99024cc80766cbce9479b507292e79299",
+    "label_basis": "AortaSeg README: untreated AD",
+    "snapshot_metadata": {
+      "patch_preview": {
+        "patient_id": "Dissec:Dissec_02",
+        "patches": 16,
+        "extra_patches": 3,
+        "predicted_roi_coverage": 1.0,
+        "array_shape": [
+          16,
+          1,
+          32,
+          96,
+          96
+        ],
+        "finite": true,
+        "minimum": -4.40625,
+        "maximum": 2.00390625,
+        "prepared_sha256": "762b1ab2a165092aa63e4dea1c7f6da99024cc80766cbce9479b507292e79299",
+        "preview": "/root/CTA/reports/expedited-pilot-20261007/aortaseg-nine-patch-previews/case_e99fb64745b34ad17407eeb442b02084044ebaf8642161ea2e4706569fe95dd5.png",
+        "preview_sha256": "d1d4ee125b3d89bf01204c4cf83db9542b155b0cdfe3dade1351666ac5b79926",
+        "prepared_qc": "pending",
+        "clinical_qc": "not_performed"
+      }
+    },
+    "index_source": "artifacts/data-audit/expedited/new-real-patches/aortaseg-nine-patch-previews/index.json",
+    "verification_scope": "PNG hash and snapshot metadata checked"
+  },
+  {
+    "patient_id": "Dissec:Dissec_06",
+    "source_dataset": "AortaSeg",
+    "label": 1,
+    "kind": "roi",
+    "image_filename": "dissec06_roi.png",
+    "source_image": "artifacts/data-audit/as18-next9-preview-evidence-20261009/reports/new24gb-aortaseg18-review-20261009/cases/e219b14602aa74de401b/roi-preview/e219b14602aa74de401b.png",
+    "preview_sha256": "b262e28f68a231ad44119e38f149a8cd83b7031b7ec935cb1027371905454e27",
+    "declared_preview_sha256": "b262e28f68a231ad44119e38f149a8cd83b7031b7ec935cb1027371905454e27",
+    "frozen_prepared_path": "/root/CTA/reports/new24gb-aortaseg18-review-20261009/cases/e219b14602aa74de401b/cache/case_3714b523ffbbe849683cf6db6fac2abd68ab38fbd6e82941db33082c21476e0e.npz",
+    "frozen_input_sha256": "0ce9dfcf1ab59621312c02b0b0996dedbbc04d570b2639ea18423d4e3844e4e0",
+    "frozen_cache_sha256": "3b6eaf0ce1b8109b7bab981e2ee0174caa4113f3ea6bf3128eb123c5058e2725",
+    "preview_cache_sha256": "3b6eaf0ce1b8109b7bab981e2ee0174caa4113f3ea6bf3128eb123c5058e2725",
+    "label_basis": "AortaSeg README: untreated AD",
+    "snapshot_metadata": {
+      "patient_id": "Dissec:Dissec_06",
+      "input": {
+        "path": "/root/CTA/data/extracted/Dissec/Dissec_06/nifti/Dissec_06_image.nii.gz",
+        "bytes": 257533084,
+        "mtime_ns": 1791287104280024544
+      },
+      "exact_voxel_sha256": "0ce9dfcf1ab59621312c02b0b0996dedbbc04d570b2639ea18423d4e3844e4e0",
+      "roi_sha256": "08768b67214320d02a65da959467458186c17f07b284db54b4705e0cf87e3038",
+      "max_corner_displacement": 0.0,
+      "roi_preview": {
+        "patient_id": "Dissec:Dissec_06",
+        "preview": "/root/CTA/reports/new24gb-aortaseg18-review-20261009/cases/e219b14602aa74de401b/roi-preview/e219b14602aa74de401b.png",
+        "preview_sha256": "b262e28f68a231ad44119e38f149a8cd83b7031b7ec935cb1027371905454e27",
+        "input": {
+          "path": "/root/CTA/data/extracted/Dissec/Dissec_06/nifti/Dissec_06_image.nii.gz",
+          "bytes": 257533084,
+          "mtime_ns": 1791287104280024544
+        },
+        "roi_sha256": "08768b67214320d02a65da959467458186c17f07b284db54b4705e0cf87e3038",
+        "sampled_shape": [
+          171,
+          171,
+          251
+        ],
+        "sampling_steps": [
+          3,
+          3,
+          4
+        ],
+        "finite_sample": true,
+        "sampled_roi_z_range": [
+          100,
+          227
+        ],
+        "max_corner_displacement": 0.0,
+        "coverage_qc": "pending",
+        "note": "Sparse input-only overlays. No clinical approval; spacing and HU basis remain recorded assumptions."
+      },
+      "patch_preview": {
+        "patient_id": "Dissec:Dissec_06",
+        "patches": 13,
+        "extra_patches": 3,
+        "predicted_roi_coverage": 1.0,
+        "array_shape": [
+          13,
+          1,
+          32,
+          96,
+          96
+        ],
+        "finite": true,
+        "minimum": -2.982421875,
+        "maximum": 1.5458984375,
+        "prepared_sha256": "3b6eaf0ce1b8109b7bab981e2ee0174caa4113f3ea6bf3128eb123c5058e2725",
+        "preview": "/root/CTA/reports/new24gb-aortaseg18-review-20261009/cases/e219b14602aa74de401b/patch-preview/case_3714b523ffbbe849683cf6db6fac2abd68ab38fbd6e82941db33082c21476e0e.png",
+        "preview_sha256": "51b8cddd8b25b32503f0ed4dfdec4ab69e8349f5b9d3f011fc66bb8bffa1062e",
+        "prepared_qc": "pending",
+        "clinical_qc": "not_performed"
+      },
+      "prepared_path": "/root/CTA/reports/new24gb-aortaseg18-review-20261009/cases/e219b14602aa74de401b/cache/case_3714b523ffbbe849683cf6db6fac2abd68ab38fbd6e82941db33082c21476e0e.npz",
+      "prepared_qc": "pending",
+      "clinical_qc": "not_performed",
+      "actual_visual_reviewed": false
+    },
+    "verification_scope": "PNG hash and snapshot metadata checked"
+  },
+  {
+    "patient_id": "Dissec:Dissec_06",
+    "source_dataset": "AortaSeg",
+    "label": 1,
+    "kind": "patch",
+    "image_filename": "dissec06_patch.png",
+    "source_image": "artifacts/data-audit/as18-next9-preview-evidence-20261009/reports/new24gb-aortaseg18-review-20261009/cases/e219b14602aa74de401b/patch-preview/case_3714b523ffbbe849683cf6db6fac2abd68ab38fbd6e82941db33082c21476e0e.png",
+    "preview_sha256": "51b8cddd8b25b32503f0ed4dfdec4ab69e8349f5b9d3f011fc66bb8bffa1062e",
+    "declared_preview_sha256": "51b8cddd8b25b32503f0ed4dfdec4ab69e8349f5b9d3f011fc66bb8bffa1062e",
+    "frozen_prepared_path": "/root/CTA/reports/new24gb-aortaseg18-review-20261009/cases/e219b14602aa74de401b/cache/case_3714b523ffbbe849683cf6db6fac2abd68ab38fbd6e82941db33082c21476e0e.npz",
+    "frozen_input_sha256": "0ce9dfcf1ab59621312c02b0b0996dedbbc04d570b2639ea18423d4e3844e4e0",
+    "frozen_cache_sha256": "3b6eaf0ce1b8109b7bab981e2ee0174caa4113f3ea6bf3128eb123c5058e2725",
+    "preview_cache_sha256": "3b6eaf0ce1b8109b7bab981e2ee0174caa4113f3ea6bf3128eb123c5058e2725",
+    "label_basis": "AortaSeg README: untreated AD",
+    "snapshot_metadata": {
+      "patient_id": "Dissec:Dissec_06",
+      "input": {
+        "path": "/root/CTA/data/extracted/Dissec/Dissec_06/nifti/Dissec_06_image.nii.gz",
+        "bytes": 257533084,
+        "mtime_ns": 1791287104280024544
+      },
+      "exact_voxel_sha256": "0ce9dfcf1ab59621312c02b0b0996dedbbc04d570b2639ea18423d4e3844e4e0",
+      "roi_sha256": "08768b67214320d02a65da959467458186c17f07b284db54b4705e0cf87e3038",
+      "max_corner_displacement": 0.0,
+      "roi_preview": {
+        "patient_id": "Dissec:Dissec_06",
+        "preview": "/root/CTA/reports/new24gb-aortaseg18-review-20261009/cases/e219b14602aa74de401b/roi-preview/e219b14602aa74de401b.png",
+        "preview_sha256": "b262e28f68a231ad44119e38f149a8cd83b7031b7ec935cb1027371905454e27",
+        "input": {
+          "path": "/root/CTA/data/extracted/Dissec/Dissec_06/nifti/Dissec_06_image.nii.gz",
+          "bytes": 257533084,
+          "mtime_ns": 1791287104280024544
+        },
+        "roi_sha256": "08768b67214320d02a65da959467458186c17f07b284db54b4705e0cf87e3038",
+        "sampled_shape": [
+          171,
+          171,
+          251
+        ],
+        "sampling_steps": [
+          3,
+          3,
+          4
+        ],
+        "finite_sample": true,
+        "sampled_roi_z_range": [
+          100,
+          227
+        ],
+        "max_corner_displacement": 0.0,
+        "coverage_qc": "pending",
+        "note": "Sparse input-only overlays. No clinical approval; spacing and HU basis remain recorded assumptions."
+      },
+      "patch_preview": {
+        "patient_id": "Dissec:Dissec_06",
+        "patches": 13,
+        "extra_patches": 3,
+        "predicted_roi_coverage": 1.0,
+        "array_shape": [
+          13,
+          1,
+          32,
+          96,
+          96
+        ],
+        "finite": true,
+        "minimum": -2.982421875,
+        "maximum": 1.5458984375,
+        "prepared_sha256": "3b6eaf0ce1b8109b7bab981e2ee0174caa4113f3ea6bf3128eb123c5058e2725",
+        "preview": "/root/CTA/reports/new24gb-aortaseg18-review-20261009/cases/e219b14602aa74de401b/patch-preview/case_3714b523ffbbe849683cf6db6fac2abd68ab38fbd6e82941db33082c21476e0e.png",
+        "preview_sha256": "51b8cddd8b25b32503f0ed4dfdec4ab69e8349f5b9d3f011fc66bb8bffa1062e",
+        "prepared_qc": "pending",
+        "clinical_qc": "not_performed"
+      },
+      "prepared_path": "/root/CTA/reports/new24gb-aortaseg18-review-20261009/cases/e219b14602aa74de401b/cache/case_3714b523ffbbe849683cf6db6fac2abd68ab38fbd6e82941db33082c21476e0e.npz",
+      "prepared_qc": "pending",
+      "clinical_qc": "not_performed",
+      "actual_visual_reviewed": false
+    },
+    "verification_scope": "PNG hash and snapshot metadata checked"
+  },
+  {
+    "patient_id": "Old:Old_03",
+    "source_dataset": "AortaSeg",
+    "label": 0,
+    "kind": "patch",
+    "image_filename": "old03_patch.png",
+    "source_image": "artifacts/data-audit/as18-final8-preview-evidence-20261009/reports/new24gb-aortaseg18-review-20261009/cases/dc611fa4965ba19996ec/patch-preview/case_b262f2ad501d342988e2c73d456432ac9f6ccc32dfe5f326a7c1280d8ea3fb70.png",
+    "preview_sha256": "2f84847055e111fd83fc7996daa9dea3f32c3081bd3480a59f8d63c5cd354281",
+    "declared_preview_sha256": "2f84847055e111fd83fc7996daa9dea3f32c3081bd3480a59f8d63c5cd354281",
+    "frozen_prepared_path": "/root/CTA/reports/new24gb-aortaseg18-review-20261009/cases/dc611fa4965ba19996ec/cache/case_b262f2ad501d342988e2c73d456432ac9f6ccc32dfe5f326a7c1280d8ea3fb70.npz",
+    "frozen_input_sha256": "22777568e03e6a4575e7979c4842d3790615607fa3fb99e392ea3beb85405ba1",
+    "frozen_cache_sha256": "17c9c5022724c6e1784da28ff64a9253fdbfca8fe4716b1f51ef9a40d0a6ac3b",
+    "preview_cache_sha256": "17c9c5022724c6e1784da28ff64a9253fdbfca8fe4716b1f51ef9a40d0a6ac3b",
+    "label_basis": "AortaSeg README: normal arterial-phase aorta; age cohort",
+    "snapshot_metadata": {
+      "patient_id": "Old:Old_03",
+      "input": {
+        "path": "/root/CTA/data/extracted/Old/Old_03/nifti/Old_03_image.nii.gz",
+        "bytes": 291620443,
+        "mtime_ns": 1791287055161806312
+      },
+      "exact_voxel_sha256": "22777568e03e6a4575e7979c4842d3790615607fa3fb99e392ea3beb85405ba1",
+      "roi_sha256": "aa6c56b89af9dc63ec7441dfb64ca229d28352473d9b8a0210779a7f5e84661f",
+      "max_corner_displacement": 0.0,
+      "roi_preview": {
+        "patient_id": "Old:Old_03",
+        "preview": "/root/CTA/reports/new24gb-aortaseg18-review-20261009/cases/dc611fa4965ba19996ec/roi-preview/dc611fa4965ba19996ec.png",
+        "preview_sha256": "13e21d800e49d3f54b0353331b63ab6b7f3264a87c9e27cad6a0910d55eaf9d6",
+        "input": {
+          "path": "/root/CTA/data/extracted/Old/Old_03/nifti/Old_03_image.nii.gz",
+          "bytes": 291620443,
+          "mtime_ns": 1791287055161806312
+        },
+        "roi_sha256": "aa6c56b89af9dc63ec7441dfb64ca229d28352473d9b8a0210779a7f5e84661f",
+        "sampled_shape": [
+          171,
+          171,
+          287
+        ],
+        "sampling_steps": [
+          3,
+          3,
+          4
+        ],
+        "finite_sample": true,
+        "sampled_roi_z_range": [
+          99,
+          262
+        ],
+        "max_corner_displacement": 0.0,
+        "coverage_qc": "pending",
+        "note": "Sparse input-only overlays. No clinical approval; spacing and HU basis remain recorded assumptions."
+      },
+      "patch_preview": {
+        "patient_id": "Old:Old_03",
+        "patches": 15,
+        "extra_patches": 3,
+        "predicted_roi_coverage": 1.0,
+        "array_shape": [
+          15,
+          1,
+          32,
+          96,
+          96
+        ],
+        "finite": true,
+        "minimum": -3.208984375,
+        "maximum": 1.82421875,
+        "prepared_sha256": "17c9c5022724c6e1784da28ff64a9253fdbfca8fe4716b1f51ef9a40d0a6ac3b",
+        "preview": "/root/CTA/reports/new24gb-aortaseg18-review-20261009/cases/dc611fa4965ba19996ec/patch-preview/case_b262f2ad501d342988e2c73d456432ac9f6ccc32dfe5f326a7c1280d8ea3fb70.png",
+        "preview_sha256": "2f84847055e111fd83fc7996daa9dea3f32c3081bd3480a59f8d63c5cd354281",
+        "prepared_qc": "pending",
+        "clinical_qc": "not_performed"
+      },
+      "prepared_path": "/root/CTA/reports/new24gb-aortaseg18-review-20261009/cases/dc611fa4965ba19996ec/cache/case_b262f2ad501d342988e2c73d456432ac9f6ccc32dfe5f326a7c1280d8ea3fb70.npz",
+      "prepared_qc": "pending",
+      "clinical_qc": "not_performed",
+      "actual_visual_reviewed": false
+    },
+    "verification_scope": "PNG hash and snapshot metadata checked"
+  },
+  {
+    "patient_id": "Old:Old_02",
+    "source_dataset": "AortaSeg",
+    "label": 0,
+    "kind": "roi",
+    "image_filename": "old02_roi.png",
+    "source_image": "artifacts/data-audit/as18-first-and-qc15-depth-evidence-20261009/reports/new24gb-aortaseg18-review-20261009/cases/150963ba47e5aed8f219/roi-preview/150963ba47e5aed8f219.png",
+    "preview_sha256": "0fe924a099d4b0aa2c49b5dc918ec0a8b839b8ff928298e78aa977e9af7011cb",
+    "declared_preview_sha256": "0fe924a099d4b0aa2c49b5dc918ec0a8b839b8ff928298e78aa977e9af7011cb",
+    "frozen_prepared_path": "/root/CTA/reports/new24gb-aortaseg18-review-20261009/cases/150963ba47e5aed8f219/cache/case_e0941fdecbea389bc8649f45f2dfcfc3d2925a02d581606380814f3c6f00fcb2.npz",
+    "frozen_input_sha256": "8d26b55029960bacace36478a20cd74f76b8e5ed0159dd1a3fff7463329e4c41",
+    "frozen_cache_sha256": "0ba9f1b8baa67a549efb49881ac01549c165312c34603d399ed6505f623885b8",
+    "preview_cache_sha256": "0ba9f1b8baa67a549efb49881ac01549c165312c34603d399ed6505f623885b8",
+    "label_basis": "AortaSeg README: normal arterial-phase aorta; age cohort",
+    "snapshot_metadata": {
+      "patient_id": "Old:Old_02",
+      "input": {
+        "path": "/root/CTA/data/extracted/Old/Old_02/nifti/Old_02_image.nii.gz",
+        "bytes": 289324170,
+        "mtime_ns": 1791287051256788968
+      },
+      "exact_voxel_sha256": "8d26b55029960bacace36478a20cd74f76b8e5ed0159dd1a3fff7463329e4c41",
+      "roi_sha256": "eb8c824bf3e370ff1f38aefa507d6f82dad4f05db7b417e8017052d3ebff06f7",
+      "max_corner_displacement": 0.0,
+      "roi_preview": {
+        "patient_id": "Old:Old_02",
+        "preview": "/root/CTA/reports/new24gb-aortaseg18-review-20261009/cases/150963ba47e5aed8f219/roi-preview/150963ba47e5aed8f219.png",
+        "preview_sha256": "0fe924a099d4b0aa2c49b5dc918ec0a8b839b8ff928298e78aa977e9af7011cb",
+        "input": {
+          "path": "/root/CTA/data/extracted/Old/Old_02/nifti/Old_02_image.nii.gz",
+          "bytes": 289324170,
+          "mtime_ns": 1791287051256788968
+        },
+        "roi_sha256": "eb8c824bf3e370ff1f38aefa507d6f82dad4f05db7b417e8017052d3ebff06f7",
+        "sampled_shape": [
+          171,
+          171,
+          287
+        ],
+        "sampling_steps": [
+          3,
+          3,
+          4
+        ],
+        "finite_sample": true,
+        "sampled_roi_z_range": [
+          112,
+          264
+        ],
+        "max_corner_displacement": 0.0,
+        "coverage_qc": "pending",
+        "note": "Sparse input-only overlays. No clinical approval; spacing and HU basis remain recorded assumptions."
+      },
+      "patch_preview": {
+        "patient_id": "Old:Old_02",
+        "patches": 15,
+        "extra_patches": 3,
+        "predicted_roi_coverage": 1.0,
+        "array_shape": [
+          15,
+          1,
+          32,
+          96,
+          96
+        ],
+        "finite": true,
+        "minimum": -3.509765625,
+        "maximum": 1.662109375,
+        "prepared_sha256": "0ba9f1b8baa67a549efb49881ac01549c165312c34603d399ed6505f623885b8",
+        "preview": "/root/CTA/reports/new24gb-aortaseg18-review-20261009/cases/150963ba47e5aed8f219/patch-preview/case_e0941fdecbea389bc8649f45f2dfcfc3d2925a02d581606380814f3c6f00fcb2.png",
+        "preview_sha256": "f6b328f5805f6ed36d0ef15329e6439d0767e8c4c048a107f8f3c1861358ebf7",
+        "prepared_qc": "pending",
+        "clinical_qc": "not_performed"
+      },
+      "prepared_path": "/root/CTA/reports/new24gb-aortaseg18-review-20261009/cases/150963ba47e5aed8f219/cache/case_e0941fdecbea389bc8649f45f2dfcfc3d2925a02d581606380814f3c6f00fcb2.npz",
+      "prepared_qc": "pending",
+      "clinical_qc": "not_performed",
+      "actual_visual_reviewed": false
+    },
+    "verification_scope": "PNG hash and snapshot metadata checked"
+  },
+  {
+    "patient_id": "ImageTAAD:TAAD_1",
+    "source_dataset": "ImageTAAD",
+    "label": 1,
+    "kind": "roi",
+    "image_filename": "taad01_roi.png",
+    "source_image": "artifacts/data-audit/cpu-taad-first-visual-bundle-20261008/cases/084362dca3d9f90d26c0/roi-preview/084362dca3d9f90d26c0.png",
+    "preview_sha256": "661aa822bd0d8159d9b04b3d5036217a92f6864acc974cb6d4a72d3ce19adc33",
+    "declared_preview_sha256": "661aa822bd0d8159d9b04b3d5036217a92f6864acc974cb6d4a72d3ce19adc33",
+    "frozen_prepared_path": "/root/CTA/reports/cpu-existing-taad-20261008/cases/084362dca3d9f90d26c0/cache/case_e00cf02bd626c747671e8701e8a7f281e4d0ece376d534bda3d125a8bc746a9b.npz",
+    "frozen_input_sha256": "2424cc8ac56634f156fb6bfec9d010d80bb84ea559fffe2a00331a366b97acb7",
+    "frozen_cache_sha256": "4c03f19c94e7b5a97076595a7df3812ba4593d4dabfcba00ceccbaeee67c9639",
+    "preview_cache_sha256": "4c03f19c94e7b5a97076595a7df3812ba4593d4dabfcba00ceccbaeee67c9639",
+    "label_basis": "ImageTAAD published TAAD cohort; dataset.json pairing",
+    "snapshot_metadata": {
+      "patient_id": "ImageTAAD:TAAD_1",
+      "input": {
+        "path": "/root/CTA/data/extracted/ImageTAAD/ImageTAAD/Task068_TAAD/imagesTr/TAAD_1_0000.nii.gz",
+        "bytes": 228901992,
+        "mtime_ns": 1744393624000000000
+      },
+      "roi_preview": {
+        "patient_id": "ImageTAAD:TAAD_1",
+        "preview": "/root/CTA/reports/cpu-existing-taad-20261008/cases/084362dca3d9f90d26c0/roi-preview/084362dca3d9f90d26c0.png",
+        "preview_sha256": "661aa822bd0d8159d9b04b3d5036217a92f6864acc974cb6d4a72d3ce19adc33",
+        "input": {
+          "path": "/root/CTA/data/extracted/ImageTAAD/ImageTAAD/Task068_TAAD/imagesTr/TAAD_1_0000.nii.gz",
+          "bytes": 228901992,
+          "mtime_ns": 1744393624000000000
+        },
+        "roi_sha256": "61eb49de4d1f4b9d3b73b69bae5f5acb1cc4f06e200e249f1c11479a6cbf1a87",
+        "sampled_shape": [
+          171,
+          171,
+          308
+        ],
+        "sampling_steps": [
+          3,
+          3,
+          3
+        ],
+        "finite_sample": true,
+        "sampled_roi_z_range": [
+          103,
+          283
+        ],
+        "max_corner_displacement": 0.0,
+        "coverage_qc": "pending",
+        "note": "Sparse input-only overlays. No clinical approval; spacing and HU basis remain recorded assumptions."
+      },
+      "patch_preview": {
+        "patient_id": "ImageTAAD:TAAD_1",
+        "patches": 23,
+        "extra_patches": 6,
+        "predicted_roi_coverage": 1.0,
+        "array_shape": [
+          23,
+          1,
+          32,
+          96,
+          96
+        ],
+        "finite": true,
+        "minimum": -4.1015625,
+        "maximum": 1.9052734375,
+        "prepared_sha256": "4c03f19c94e7b5a97076595a7df3812ba4593d4dabfcba00ceccbaeee67c9639",
+        "preview": "/root/CTA/reports/cpu-existing-taad-20261008/cases/084362dca3d9f90d26c0/patch-preview/case_e00cf02bd626c747671e8701e8a7f281e4d0ece376d534bda3d125a8bc746a9b.png",
+        "preview_sha256": "c926467284459514f403f17ab88d4a9c80938d97c063d6b58f60a260fa217324",
+        "prepared_qc": "pending",
+        "clinical_qc": "not_performed"
+      },
+      "reused_exact_prior_cache": null,
+      "prepared_qc": "pending",
+      "clinical_qc": "not_performed",
+      "actual_visual_reviewed": false
+    },
+    "verification_scope": "PNG hash and snapshot metadata checked"
+  },
+  {
+    "patient_id": "ImageTBAD:101",
+    "source_dataset": "ImageTBAD",
+    "label": 1,
+    "kind": "roi",
+    "image_filename": "tbad101_roi.png",
+    "source_image": "artifacts/data-audit/new24gb-tbad-first20-preview-evidence-20261009/reports/new24gb-t150-cache-review-20261008/cases/a8595f99ad65a1e7d638/roi-preview/a8595f99ad65a1e7d638.png",
+    "preview_sha256": "d5dbb0dab6d398c91fbb822108e9fd146704caeb18b7f9c221eeb415a3b74386",
+    "declared_preview_sha256": null,
+    "frozen_prepared_path": "/root/CTA/reports/new24gb-t150-cache-review-20261008/cases/a8595f99ad65a1e7d638/cache/case_4620ee9a46d38ececbd966e5da236e77f60f56254c18a3349bdcdfb96cb73e47.npz",
+    "frozen_input_sha256": "08b3f439452a9d74834c0c9d4dd3884038420133fa5354cc94a503f5ffb7e187",
+    "frozen_cache_sha256": "b8c9543103038e99c32211419ca3a5857a633216db0f2a1a6ee7fa70699f7fb0",
+    "preview_cache_sha256": null,
+    "label_basis": "ImageTBAD published preoperative TBAD cohort",
+    "snapshot_metadata": null,
+    "verification_scope": "Archived PNG matched by frozen ROI directory and cache identifier; original PNG hash recorded here"
+  },
+  {
+    "patient_id": "internal:0039ebfcd4cb01ec",
+    "source_dataset": "DB-SNet",
+    "label": -1,
+    "kind": "roi",
+    "image_filename": "dbexample_roi.png",
+    "source_image": "artifacts/data-audit/new24gb-db-twentyfirst20-preview-evidence-20261009/reports/new24gb-db465-review-20261009/cases/d19672e87cafc847ef31/roi-preview/d19672e87cafc847ef31.png",
+    "preview_sha256": "630ead9cabde845428923d0eb2261b760e55d085f4252a002fec79e99fcc463d",
+    "declared_preview_sha256": null,
+    "frozen_prepared_path": "/root/CTA/reports/new24gb-db465-review-20261009/cases/d19672e87cafc847ef31/cache/case_f24b38ce427f1be72572527c89d4f86fab29ce0de567db93ce7a3dcf034d0143.npz",
+    "frozen_input_sha256": "f4b5dc8b188c72709a76090032e8bca13215252bc1d913642fbdf31a92359dd9",
+    "frozen_cache_sha256": "cac878634f27f22940c3ba6cfb182a0319cef5b48d60d118e1c46db3bb1f83f9",
+    "preview_cache_sha256": null,
+    "label_basis": "",
+    "snapshot_metadata": null,
+    "verification_scope": "Archived PNG matched by frozen ROI directory and cache identifier; original PNG hash recorded here"
+  }
+]

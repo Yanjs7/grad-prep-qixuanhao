@@ -1,0 +1,35 @@
+{
+  "at_utc": "2026-10-09T17:33:53.374968+00:00",
+  "config": "/root/CTA/code/cta-ssl/configs/full-study-titan24-v4-frozen-20261010.yaml",
+  "config_sha256": "9abfde13399a265245d6d94f53839f3c3b3bcfe6fecad1128e600112b1ba08c7",
+  "original_draft_sha256": "c4a389ffc2293ee48b18b0afa194fe7e9180cdfaa2927d259cf4cd2986b20db8",
+  "manifest_sha256": "956ae3bb2dda1979819343c6b1e51f51e9ebba1e86af7da209827af02bd55476",
+  "folds_sha256": "10e6ed34345adfdbecf2d68b50e7ac70bbf53e7a32db4aff544aef97a7e5db2c",
+  "groups_sha256": "a37d0466ef9e56c62cd3dfe172518fb899d311ea698326ec18e1c7159e2637de",
+  "output": "/root/CTA/runs/full-titan24-v4-20261010",
+  "backward_proof_sha256": "77ca492debd674b2b6755c9acec01f6109c707c5708d760ac6b28af0e4dbceae",
+  "fold0_profile_sha256": "d042f07b71528e90d23c1f2c90d48dc0923a84620ad13ffeae2a4036c19cbf43",
+  "runtime_code_sha256": {
+    "/root/CTA/code/cta-ssl/src/cta_ssl/train.py": "e3e4d96e670ba630a3bc48cf169a072939545b69e835a87cd730ce09a699f0e5",
+    "/root/CTA/code/cta-ssl/src/cta_ssl/model.py": "7164118a26b642d308c42c224d9c3257f4c4e3e797ab7d09fc0e5ad15bb49588",
+    "/root/CTA/code/cta-ssl/src/cta_ssl/data.py": "f403e150481ebba0478856e9877c3930deb13f65014ac2755e4ed159167d5609",
+    "/root/CTA/code/cta-ssl/src/cta_ssl/identity.py": "d855820f9b353b47f8cda04cf8f40d2cd74ab9cce0c2fa3d45af917ea606a3cc",
+    "/root/CTA/code/cta-ssl/src/cta_ssl/precision.py": "480fb5140994e69774c0fba84d88a3ad756657415c10d0a92b1856179a4bf19b",
+    "/root/CTA/code/cta-ssl/src/cta_ssl/common.py": "5582ad9d4f3b6705d8a7693a4650c2337e532ade78023e6006357ffb7ef97539"
+  },
+  "wrapper_sha256": "ddb04ba4ed4355dbf989fe8e974e9d9f0fed4a291937509fc7254a65db135ef1",
+  "supervisor_sha256": "82dd95569a02838da9b994e70a8649b3540b124648b58d89b4552e7c667eaafa",
+  "original_mass_checkpoint": "/root/CTA/weights/MASS/mass_base.pth",
+  "original_mass_checkpoint_sha256": "8f27f19e5bd6013f792a2319207d6ec8652229cf4f89d1f29233ff12e9342b32",
+  "budgets": {
+    "s0": 600,
+    "s0plus": 400,
+    "s1": 400,
+    "folds": 5
+  },
+  "shared_parent_policy": "Same fold S0 best validation checkpoint: matching student, optimizer and preserved EMA",
+  "selection_source": "AortaSeg",
+  "no_test_based_selection": true,
+  "profile_scope": "One complete fold0 training-data pass plus 32 real S1 graphs, including max-K stress control. No complete-budget fold or performance benefit claimed.",
+  "config_frozen": true
+}

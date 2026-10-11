@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-09T18:58:20.979507+00:00",
+  "generator": "/root/CTA/tools/generate_full_study_final_v2_20261010.py",
+  "sha256": "5cf8db4764ef7c3127423418d8ca8b471371e297dc480365e642a0b011242e7a",
+  "all_passed": true,
+  "controls": [
+    "perfect/reversed/tied AUROC",
+    "same-prediction paired zero CI/McNemar p1",
+    "perfect grouped sensitivity"
+  ],
+  "only_change_from_v1": "Chinese report text distinguishes source-supported negative candidates from confirmed clinical negative diagnosis",
+  "actual_test_predictions_read": false,
+  "models_thresholds_or_budgets_changed": false
+}

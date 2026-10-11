@@ -1,0 +1,9 @@
+{
+  "start_utc": "2026-10-09T19:19:09.530796+00:00",
+  "end_utc": "2026-10-09T19:19:55.244186+00:00",
+  "exit_code": 0,
+  "seconds": 45.71391223743558,
+  "log": "/root/CTA/logs/full-study-final-report-v2-20261010.log",
+  "generator_sha256": "5cf8db4764ef7c3127423418d8ca8b471371e297dc480365e642a0b011242e7a",
+  "all30_formal_phase_exit_codes_zero_before_generation": true
+}

@@ -1,0 +1,17 @@
+{
+  "at_utc": "2026-10-09T18:57:04.221385+00:00",
+  "pid": 566057,
+  "action": "train",
+  "fold": 4,
+  "phase": "s1",
+  "config_sha256": "9abfde13399a265245d6d94f53839f3c3b3bcfe6fecad1128e600112b1ba08c7",
+  "initial_memory_events": "low 0\nhigh 0\nmax 151282\noom 0\noom_kill 0\noom_group_kill 0\n",
+  "initial_cuda_free_mib": 16519.625,
+  "initial_parent_sha256": "b85335e462476cd0b110247b9914b3a90154634267461c1425d72f6f79f59ffe",
+  "status": "completed",
+  "finished_at_utc": "2026-10-09T19:04:18.948284+00:00",
+  "seconds": 434.7273479644209,
+  "peak_allocated_mib": 5655.02734375,
+  "peak_reserved_mib": 15882.0,
+  "final_memory_events": "low 0\nhigh 0\nmax 151771\noom 0\noom_kill 0\noom_group_kill 0\n"
+}

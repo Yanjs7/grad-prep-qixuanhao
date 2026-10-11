@@ -1,0 +1,62 @@
+{
+  "threshold_selection_source": "AortaSeg",
+  "fold": 2,
+  "checkpoint_sha256": "4f2c62782530c4d38e1687da3b3cd696f63f21125e63ae729d8988ab33353f29",
+  "manifest_sha256": "956ae3bb2dda1979819343c6b1e51f51e9ebba1e86af7da209827af02bd55476",
+  "folds_sha256": "10e6ed34345adfdbecf2d68b50e7ac70bbf53e7a32db4aff544aef97a7e5db2c",
+  "mixed_source_secondary": {
+    "n": 51,
+    "positive": 47,
+    "negative": 4,
+    "auroc": 0.9627659574468085,
+    "sensitivity": 0.9787234042553191,
+    "specificity": 0.5,
+    "tp": 46,
+    "tn": 2,
+    "fp": 2,
+    "fn": 1,
+    "threshold": 0.008014692924916744
+  },
+  "by_source": {
+    "AortaSeg": {
+      "n": 6,
+      "positive": 2,
+      "negative": 4,
+      "auroc": 0.875,
+      "sensitivity": 1.0,
+      "specificity": 0.5,
+      "tp": 2,
+      "tn": 2,
+      "fp": 2,
+      "fn": 0,
+      "threshold": 0.008014692924916744
+    },
+    "ImageTAAD": {
+      "n": 25,
+      "positive": 25,
+      "negative": 0,
+      "auroc": null,
+      "sensitivity": 1.0,
+      "specificity": null,
+      "tp": 25,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "threshold": 0.008014692924916744
+    },
+    "ImageTBAD": {
+      "n": 20,
+      "positive": 20,
+      "negative": 0,
+      "auroc": null,
+      "sensitivity": 0.95,
+      "specificity": null,
+      "tp": 19,
+      "tn": 0,
+      "fp": 0,
+      "fn": 1,
+      "threshold": 0.008014692924916744
+    }
+  },
+  "note": "Small-sample exploratory evaluation; scores are not calibrated clinical probabilities."
+}

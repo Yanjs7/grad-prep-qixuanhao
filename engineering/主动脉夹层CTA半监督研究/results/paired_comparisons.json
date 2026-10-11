@@ -1,0 +1,47 @@
+[
+  {
+    "comparison": "S1 minus S0+",
+    "primary": true,
+    "metric": "AortaSeg OOF AUROC",
+    "estimate": -0.0052631578947368585,
+    "ci95": [
+      -0.0736842105263158,
+      0.06315789473684208
+    ],
+    "discordant_a_correct_b_wrong": 1,
+    "discordant_b_correct_a_wrong": 0,
+    "mcnemar_exact_p": 1.0,
+    "method": "Paired class-stratified scan bootstrap, 10000 draws; fixed OOF predictions and validation thresholds. McNemar tests classification correctness, not AUROC.",
+    "limitation": "Conditional exploratory intervals omit retraining, fold-model dependence and unknown patient/pretraining overlap; secondary comparisons unadjusted."
+  },
+  {
+    "comparison": "S0+ minus S0",
+    "primary": false,
+    "metric": "AortaSeg OOF AUROC",
+    "estimate": 0.05789473684210533,
+    "ci95": [
+      -0.22631578947368425,
+      0.34210526315789475
+    ],
+    "discordant_a_correct_b_wrong": 0,
+    "discordant_b_correct_a_wrong": 1,
+    "mcnemar_exact_p": 1.0,
+    "method": "Paired class-stratified scan bootstrap, 10000 draws; fixed OOF predictions and validation thresholds. McNemar tests classification correctness, not AUROC.",
+    "limitation": "Conditional exploratory intervals omit retraining, fold-model dependence and unknown patient/pretraining overlap; secondary comparisons unadjusted."
+  },
+  {
+    "comparison": "S1 minus S0",
+    "primary": false,
+    "metric": "AortaSeg OOF AUROC",
+    "estimate": 0.052631578947368474,
+    "ci95": [
+      -0.21065789473684207,
+      0.3157894736842105
+    ],
+    "discordant_a_correct_b_wrong": 0,
+    "discordant_b_correct_a_wrong": 0,
+    "mcnemar_exact_p": 1.0,
+    "method": "Paired class-stratified scan bootstrap, 10000 draws; fixed OOF predictions and validation thresholds. McNemar tests classification correctness, not AUROC.",
+    "limitation": "Conditional exploratory intervals omit retraining, fold-model dependence and unknown patient/pretraining overlap; secondary comparisons unadjusted."
+  }
+]
