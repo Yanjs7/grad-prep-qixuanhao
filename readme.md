@@ -6,7 +6,7 @@
 
 - **姓名**：戚轩豪
 - **专业**：计算机科学与技术
-- **当前学习主题**：深度学习、医学图像分析、图像分割与分类。
+- **当前学习主题**：深度学习、医学图像分析、图像分割与分类、医疗多模态表示学习。
 - **已开展的实践**：FIVES 眼底血管分割、U-Net 与 ResNet18 皮肤病灶平台，以及 主动脉夹层CTA半监督研究。
 - **学习目标**：在掌握基础模型的同时，提高论文分析、实验设计、代码实现与结果解释能力，为后续科研与论文写作积累基础。
 
@@ -23,7 +23,7 @@
 
 | 项目 | 状态 | 当前进度 |
 | --- | --- | --- |
-| 论文阅读与笔记 | 持续完善 | 10 篇已有笔记，继续补充方法、实验与局限分析 |
+| 论文阅读与笔记 | 持续完善 | 11 篇已有笔记，继续补充方法、实验与局限分析 |
 | 模型实现与实验 | 已有成果 | 3 项实践：FIVES 血管分割、ISIC 病灶平台、主动脉夹层CTA半监督研究 |
 
 科研总览：[research/README.md](research/README.md)。
@@ -50,6 +50,7 @@
 - [BCP](research/papernotes/bcp.md)：双向复制粘贴、Teacher–Student 与混合标签训练。
 - [DeSCO](research/papernotes/desco.md)：正交切片标注、标签传播与三维分割。
 - [Swin UNETR](research/papernotes/swin-unetr.md)：三维 CT 自监督预训练与有标注数据微调。
+- [EHR多模态表示学习综述](research/papernotes/ehr-multimodal-survey.md)：梳理早期、中间、晚期与混合融合，以及模态缺失、数据对齐和跨医院差异。
 
 ### 实验与应用
 
@@ -72,6 +73,7 @@
 3. **如何理解注意力与提示式分割？** 阅读 Transformer、SAM 与 SAM 2，梳理基础结构、交互方式和图像／视频任务之间的联系。
 4. **如何从模型走向实际应用？** 结合 iAorta 的阅读笔记与自己的平台实践，思考定位、分割、分类和结果展示如何服务具体问题。
 5. **如何减少分割标注需求？** 结合 DTC、BCP、DeSCO 与 Swin UNETR，区分训练阶段利用未标注数据、减少每份影像的标注切片，以及先自监督预训练再微调这几种路径。
+6. **如何构建医疗多模态患者表示？** 阅读EHR多模态表示学习综述，梳理医学图像、病历文字、检验数据与生理信号的融合方式，并关注模态缺失、时间对齐和跨医院差异。
 
 ### 2. 论文列表与阅读记录
 
@@ -94,6 +96,12 @@
 | Bidirectional Copy-Paste for Semi-Supervised Medical Image Segmentation | 双向复制粘贴、Teacher–Student 与混合标签训练 | [PDF](research/papers/BCP.pdf) | [BCP 笔记](research/papernotes/bcp.md) |
 | Orthogonal Annotation Benefits Barely-Supervised Medical Image Segmentation | 正交切片标注、标签传播与三维分割 | [PDF](research/papers/DeSCO.pdf) | [DeSCO 笔记](research/papernotes/desco.md) |
 | Self-Supervised Pre-Training of Swin Transformers for 3D Medical Image Analysis | 三维 CT 自监督预训练与有标注数据微调 | [PDF](research/papers/Swin.pdf) | [Swin UNETR 笔记](research/papernotes/swin-unetr.md) |
+
+#### 医疗多模态表示学习
+
+| 论文名称 | 学习重点 | 论文原文 | 阅读笔记 |
+| --- | --- | --- | --- |
+| A survey on electronic health record driven multimodal representation learning | EHR驱动的患者表示、跨模态融合、模态缺失与数据对齐 | [PDF](research/papers/ehr-multimodal-survey.pdf) | [EHR多模态综述笔记](research/papernotes/ehr-multimodal-survey.md) |
 
 
 
