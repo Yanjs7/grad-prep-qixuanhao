@@ -1,0 +1,93 @@
+{
+  "train": [
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-936.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-890.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-1437.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-1693.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-2080.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-6163.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-1304.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-342.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    }
+  ],
+  "val": [
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-2031.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-499.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-2877.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-1308.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-6177.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-7092.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-221.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-813.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    }
+  ],
+  "classnames": [
+    "covid lungs",
+    "lung opacity lungs",
+    "viral pneumonia lungs",
+    "normal lungs"
+  ],
+  "test_count": 6351
+}

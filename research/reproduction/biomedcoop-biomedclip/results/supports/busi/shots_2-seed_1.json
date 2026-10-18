@@ -1,0 +1,72 @@
+{
+  "train": [
+    {
+      "image": "BUSI/BUSI/benign_tumor/benign (155).png",
+      "label": 0,
+      "classname": "benign tumor"
+    },
+    {
+      "image": "BUSI/BUSI/benign_tumor/benign (361).png",
+      "label": 0,
+      "classname": "benign tumor"
+    },
+    {
+      "image": "BUSI/BUSI/malignant_tumor/malignant (94).png",
+      "label": 1,
+      "classname": "malignant tumor"
+    },
+    {
+      "image": "BUSI/BUSI/malignant_tumor/malignant (89).png",
+      "label": 1,
+      "classname": "malignant tumor"
+    },
+    {
+      "image": "BUSI/BUSI/normal_scan/normal (111).png",
+      "label": 2,
+      "classname": "normal scan"
+    },
+    {
+      "image": "BUSI/BUSI/normal_scan/normal (34).png",
+      "label": 2,
+      "classname": "normal scan"
+    }
+  ],
+  "val": [
+    {
+      "image": "BUSI/BUSI/benign_tumor/benign (161).png",
+      "label": 0,
+      "classname": "benign tumor"
+    },
+    {
+      "image": "BUSI/BUSI/benign_tumor/benign (405).png",
+      "label": 0,
+      "classname": "benign tumor"
+    },
+    {
+      "image": "BUSI/BUSI/malignant_tumor/malignant (30).png",
+      "label": 1,
+      "classname": "malignant tumor"
+    },
+    {
+      "image": "BUSI/BUSI/malignant_tumor/malignant (38).png",
+      "label": 1,
+      "classname": "malignant tumor"
+    },
+    {
+      "image": "BUSI/BUSI/normal_scan/normal (84).png",
+      "label": 2,
+      "classname": "normal scan"
+    },
+    {
+      "image": "BUSI/BUSI/normal_scan/normal (5).png",
+      "label": 2,
+      "classname": "normal scan"
+    }
+  ],
+  "classnames": [
+    "benign tumor",
+    "malignant tumor",
+    "normal scan"
+  ],
+  "test_count": 236
+}

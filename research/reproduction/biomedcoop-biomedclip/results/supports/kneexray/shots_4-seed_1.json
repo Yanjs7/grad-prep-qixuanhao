@@ -1,0 +1,214 @@
+{
+  "train": [
+    {
+      "image": "KneeXray/KneeXray/doubtful_osteoarthritis/9278158L.png",
+      "label": 1,
+      "classname": "doubtful osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/doubtful_osteoarthritis/9156694L.png",
+      "label": 1,
+      "classname": "doubtful osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/doubtful_osteoarthritis/9482887L.png",
+      "label": 1,
+      "classname": "doubtful osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/doubtful_osteoarthritis/9253530L.png",
+      "label": 1,
+      "classname": "doubtful osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/healthy_knee/9878114R.png",
+      "label": 0,
+      "classname": "healthy knee"
+    },
+    {
+      "image": "KneeXray/KneeXray/healthy_knee/9798131L.png",
+      "label": 0,
+      "classname": "healthy knee"
+    },
+    {
+      "image": "KneeXray/KneeXray/healthy_knee/9841269L.png",
+      "label": 0,
+      "classname": "healthy knee"
+    },
+    {
+      "image": "KneeXray/KneeXray/healthy_knee/9665234L.png",
+      "label": 0,
+      "classname": "healthy knee"
+    },
+    {
+      "image": "KneeXray/KneeXray/minimal_osteoarthritis/9317209L.png",
+      "label": 2,
+      "classname": "minimal osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/minimal_osteoarthritis/9146709R.png",
+      "label": 2,
+      "classname": "minimal osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/minimal_osteoarthritis/9648265L.png",
+      "label": 2,
+      "classname": "minimal osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/minimal_osteoarthritis/9044950L.png",
+      "label": 2,
+      "classname": "minimal osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/moderate_osteoarthritis/9548159R.png",
+      "label": 3,
+      "classname": "moderate osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/moderate_osteoarthritis/9613488R.png",
+      "label": 3,
+      "classname": "moderate osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/moderate_osteoarthritis/9858300R.png",
+      "label": 3,
+      "classname": "moderate osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/moderate_osteoarthritis/9001104R.png",
+      "label": 3,
+      "classname": "moderate osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/severe_osteoarthritis/9708289R.png",
+      "label": 4,
+      "classname": "severe osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/severe_osteoarthritis/9440615L.png",
+      "label": 4,
+      "classname": "severe osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/severe_osteoarthritis/9394203R.png",
+      "label": 4,
+      "classname": "severe osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/severe_osteoarthritis/9858840R.png",
+      "label": 4,
+      "classname": "severe osteoarthritis"
+    }
+  ],
+  "val": [
+    {
+      "image": "KneeXray/KneeXray/doubtful_osteoarthritis/9200051R.png",
+      "label": 1,
+      "classname": "doubtful osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/doubtful_osteoarthritis/9522615L.png",
+      "label": 1,
+      "classname": "doubtful osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/doubtful_osteoarthritis/9044508R.png",
+      "label": 1,
+      "classname": "doubtful osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/doubtful_osteoarthritis/9029913R.png",
+      "label": 1,
+      "classname": "doubtful osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/healthy_knee/9043446R.png",
+      "label": 0,
+      "classname": "healthy knee"
+    },
+    {
+      "image": "KneeXray/KneeXray/healthy_knee/9840270R.png",
+      "label": 0,
+      "classname": "healthy knee"
+    },
+    {
+      "image": "KneeXray/KneeXray/healthy_knee/9015402L.png",
+      "label": 0,
+      "classname": "healthy knee"
+    },
+    {
+      "image": "KneeXray/KneeXray/healthy_knee/9557926R.png",
+      "label": 0,
+      "classname": "healthy knee"
+    },
+    {
+      "image": "KneeXray/KneeXray/minimal_osteoarthritis/9815509L.png",
+      "label": 2,
+      "classname": "minimal osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/minimal_osteoarthritis/9354015R.png",
+      "label": 2,
+      "classname": "minimal osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/minimal_osteoarthritis/9542380R.png",
+      "label": 2,
+      "classname": "minimal osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/minimal_osteoarthritis/9878871R.png",
+      "label": 2,
+      "classname": "minimal osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/moderate_osteoarthritis/9052956L.png",
+      "label": 3,
+      "classname": "moderate osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/moderate_osteoarthritis/9572718L.png",
+      "label": 3,
+      "classname": "moderate osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/moderate_osteoarthritis/9281187L.png",
+      "label": 3,
+      "classname": "moderate osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/moderate_osteoarthritis/9926602R.png",
+      "label": 3,
+      "classname": "moderate osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/severe_osteoarthritis/9617213R.png",
+      "label": 4,
+      "classname": "severe osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/severe_osteoarthritis/9627172R.png",
+      "label": 4,
+      "classname": "severe osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/severe_osteoarthritis/9645612L.png",
+      "label": 4,
+      "classname": "severe osteoarthritis"
+    },
+    {
+      "image": "KneeXray/KneeXray/severe_osteoarthritis/9267719R.png",
+      "label": 4,
+      "classname": "severe osteoarthritis"
+    }
+  ],
+  "classnames": [
+    "healthy knee",
+    "doubtful osteoarthritis",
+    "minimal osteoarthritis",
+    "moderate osteoarthritis",
+    "severe osteoarthritis"
+  ],
+  "test_count": 1656
+}

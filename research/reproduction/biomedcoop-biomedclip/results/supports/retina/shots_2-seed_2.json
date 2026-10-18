@@ -1,0 +1,93 @@
+{
+  "train": [
+    {
+      "image": "RETINA/RETINA/cataract/2150_left.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/2193_right.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/10260_right.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/11157_right.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/_376_7730949.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/1392_left.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/2961_left.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/2834_left.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    }
+  ],
+  "val": [
+    {
+      "image": "RETINA/RETINA/cataract/_322_2685252.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/81_right.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/11244_left.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/10095_left.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/_295_3084570.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/_384_1145376.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/2527_right.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/2872_left.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    }
+  ],
+  "classnames": [
+    "diabetic retinopathy",
+    "glaucoma",
+    "cataract",
+    "normal retina"
+  ],
+  "test_count": 1268
+}

@@ -1,0 +1,716 @@
+{
+  "train": [
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/train1674_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/train6960_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/train792_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/train3164_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/train1472_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/train6076_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/train5512_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/train5801_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/train4666_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/train2594_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/train1191_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/train5988_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/train359_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/train4792_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/train5306_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/train26_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/train6391_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/train4123_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/train2456_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/train6615_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/train2121_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/train5392_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/train809_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/train2883_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/train268_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/train175_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/train231_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/train5933_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/train4977_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/train60_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/train3400_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/train6294_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/train2109_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/train4083_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/train6784_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/train271_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/train5044_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/train2177_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/train4225_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/train4718_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/train5252_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/train2293_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/train3278_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/train2286_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/train6387_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/train2122_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/train4383_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/train2786_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/train210_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/train4021_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/train5477_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/train6260_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/train1049_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/train1805_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/train6126_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/train2909_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/train1170_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/train3189_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/train4868_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/train4100_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/train4916_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/train6631_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/train1866_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/train2964_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/train2049_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/train5508_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/train4405_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/train4428_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/train2817_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/train219_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/train3982_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/train1759_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/train6712_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/train2877_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/train3021_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/train6040_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/train1105_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/train2509_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/train5019_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/train6324_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/train5993_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/train5184_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/train5656_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/train2713_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/train649_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/train3246_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/train5052_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/train3762_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/train743_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/train6050_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/train1124_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/train3838_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/train6652_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/train2930_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/train2668_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/train3657_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/train330_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/train4622_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/train665_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/train3260_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/train6264_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/train6190_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/train3747_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/train1774_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/train6112_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/train5423_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/train2419_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/train130_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/train2094_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/train5802_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/train3846_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/train3417_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    }
+  ],
+  "val": [
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/val885_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/val529_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/val689_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanocytic_nevus/val407_5.png",
+      "label": 5,
+      "classname": "melanocytic nevus"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/val780_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/val670_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/val726_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/melanoma/val834_4.png",
+      "label": 4,
+      "classname": "melanoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/val24_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/val478_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/val916_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/benign_keratosis/val1000_2.png",
+      "label": 2,
+      "classname": "benign keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/val954_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/val935_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/val569_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/vascular_lesion/val192_6.png",
+      "label": 6,
+      "classname": "vascular lesion"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/val635_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/val972_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/val655_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/basal_cell_carcinoma/val327_1.png",
+      "label": 1,
+      "classname": "basal cell carcinoma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/val833_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/val131_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/val933_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/actinic_keratosis/val752_0.png",
+      "label": 0,
+      "classname": "actinic keratosis"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/val835_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/val806_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/val522_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    },
+    {
+      "image": "DermaMNIST/DermaMNIST/dermatofibroma/val853_3.png",
+      "label": 3,
+      "classname": "dermatofibroma"
+    }
+  ],
+  "classnames": [
+    "actinic keratosis",
+    "basal cell carcinoma",
+    "benign keratosis",
+    "dermatofibroma",
+    "melanoma",
+    "melanocytic nevus",
+    "vascular lesion"
+  ],
+  "test_count": 2005
+}

@@ -12,6 +12,7 @@
 | U-Net 血管分割实践 | 已有源码压缩包、实验报告与可视化 | [FIVES 报告](<../engineering/U-Net 在 FIVES 上的血管分割/U-net复现.md>) |
 | U-Net 病灶分割与 ResNet18 分类 | 已有验证指标、训练曲线与误判分析 | [ISIC 实验报告](../engineering/基于U-net和ResNet的皮肤病灶分析与分类平台/项目实验报告.md) |
 | 主动脉夹层CTA半监督研究 | 已完成固定5折、15训练及15评估阶段 | [第三项实践报告](../engineering/主动脉夹层CTA半监督研究/项目实验报告.md) |
+| BiomedCoOp / BiomedCLIP论文复现 | 完成11数据集、5档shot、3种子及506项配置 | [图文复现报告](reproduction/biomedcoop-biomedclip/复现报告.md) |
 
 ## 阅读内容与研究思考
 
@@ -47,11 +48,19 @@
 | 论文名称 | 学习重点 | 论文原文 | 阅读笔记 | 实践情况 |
 | --- | --- | --- | --- | --- |
 | A survey on electronic health record driven multimodal representation learning | EHR驱动的患者表示、跨模态融合、模态缺失与数据对齐 | [PDF](papers/ehr-multimodal-survey.pdf) | [EHR多模态综述笔记](papernotes/ehr-multimodal-survey.md) | 已有综述阅读笔记，尚未开展相关实验 |
-| BiomedCoOp: Learning to Prompt for Biomedical Vision-Language Models | 医学视觉语言模型的少样本提示学习、语义一致性与知识蒸馏 | [PDF](papers/biomedcoop.pdf) | [BiomedCoOp 笔记](papernotes/biomedcoop.md) | 已有阅读笔记，尚未开展相关复现实验 |
+| BiomedCoOp: Learning to Prompt for Biomedical Vision-Language Models | 医学视觉语言模型的少样本提示学习、语义一致性与知识蒸馏 | [PDF](papers/biomedcoop.pdf) | [BiomedCoOp 笔记](papernotes/biomedcoop.md) | 已完成506项主实验配置；[复现材料](reproduction/biomedcoop-biomedclip/README.md) |
 
 
 
-### 3. 现阶段理解与待验证问题
+### 3. 论文复现与实验结果
+
+[BiomedCoOp / BiomedCLIP复现入口](reproduction/biomedcoop-biomedclip/README.md) · [图文报告](reproduction/biomedcoop-biomedclip/复现报告.md)
+
+以BiomedCLIP为冻结骨干，完成BiomedCoOp在11个医学分类数据集的1/2/4/8/16-shot、3种子实验及同支持集对照，共506项配置。16-shot的跨数据集等权平均准确率为BiomedCoOp 72.55%、CoOp 70.91%、线性探针69.04%；各数据集结果为6升5降，未进行显著性检验。
+
+目录中附27幅报告图、8张真实MRI原图、506行逐配置指标、330份训练曲线、165份共享支持集、完成元数据、作者代码和冻结配置。完整数据与权重需另行准备；本次复现不包含BiomedCLIP从头预训练或AAS临床迁移验证。
+
+### 4. 现阶段理解与待验证问题
 
 - **分割质量与应用效果需要分别评估。** Dice、IoU 用于观察分割效果；平台还需要关注输入处理、模型加载、历史保存与结果导出的可靠性。
 - **整体分类准确率不足以解释各类别表现。** 现有皮肤病灶实验中，黑色素瘤的验证召回率为 0.60，需要结合分类别指标与混淆矩阵分析误判。

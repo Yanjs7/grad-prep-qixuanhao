@@ -1,0 +1,4622 @@
+[
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1791987758568510616,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791987757498502586,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1791988146819424410,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791988145735416275,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1791988383898203668,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791988382137190451,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1791988666155321984,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791988665052313706,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1791988958555933913,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791988957282506869,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1791989227640535883,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791989226555527740,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1791989553392980630,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791989552289972352,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1791989922126747947,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791989921001739504,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1791990301409594437,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791990300340586414,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1791990797521317715,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791990796287308453,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1791991348214450624,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791991346978441348,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1791991897787575126,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791991896540565768,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1791992638064130846,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791992636994122816,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1791993532168841031,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791993531076832835,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1791994421613516241,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/BiomedCoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791994420500507888,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1791987943724900203,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1791987943719900166,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1791988187518729855,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1791988187513729818,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1791988425341514697,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1791988425336514660,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1791988727911785463,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1791988727907785433,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1791989021877991652,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1791989021872991615,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1791989287170982655,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1791989287165982617,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1791989650692710856,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1791989650687710819,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1791990020646487331,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1791990020641487293,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1791990402501353123,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1791990402496353086,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1791990974174643485,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1791990974170643455,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1791991523889769053,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1791991523885769023,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1791992073959897287,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1791992073954897249,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1791992964231578706,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1791992964226578669,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1791993850787232236,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1791993850782232198,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1791994747033958495,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/btmri/CoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1791994747028958457,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1130984058,
+    "mtime_ns": 1791994956043527094,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791994954790517690,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1130984058,
+    "mtime_ns": 1791995239466654166,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791995238031643396,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1130984058,
+    "mtime_ns": 1791995479168453106,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791995477492440527,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1130984058,
+    "mtime_ns": 1791995704333142950,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791995703298135182,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1130984058,
+    "mtime_ns": 1791996029339582099,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791996028257573979,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1130984058,
+    "mtime_ns": 1791996255999283163,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791996254892274855,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1130984058,
+    "mtime_ns": 1791996548458478047,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791996547168468366,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1130984058,
+    "mtime_ns": 1791996861858830095,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791996860539820196,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1130984058,
+    "mtime_ns": 1791997168317130039,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791997166996120125,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1130984058,
+    "mtime_ns": 1791997549903993818,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791997548595984001,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1130984058,
+    "mtime_ns": 1791997989836295476,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791997988528285659,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1130984058,
+    "mtime_ns": 1791998412267465785,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791998410939455819,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1130984058,
+    "mtime_ns": 1791999003012899287,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791999001898890926,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1130984058,
+    "mtime_ns": 1791999660114830787,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1791999659021822584,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1130984058,
+    "mtime_ns": 1792000307597690094,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/BiomedCoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792000306501681868,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 2350048,
+    "mtime_ns": 1791994995239821260,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1791994995234821222,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 2350048,
+    "mtime_ns": 1791995280453961772,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1791995280449961742,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 2350048,
+    "mtime_ns": 1791995517883743662,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1791995517879743632,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 2350048,
+    "mtime_ns": 1791995745540452207,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1791995745536452177,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 2350048,
+    "mtime_ns": 1791996073257674259,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1791996073252998354,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 2350048,
+    "mtime_ns": 1791996296582587737,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1791996296580025645,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 2350048,
+    "mtime_ns": 1791996624769050754,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1791996624765050724,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 2350048,
+    "mtime_ns": 1791996935053379414,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1791996935049873611,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 2350048,
+    "mtime_ns": 1791997241721680934,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1791997241719259295,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 2350048,
+    "mtime_ns": 1791997671034902896,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1791997671030902866,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 2350048,
+    "mtime_ns": 1791998111398207788,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1791998111394634950,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 2350048,
+    "mtime_ns": 1791998529666346854,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1791998529662624752,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 2350048,
+    "mtime_ns": 1791999218696517976,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1791999218692517946,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 2350048,
+    "mtime_ns": 1791999872407424026,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1791999872403866293,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 2350048,
+    "mtime_ns": 1792000521050292039,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/busi/CoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792000521047201126,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792000819238529917,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792000817864519605,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792001158287074449,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792001157177066119,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792001489296558646,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792001488171550203,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792001889875564959,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792001888775556704,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792002356237064965,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792002355144056762,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792002826106591294,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792002825003583016,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792003532060889426,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792003531011881553,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792004307967712544,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792004306879704379,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792005079110499907,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792005078009491645,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792006142591481248,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792006141485472947,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792007442056233631,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792007440955225368,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792008735641941890,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792008734592934017,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792010643530260436,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792010642419252098,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792013039343240821,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792013038251232626,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792015440867264067,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/BiomedCoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792015439758255744,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792000907741194122,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792000907732194055,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792001246530736711,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792001246522736651,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792001574756200014,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792001574748199954,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792002035614658720,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792002035606658660,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792002509126212385,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792002509118771920,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792002976555720403,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792002976548739737,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792003803393925759,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792003803385925699,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792004586699804406,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792004586691999179,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792005358885599598,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792005358878135560,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792006671603451440,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792006671594451373,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792007967155174457,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792007967147614337,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792009258452865544,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792009258445898525,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792011657720871855,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792011657712871795,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792014062394918740,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792014062387346568,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792016455923881988,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/chmnist/CoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792016455916801614,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792016765899208329,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792016764843200404,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792017032899212146,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792017028649180248,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792017334330474362,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792017332605461415,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792017616007588322,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792017614741578821,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792017932205961361,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792017930403947837,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792018230843202609,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792018229703194053,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792018591180906913,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792018590064898538,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792018978926816915,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792018977832808704,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792019349917601170,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792019348799592779,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792019843711307050,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792019842515298074,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792020404693517174,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792020403576508791,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792020958714675061,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792020957628666910,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792021722978410795,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792021721919402848,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792022645086331142,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792022643991322924,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792023568292259728,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/BiomedCoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792023567184251413,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792016806694514494,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792016806689514457,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792017076996543093,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792017076991543055,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792017379281811718,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792017379277811688,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792017676143039634,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792017676138039597,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792017997382450504,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792017997379264065,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792018291363656811,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792018291360552681,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792018692720668960,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792018692715668922,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792019083219599624,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792019083216318638,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792019447697334999,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792019447692704168,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792020015390595489,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792020015385595451,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792020580484836474,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792020580480769787,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792021135442001385,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792021135438061396,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792022051391875514,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792022051386875476,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792022967702431311,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792022967697610344,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792023892746694733,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/covid/CoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792023892742851231,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792024189302920369,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792024188279912692,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792024476469075523,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792024474004057024,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792024721540914766,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792024720449906578,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792024984054884913,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792024982952876642,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792025266505004677,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792025265424996572,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792025566881258979,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792025565769250634,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792025911685846709,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792025910393837012,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792026307654818423,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792026306513809860,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792026699206756996,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792026698119748838,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792027206760566147,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792027205716558312,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792027786281915407,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792027785172907084,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792028328643985791,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792028327514977318,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792029078034609906,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792029076954601800,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792029995008491723,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792029993903483430,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792030908038343941,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/BiomedCoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792030906924335580,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792024233678253403,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792024233673253365,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792024525410442824,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792024525405442786,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792024762270220436,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792024762265220398,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792025044987342206,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792025044982342168,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792025329197475179,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792025329193942120,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792025629206726727,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792025629203449129,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792026018709649913,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792026018704649875,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792026412042601846,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792026412039070990,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792026805423554144,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792026805419705539,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792027386997918812,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792027386992918775,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792027964706254467,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792027964702123794,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792028501994286771,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792028501989951975,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792029405801069767,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792029405796069730,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792030326899982543,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792030326896032147,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792031229592786761,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/ctkidney/CoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792031229587929463,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1134080634,
+    "mtime_ns": 1792031480368639233,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792031479281631075,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1134080634,
+    "mtime_ns": 1792031754322695235,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792031753173686612,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1134080634,
+    "mtime_ns": 1792032002964561272,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792032001850552911,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1134080634,
+    "mtime_ns": 1792032344854127128,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792032343771119000,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1134080634,
+    "mtime_ns": 1792032728941009668,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792032727857001533,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1134080634,
+    "mtime_ns": 1792033114964906748,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792033113861898470,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1134080634,
+    "mtime_ns": 1792033651363932381,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792033650277924231,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1134080634,
+    "mtime_ns": 1792034302330817837,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792034301220809507,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1134080634,
+    "mtime_ns": 1792034949393673991,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792034948338666073,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1134080634,
+    "mtime_ns": 1792035831702295644,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792035830597287351,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1134080634,
+    "mtime_ns": 1792036922630482972,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792036921508474552,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1134080634,
+    "mtime_ns": 1792038023430744391,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792038022305735947,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1134080634,
+    "mtime_ns": 1792039610534655480,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792039609442647284,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1134080634,
+    "mtime_ns": 1792041569802359627,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792041568700351357,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1134080634,
+    "mtime_ns": 1792043561493307106,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/BiomedCoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792043560386298798,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 5446624,
+    "mtime_ns": 1792031533635038992,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792031533628038940,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 5446624,
+    "mtime_ns": 1792031805543079640,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792031805536079587,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 5446624,
+    "mtime_ns": 1792032055286953947,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792032055279953894,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 5446624,
+    "mtime_ns": 1792032455742959339,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792032455734959279,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 5446624,
+    "mtime_ns": 1792032840062923897,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792032840055210544,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 5446624,
+    "mtime_ns": 1792033226084740693,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792033226078014568,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 5446624,
+    "mtime_ns": 1792033880226649979,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792033880218649919,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 5446624,
+    "mtime_ns": 1792034529226520671,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792034529219903633,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 5446624,
+    "mtime_ns": 1792035178349392285,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792035178342121718,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 5446624,
+    "mtime_ns": 1792036256338482504,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792036256331482452,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 5446624,
+    "mtime_ns": 1792037353244714697,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792037353238197552,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 5446624,
+    "mtime_ns": 1792038454388978697,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792038454381990088,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 5446624,
+    "mtime_ns": 1792040441327890516,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792040441319890456,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 5446624,
+    "mtime_ns": 1792042399829588914,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792042399823150644,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 5446624,
+    "mtime_ns": 1792044394660559961,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/dermamnist/CoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792044394654293012,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792044617324231036,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792044616229222818,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792044845649944603,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792044844563936452,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792045076976680691,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792045075608670424,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792045349550726337,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792045348271716738,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792045633802859627,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792045632684851237,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792045925141046095,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792045924028037742,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792046300234861145,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792046299115852747,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792046744814197675,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792046743724189494,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792047190736544287,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792047189626535957,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792047771493902824,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792047770395894584,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792048457548051608,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792048456455043405,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792049152321265826,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792049151229257630,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792050122210544767,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792050121094536391,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792051310117459913,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792051309031451763,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792052510563469166,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/BiomedCoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792052509456460857,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792044661547562928,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792044661542562891,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792044888992269883,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792044888986269838,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792045119679001168,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792045119673001123,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792045414254211932,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792045414249211895,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792045700273358483,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792045700268737119,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792045992454551277,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792045992450235410,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792046430762840747,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792046430756840702,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792046876917189097,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792046876912279438,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792047322799535409,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792047322795006695,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792048006860669233,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792048006854669188,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792048698144022693,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792048698136726902,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792049393262074066,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792049393257152087,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792050580023980620,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792050580018980582,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792051766386884179,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792051766382567012,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792052969569913974,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kneexray/CoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792052969564776798,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792053249906017876,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792053248768009335,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792053584981532592,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792053583886524374,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792053921470057909,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792053920371049661,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792054332316141275,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792054331239133192,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792054802321668629,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792054801217660343,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792055303343428757,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792055302227420381,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792056000009657179,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792055998883648728,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792056753855314729,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792056752819306953,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792057516149035684,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792057514713024907,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792058991882110943,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792058988108082619,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792060801242690041,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792060796557654880,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792062540091739971,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792062536269711287,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792064922345618587,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792064918649590848,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792067699550461286,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792067695891433825,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1134854778,
+    "mtime_ns": 1792070556259900659,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/BiomedCoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792070553167877454,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792053340972701324,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792053340964701264,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792053675165209412,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792053675157209352,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792054010979729672,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792054010971729612,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792054486077295239,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792054486068295172,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792054953871806000,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792054953864558233,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792055522175541681,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792055522167178236,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792056281577770325,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792056281568770257,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792057033249780965,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792057033241363917,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792057809280285612,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792057809237160583,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792059658737115630,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792059658704115383,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792061386412081692,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792061386380119578,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792063132647248068,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792063132618154969,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792066001073714354,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792066001029714024,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792068800266088777,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792068800241029369,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 6220768,
+    "mtime_ns": 1792071614456842346,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/kvasir/CoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792071614449366830,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792072141897800749,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792072139388781919,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792072579676086240,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792072577217067785,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792073012222332467,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792073009748313900,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792073519914142655,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792073517391123720,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792074014404853767,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792074011912835065,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792074517360628412,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792074514799609192,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792075097688983731,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792075095243965381,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792075771984044263,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792075769535025883,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792076441607069731,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792076439185051554,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792077248998129136,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792077245462102598,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792078168322028585,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792078165230005380,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792079081422881332,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792079078909862472,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792080308643091526,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792080306261073650,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792081804995321532,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792081802496302777,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1132532346,
+    "mtime_ns": 1792083404136322954,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/BiomedCoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792083401650304297,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792072214710347201,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792072214697347104,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792072652625633721,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792072652613633631,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792073086068886679,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792073086057886596,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792073617240873084,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792073617224872964,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792074111462669668,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792074111444679763,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792074616432309668,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792074616416371818,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792075264772237678,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792075264758237573,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792075944284163088,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792075944265499961,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792076605800301988,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792076605786242442,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792077521075171050,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792077521057170915,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792078440938606845,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792078440924041404,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792079363556967138,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792079363547511797,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792080798781769979,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792080798761769829,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792082388327188255,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792082388309805947,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3898336,
+    "mtime_ns": 1792083950852392650,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/lungcolon/CoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792083950838971287,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792084357599478619,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792084354577455939,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792084799468794814,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792084796431772021,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792085239678098548,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792085237342081017,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792085705096591478,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792085702608572806,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792086207365360964,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792086204857342141,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792086709910132523,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792086707501114443,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792087267078314025,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792087264189292343,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792087861824777550,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792087858905755643,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792088486581466298,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792088482995439385,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792089165026557976,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792089162716540640,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792089964060554660,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792089960843530517,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792090762312545480,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792090759903527401,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792091766156079250,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792091763359058259,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792092904960625891,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792092902217605305,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792094027072047246,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/BiomedCoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792094024765029932,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792084438026082214,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792084438018082154,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792084881019406845,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792084881008406762,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792085319276695930,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792085319266695855,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792085803631330973,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792085803623330913,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792086309331940960,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792086309325592454,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792086808160396296,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792086808154021129,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792087405425352307,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792087405414352225,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792088007186670503,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792088007179026200,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792088622111769910,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792088622104032965,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792089384115202219,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792089384105202144,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792090182882154354,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792090182870583217,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792090984885931545,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792090984874570933,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792092139070877948,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792092139065877910,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792093274758696646,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792093274750701078,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792094388389759797,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/octmnist/CoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792094388379452258,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792094797983832883,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792094795610815074,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792095226177046438,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792095223753028246,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792095669860376247,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792095667442358100,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792096134421862745,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792096131990844501,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792096621028514690,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792096618611496551,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792097089687031935,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792097087213013367,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792097609799935338,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792097607457917761,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792098185619256818,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792098183137238191,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792098750928499419,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792098748582481812,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792099440646675696,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792099437793654284,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792100203388400013,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792100200611379172,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792100969907152675,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792100967056131278,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792101945144471755,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792101942649453030,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792103049625760798,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792103046958740782,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 1131758202,
+    "mtime_ns": 1792104161385104464,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/BiomedCoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 1128588342,
+    "mtime_ns": 1792104158975086377,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_1/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792094869699371103,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_1/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792094869690371035,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_1/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792095293626552643,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_1/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792095293613552546,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_1/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792095750249979565,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_1/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792095750241979505,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_2/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792096228372567839,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_2/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792096228361567756,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_2/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792096709262105528,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_2/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792096709253059912,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_2/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792097177445813250,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_2/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792097177437550083,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_4/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792097737758895661,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_4/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792097737746895571,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_4/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792098315223990151,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_4/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792098315213055853,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_4/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792098881006283987,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_4/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792098881000353630,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_8/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792099646564221091,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_8/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792099646552221001,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_8/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792100412733119359,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_8/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792100412721757598,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_8/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792101176073190778,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_8/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792101176061532188,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_16/seed_1/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792102303007157485,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_16/seed_1/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792102303002157447,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_16/seed_2/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792103406055435774,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_16/seed_2/latest-resume.pt",
+    "bytes": 53122,
+    "mtime_ns": 1792103406042383237,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_16/seed_3/prompt_learner/model.pth.tar-100",
+    "bytes": 3124192,
+    "mtime_ns": 1792104523029245734,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  },
+  {
+    "path": "/root/BiomedCoOp/runs/main-v1-20261014/retina/CoOp/shots_16/seed_3/latest-resume.pt",
+    "bytes": 53186,
+    "mtime_ns": 1792104523018512974,
+    "included_in_delivery": false,
+    "content_hash_recomputed": false
+  }
+]

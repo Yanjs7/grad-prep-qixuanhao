@@ -1,0 +1,817 @@
+{
+  "train": [
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/f94f3e7f-dc29-422e-add6-cfdb36aa7f19.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/d222fafd-9bd4-4d87-ac23-42e80b4e3bc0.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/eb437941-4daa-47e8-b249-fa5e181938a2.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/cf8a7fdc-f962-4517-a939-35d9eaa6b5a1.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/0a542bb0-0172-4bc4-890d-327fa45b85b3.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/1144ef26-edfe-493f-9c2b-10074ae5c5f8.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/1095b496-3ccc-4758-8429-fb85c59baf45.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/47fefa1d-19a3-480c-92fd-2fb24d972e49.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/c5070368-1b3b-458a-8264-6cb13d594831.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/1f171e07-ed73-4e39-b17e-9e6fc95459c9.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/a8baebbb-4d49-4375-ab04-ae5a88eab27a.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/b940216a-a173-4920-b8ad-233b34fd36b2.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/99a347be-3cc7-4cf8-adb1-a80b19187423.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/d05e2037-9c4c-4dc6-8203-edd176ef1a7b.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/3a5ef56b-2d9a-45d1-8bcf-94da028b2c99.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/3124302b-9fe9-46f4-a346-f1e6945872d2.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/94a5709e-0b95-45cf-9529-dab11496823a.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/36d2ba41-d489-4bee-a164-97cded7319b6.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/07a1bc90-1995-42fa-831a-67a209ffcfa8.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/8bc1a4e6-8b76-4804-b92f-4598c10a045c.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/a74f39dd-bd19-43fb-a90d-a7b8b8dd84a2.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/26425fee-59c2-444f-8a60-754f0eee97a2.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/6c1f1b20-6f67-4491-b153-adc8e3936bce.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/9e483351-8199-40cd-a504-6d18b00a5a29.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/5f9ec244-5b72-47dd-9d3c-e86ece58d5b6.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/cc861afd-a6d5-46f1-a8f5-392d5c23cf46.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/b5cd5827-35de-4f57-b299-fe80e076fe5e.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/dfcd2143-adf1-4a37-820c-c57c2c484610.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/7d810afd-dc37-4331-8be3-372e2c926384.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/fa32d6eb-f2fe-4d85-aad4-c7d295796b0f.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/5b65de74-5c5e-4dbf-8ced-6bbea196abc9.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/86515399-efbe-4536-81c8-26f8c49b1205.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/f9040c9a-a93a-4261-84ea-14d0b876eb32.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/721ca31e-0e78-447e-80d0-276004cb82e8.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/8d591ee1-35cc-47f3-b450-ab754073282d.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/448fe4c5-3828-4b16-b19c-96c36fafe375.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/e5b10161-403b-42f1-969b-d2075fd9051e.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/05b66499-59ea-4a50-b7c0-22b4bf58adda.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/dc3f443b-125b-48f4-86a6-ba6dfd858d24.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/046f8e03-f28e-4087-a5ee-5fc91fedcbac.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/5bcaebe0-42dc-4c2a-8c77-ec910a7c961f.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/7bd3ab1a-9e69-4a5f-9e8d-eaa2cc42cf67.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/f9002c33-a657-496e-aa98-a66b53ae8352.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/4c48acf8-8050-4829-8780-ee90c2cc02e5.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/e648c132-fa9c-4273-b4ce-6ff8c0b28710.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/5cd4cad5-ddbf-4673-b0c7-83e51dc18a9d.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/6ea979d7-209b-49bf-ab40-c9dc4c277231.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/e359e0cc-d2a5-4d11-a475-4a93b82a3e3c.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/d3f32e04-3b95-41a2-aeb9-81000ce7894d.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/5b41e2b1-7211-476b-8503-d69e0a4ac65b.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/17d374c0-7878-47ac-8ed9-341b411f855d.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/6058f55d-a0f6-420d-a72b-6076f92d636a.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/1a5d6a2e-8c50-4590-b90a-f90d789da097.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/20b20207-ca2e-43e3-8b3f-425717e2ff27.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/20891273-a446-412b-b878-32fedad492e0.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/02a01c8d-30e9-444a-a57c-11ecb385e5b4.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/2fd51d0f-e894-405d-b3f1-5bbd046e7a1e.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/1a290399-a4a8-4d38-b288-0f3fee1ed551.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/1252b352-50d0-4b13-a827-9df06cd43607.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/57b1b6af-7755-411f-99eb-38c62f39eb39.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/347b7b2e-d2f8-4e4c-9313-85dc2f2ea25a.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/5a1b350a-52a4-43a4-8a6a-55f36ac732b0.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/87df4105-14f8-43ad-b371-aa64e5845be3.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/1a5e459b-f8e2-43be-8a29-63e932497cfc.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/d6f9b1c7-ecab-40e9-b5a7-87af0e3262ea.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/5351a4a6-3a33-496e-ae48-6771863a77ef.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/b42ae45f-8564-4c8c-80c0-42fe7d7e09e7.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/4c4159f8-19fc-4ecb-90e7-1a476783b334.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/a5804d37-2bdd-4a64-949e-0b32a19766cf.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/5d5a9983-89d6-4736-8016-bac267afb656.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/daeda9f9-6938-4f5e-85df-ae1d8724ab50.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/abddc4de-8dcb-4468-9525-7a6b0c9a1171.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/3f429284-8727-43df-800a-6bfc84e71cc2.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/b1c06500-726a-4f76-a027-b124801ca27b.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/6c245728-1f82-4f3b-9f1d-29ed66fe806d.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/3e710c44-5105-4f4b-ac25-39f823eb6cb4.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/3f38e964-d8dc-4a99-876d-645869b1fc2d.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/cc0e2ccd-52dd-4182-bc87-9fcba927bd0a.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/f9e1e496-9f22-4f97-a420-b68b2194df2e.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/1b9c6e59-d9a7-4356-b47c-028be3fd1c7e.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/eec453d7-7a18-4724-8d3e-368611d54a2b.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/8c4e2abc-e7c4-4a89-8b1d-fde41b265318.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/43bbc19d-dfba-434f-9bae-5e10487dee06.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/81744c39-a511-47c0-9114-ba1e17e9be97.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/89c7b103-a169-4e42-b80f-3cb63356257a.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/4fa6d3e5-dfb9-466f-b682-aab7527d4687.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/748b6696-b2ac-41a9-892e-473e9b44d5da.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/60b487ce-0101-461b-830a-e87ac7ea0f96.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/2c79764a-6ea8-4cd8-8d84-a8d87b7b53b1.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/575cdc3f-a61a-4eef-a7b8-28dc89fe41c9.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/2f1864e0-867e-4f07-9f0e-caeb3659a3b6.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/dedfcf13-764c-4263-8d4a-94914b1d9a44.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/5bdcd46a-f7bd-4461-9ba6-6f6143aaeef5.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/5c54be9c-47a2-4332-8151-5dedb353a439.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/5dea9a72-2eac-431e-b03e-add6f0c5f84b.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/9fa5c4e5-b548-4219-9f71-5f1b6796a283.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/bb00921c-0284-4d9a-9e2a-841cff21112a.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/3c36e788-4795-4078-bb14-f2aa1605855d.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/8e2e4a61-cd16-4d20-a872-72bdc0bc855d.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/d9d40db4-ce71-4a71-b0b2-b79ff3bbd254.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/56302cb8-619b-4eaf-a163-549328cac581.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/e23cd4e9-f77c-4163-a1d8-dfc9a9a01ebf.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/e2d8c9fd-6345-425c-b2eb-d176a3c3931b.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/56acfaea-ef23-4ca2-ab4b-b18666965b6f.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/3aa1df6e-fd45-49d2-b871-777ce7e25738.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/69a9a0f7-e717-4d47-bd6f-cfe83e31c09c.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/a35579a6-9ab6-4ab7-9a26-a2b2eee95049.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/e9a766cd-b96e-4619-8174-cb4d6e4db40b.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/6948b278-4843-46bc-a703-95101f9c23c5.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/59025b9d-62f7-43ab-9d7c-bd8591838b7a.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/8c31919a-88d0-4fc2-a9ce-94b279b2faa7.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/1efad8cf-fc6a-4419-9887-4246cf91ec80.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/fc79c489-b358-4368-b965-330615af73d4_00000298.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/58e4b451-8d12-4755-8711-02df260d00ba.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/cb4e017d-a25f-4575-89ce-6459e6810e10.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/b5dedee1-07af-4df3-8601-e7e8a90e79cf.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/d2a0abfe-77a8-4910-991e-3d707bab94a6.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/399fdb43-e36d-41ec-8e1a-44b19a40fcd3.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/e6408972-6a34-4511-aff4-03f8f324ccb1.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/f9602e28-2aa8-4d74-8725-5b486f796eb7.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/9cf848bc-0480-479f-b164-78524193f943.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/584f1fa0-9bb9-49d3-b412-c42819d0a200_00000120.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/c410c97b-1696-42dd-b900-65c9f1cd7f86.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/fbcbc935-5675-4c4d-939c-e888131368fe.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/770a11c3-adfe-4cc0-a470-9a0f46e85f74.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/584f1fa0-9bb9-49d3-b412-c42819d0a200_00002362.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/584f1fa0-9bb9-49d3-b412-c42819d0a200_00001917.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/fc79c489-b358-4368-b965-330615af73d4_00000411.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    }
+  ],
+  "val": [
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/d2bdd107-bbaf-46b2-9fa7-a95633dadc2d.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/85ef9795-f799-4397-b6d0-63db1db8196b.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/98ecb81e-5a43-4a3b-96fd-03a02b715764.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_lifted_polyps/8c3f3c95-ba1d-4532-bd8f-b7d0c76a4985.jpg",
+      "label": 0,
+      "classname": "dyed lifted polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/97653f55-18b1-4bd5-8c4b-76e5be3fe636.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/c7a8827b-348d-46b4-b6a0-3e18bbb13aa8.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/b99245a4-de5a-4a6a-8f72-54ac6963c830.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/dyed_resection_margins/b24787c0-f886-4b4d-b318-155d45cf805e.jpg",
+      "label": 1,
+      "classname": "dyed resection margins"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/8a9f6a2f-94a7-4764-93dd-a07afd3e310d.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/62a86305-8e4a-4d13-920e-83baf459c83a.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/e7947877-dbd1-4e13-bc5c-93234c33c366.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/esophagitis/4152c0a4-db41-49a1-97ab-dae35b6c7226.jpg",
+      "label": 2,
+      "classname": "esophagitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/755a8360-17dc-466e-9b31-6ea24fa954fb.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/7a2141b0-e864-4c2f-9172-0834c5737ec5.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/42ddb066-32a8-494a-ba7f-70fe2231020c.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_cecum/bf6b687f-db96-4f82-94ae-db977c838038.jpg",
+      "label": 3,
+      "classname": "normal cecum"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/a9e5494b-c9a5-4115-8b0c-62b179143984.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/0e37c257-2f88-447b-b0d5-10e1488130e0.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/4bd9c181-9463-4552-b0bd-b1890251fca3.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_pylorus/d0f839c6-62bb-403f-8cf6-5029b5e5fa31.jpg",
+      "label": 4,
+      "classname": "normal pylorus"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/06b44ebc-e89c-4263-9556-6eaae3952230.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/2bce8c63-0c5c-47bc-aee7-c19f670c3c2a.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/e11a6ac3-d171-4fa8-b9b4-351698a4e651.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/normal_z_line/1d3460e5-1399-4242-b686-56a5090a1bac.jpg",
+      "label": 5,
+      "classname": "normal z line"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/0c0d2ad2-7270-46d6-b606-b5b44bb41aa5.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/9816893c-dad0-44d9-9e63-34862ec8f6a2.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/b65c7a78-8f1d-4292-951e-6bcc871cac85.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/polyps/0b61286f-f85c-428a-a188-a953347d8acb.jpg",
+      "label": 6,
+      "classname": "polyps"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/61e52f7b-9490-4cc4-8a1a-9bccb38d5db2.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/ba003076-401f-48d4-9d0a-072735d6d03a.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/584f1fa0-9bb9-49d3-b412-c42819d0a200_00002130.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    },
+    {
+      "image": "Kvasir/Kvasir/ulcerative_colitis/d8b0b1f4-b7d2-4eb4-94cb-1536e4500e2e.jpg",
+      "label": 7,
+      "classname": "ulcerative colitis"
+    }
+  ],
+  "classnames": [
+    "dyed lifted polyps",
+    "dyed resection margins",
+    "esophagitis",
+    "normal cecum",
+    "normal pylorus",
+    "normal z line",
+    "polyps",
+    "ulcerative colitis"
+  ],
+  "test_count": 1200
+}

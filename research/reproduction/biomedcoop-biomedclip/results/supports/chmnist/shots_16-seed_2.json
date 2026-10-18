@@ -1,0 +1,817 @@
+{
+  "train": [
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/10C57_CRC-Prim-HE-03_012.tif_Row_1201_Col_2851.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/11368_CRC-Prim-HE-03_012.tif_Row_151_Col_2551.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/11219_CRC-Prim-HE-07.tif_Row_601_Col_3901.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/14023_CRC-Prim-HE-03_012.tif_Row_3001_Col_601.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/12018_CRC-Prim-HE-05_032.tif_Row_1651_Col_1351.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/1353B_CRC-Prim-HE-10_020.tif_Row_901_Col_2701.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/12D28_CRC-Prim-HE-05_032.tif_Row_1651_Col_3301.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/1749D_CRC-Prim-HE-04_036.tif_Row_901_Col_1051.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/1289A_CRC-Prim-HE-03_012.tif_Row_2851_Col_901.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/10808_CRC-Prim-HE-05_032.tif_Row_151_Col_4501.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/171D6_CRC-Prim-HE-05_032.tif_Row_1801_Col_3601.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/11C97_CRC-Prim-HE-10_020.tif_Row_751_Col_2701.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/15218_CRC-Prim-HE-05_032.tif_Row_1_Col_2701.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/14B6C_CRC-Prim-HE-10_020.tif_Row_601_Col_1201.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/16279_CRC-Prim-HE-03_012.tif_Row_3451_Col_1951.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/146AC_CRC-Prim-HE-03_012.tif_Row_3151_Col_451.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/659E_CRC-Prim-HE-06_028.tif_Row_151_Col_601.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/3C64_CRC-Prim-HE-03_026.tif_Row_1_Col_451.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/54B8_CRC-Prim-HE-07_015.tif_Row_1_Col_301.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/1637F_CRC-Prim-HE-03_033.tif_Row_1_Col_301.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/10DC2_CRC-Prim-HE-03_026.tif_Row_451_Col_451.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/10BA4_CRC-Prim-HE-06_030.tif_Row_151_Col_301.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/18596_CRC-Prim-HE-05_009a.tif_Row_451_Col_1201.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/43C1_CRC-Prim-HE-05_009a.tif_Row_1_Col_901.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/171F9_CRC-Prim-HE-07_017.tif_Row_1_Col_751.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/1E4C_CRC-Prim-HE-07_017.tif_Row_1_Col_151.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/339E_CRC-Prim-HE-06_011.tif_Row_151_Col_601.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/5EED_CRC-Prim-HE-09_015.tif_Row_601_Col_301.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/13DE5_CRC-Prim-HE-01_037.tif_Row_151_Col_151.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/6D18_CRC-Prim-HE-01_049.tif_Row_301_Col_451.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/13FBF_CRC-Prim-HE-03_002.tif_Row_601_Col_451.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/1579D_CRC-Prim-HE-07_003.tif_Row_1_Col_1.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/15A42_CRC-Prim-HE-08_021.tif_Row_1501_Col_751.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/10B8A_CRC-Prim-HE-06_038.tif_Row_151_Col_301.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/145C3_CRC-Prim-HE-07_002.tif_Row_601_Col_751.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/17F50_CRC-Prim-HE-03_014.tif_Row_151_Col_151.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/14596_CRC-Prim-HE-04_030.tif_Row_1_Col_1.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/134DF_CRC-Prim-HE-08_024.tif_Row_751_Col_451.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/6A3E_CRC-Prim-HE-04_030.tif_Row_451_Col_1.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/1FE1_CRC-Prim-HE-04_002.tif_Row_601_Col_601.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/6B37_CRC-Prim-HE-08_024.tif_Row_1501_Col_301.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/77EF_CRC-Prim-HE-04_002.tif_Row_1_Col_1201.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/147F1_CRC-Prim-HE-01_023.tif_Row_1_Col_751.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/4B8A_CRC-Prim-HE-08_021.tif_Row_301_Col_1651.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/3E76_CRC-Prim-HE-04_002.tif_Row_601_Col_1651.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/6D6A_CRC-Prim-HE-10_016.tif_Row_301_Col_301.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/2251_CRC-Prim-HE-04_002.tif_Row_1_Col_751.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/85E4_CRC-Prim-HE-04_002.tif_Row_901_Col_901.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/132F_CRC-Prim-HE-06_005.tif_Row_1801_Col_5251.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/13423_CRC-Prim-HE-06_005.tif_Row_3901_Col_1.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/140AC_CRC-Prim-HE-06_005.tif_Row_1201_Col_7351.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/1142F_CRC-Prim-HE-06_005.tif_Row_1801_Col_2251.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/13A4B_CRC-Prim-HE-06_005.tif_Row_4801_Col_751.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/1429C_CRC-Prim-HE-06_005.tif_Row_5401_Col_6451.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/14E1_CRC-Prim-HE-06_005.tif_Row_1051_Col_4351.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/12227_CRC-Prim-HE-06_005.tif_Row_5101_Col_5401.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/14711_CRC-Prim-HE-06_005.tif_Row_6451_Col_451.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/126CF_CRC-Prim-HE-06_005.tif_Row_4051_Col_1801.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/148D6_CRC-Prim-HE-06_005.tif_Row_3901_Col_3151.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/1498C_CRC-Prim-HE-06_005.tif_Row_1801_Col_6601.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/14B34_CRC-Prim-HE-06_005.tif_Row_2551_Col_2551.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/141B1_CRC-Prim-HE-06_005.tif_Row_1201_Col_3901.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/1329F_CRC-Prim-HE-06_005.tif_Row_2251_Col_2551.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/152CB_CRC-Prim-HE-06_005.tif_Row_451_Col_3751.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/E530_CRC-Prim-HE-02_012.tif_Row_151_Col_1.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/9C0C_CRC-Prim-HE-01_001.tif_Row_451_Col_301.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/AF1F_CRC-Prim-HE-01_006.tif_Row_1_Col_451.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/17AFD_CRC-Prim-HE-01_038.tif_Row_301_Col_151.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/3CF4_CRC-Prim-HE-01_007.tif_Row_451_Col_301.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/15591_CRC-Prim-HE-01_004.tif_Row_601_Col_601.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/2625_CRC-Prim-HE-01.tif_Row_151_Col_1.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/A8CF_CRC-Prim-HE-09_006.tif_Row_301_Col_301.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/387F_CRC-Prim-HE-01b.tif_Row_151_Col_151.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/359B_CRC-Prim-HE-09_006.tif_Row_301_Col_1.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/C10D_CRC-Prim-HE-05_003.tif_Row_451_Col_1801.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/E86D_CRC-Prim-HE-09_019.tif_Row_601_Col_1.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/CDE7_CRC-Prim-HE-05_004.tif_Row_151_Col_901.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/C4E0_CRC-Prim-HE-05_004.tif_Row_601_Col_301.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/F3CF_CRC-Prim-HE-05_003.tif_Row_1_Col_1201.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/6EDA_CRC-Prim-HE-09_013.tif_Row_151_Col_301.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/154EC_CRC-Prim-HE-06_033.tif_Row_151_Col_601.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/13E8C_CRC-Prim-HE-06_001.tif_Row_1801_Col_451.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/1B5B_CRC-Prim-HE-09_001.tif_Row_1051_Col_901.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/2387_CRC-Prim-HE-06_001.tif_Row_451_Col_1.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/165A4_CRC-Prim-HE-09_001.tif_Row_1051_Col_1051.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/116D6_CRC-Prim-HE-07_001_copy.tif_Row_1351_Col_151.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/15E97_CRC-Prim-HE-05_030.tif_Row_1051_Col_301.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/1041C_CRC-Prim-HE-05.tif_Row_901_Col_1351.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/136F7_CRC-Prim-HE-06_032.tif_Row_751_Col_451.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/11FD2_CRC-Prim-HE-08_008.tif_Row_301_Col_151.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/111CD_CRC-Prim-HE-05_030.tif_Row_1351_Col_301.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/30BE_CRC-Prim-HE-09_001.tif_Row_151_Col_451.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/1109C_CRC-Prim-HE-02_010.tif_Row_1_Col_151.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/14C36_CRC-Prim-HE-09_001.tif_Row_901_Col_1201.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/346_CRC-Prim-HE-05_030.tif_Row_1_Col_151.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/143FC_CRC-Prim-HE-09_001.tif_Row_2251_Col_751.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/10C5D_CRC-Prim-HE-03.tif_Row_1201_Col_1951.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/13F7F_CRC-Prim-HE-04.tif_Row_1351_Col_3451.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/10EFE_CRC-Prim-HE-03.tif_Row_1201_Col_901.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/11E97_CRC-Prim-HE-02_015.tif_Row_601_Col_2101.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/11C9D_CRC-Prim-HE-08_004.tif_Row_1351_Col_451.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/1184F_CRC-Prim-HE-04.tif_Row_1501_Col_2701.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/10663_CRC-Prim-HE-01_018.tif_Row_301_Col_151.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/13090_CRC-Prim-HE-08_012.tif_Row_451_Col_301.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/1034D_CRC-Prim-HE-08_004.tif_Row_1051_Col_151.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/10655_CRC-Prim-HE-04.tif_Row_1651_Col_1951.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/128B_CRC-Prim-HE-04_013.tif_Row_3301_Col_151.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/12895_CRC-Prim-HE-04.tif_Row_1651_Col_1051.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/11360_CRC-Prim-HE-03_016.tif_Row_1351_Col_601.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/11D07_CRC-Prim-HE-05_002b.tif_Row_901_Col_301.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/102E8_CRC-Prim-HE-05_009b.tif_Row_151_Col_751.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/10A0_CRC-Prim-HE-07_014.tif_Row_301_Col_2401.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/1374A_CRC-Prim-HE-02_028.tif_Row_451_Col_151.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/1243F_CRC-Prim-HE-05_007.tif_Row_1_Col_1.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/10FC7_CRC-Prim-HE-10_021.tif_Row_1_Col_151.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/114EC_CRC-Prim-HE-07_025.tif_Row_751_Col_601.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/10A26_CRC-Prim-HE-07_025.tif_Row_1801_Col_301.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/3CD6_CRC-Prim-HE-01_027.tif_Row_1_Col_301.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/17427_CRC-Prim-HE-09_026.tif_Row_1_Col_151.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/13D25_CRC-Prim-HE-09_012.tif_Row_1_Col_451.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/147D8_CRC-Prim-HE-05_024.tif_Row_151_Col_301.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/155AE_CRC-Prim-HE-05_008.tif_Row_151_Col_301.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/8367_CRC-Prim-HE-03_028.tif_Row_451_Col_1.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/100B0_CRC-Prim-HE-09_009.tif_Row_1_Col_301.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/4095_CRC-Prim-HE-08_007.tif_Row_151_Col_1.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/A1AB_CRC-Prim-HE-01_039.tif_Row_1_Col_601.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/115C0_CRC-Prim-HE-10_006.tif_Row_451_Col_1.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/1733E_CRC-Prim-HE-07.tif_Row_451_Col_301.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    }
+  ],
+  "val": [
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/10FA3_CRC-Prim-HE-05_032.tif_Row_1051_Col_1651.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/173F8_CRC-Prim-HE-07.tif_Row_1051_Col_751.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/10116_CRC-Prim-HE-03_012.tif_Row_3001_Col_2101.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/adipose_tissue/10006_CRC-Prim-HE-03_012.tif_Row_601_Col_2251.tif",
+      "label": 0,
+      "classname": "adipose tissue"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/15063_CRC-Prim-HE-05_009a.tif_Row_601_Col_451.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/6C82_CRC-Prim-HE-10_004.tif_Row_151_Col_1.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/1FA3_CRC-Prim-HE-07_003.tif_Row_151_Col_601.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/complex_stroma/229D_CRC-Prim-HE-05_009a.tif_Row_301_Col_301.tif",
+      "label": 1,
+      "classname": "complex stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/4E0_CRC-Prim-HE-07_002.tif_Row_1_Col_901.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/11023_CRC-Prim-HE-09_018.tif_Row_1_Col_1.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/148A7_CRC-Prim-HE-04_004.tif_Row_151_Col_901.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/debris/1559D_CRC-Prim-HE-04_001.tif_Row_1_Col_751.tif",
+      "label": 2,
+      "classname": "debris"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/1310F_CRC-Prim-HE-06_005.tif_Row_3601_Col_6901.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/1018F_CRC-Prim-HE-06_005.tif_Row_901_Col_1.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/11987_CRC-Prim-HE-06_005.tif_Row_301_Col_751.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/empty_background/12BDD_CRC-Prim-HE-06_005.tif_Row_4801_Col_3451.tif",
+      "label": 3,
+      "classname": "empty background"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/568C_CRC-Prim-HE-01_004.tif_Row_1051_Col_601.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/A1EA_CRC-Prim-HE-09_006.tif_Row_151_Col_1.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/5DE4_CRC-Prim-HE-01_004.tif_Row_1051_Col_1201.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/immune_cells/96C0_CRC-Prim-HE-05_010.tif_Row_451_Col_1.tif",
+      "label": 4,
+      "classname": "immune cells"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/10333_CRC-Prim-HE-09_001.tif_Row_1651_Col_1.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/2685_CRC-Prim-HE-07_001.tif_Row_601_Col_151.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/12BD4_CRC-Prim-HE-05.tif_Row_1_Col_751.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/normal_mucosal_glands/1830B_CRC-Prim-HE-07_001_copy.tif_Row_901_Col_1.tif",
+      "label": 5,
+      "classname": "normal mucosal glands"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/11F1F_CRC-Prim-HE-03_003.tif_Row_301_Col_301.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/13D0B_CRC-Prim-HE-02_011.tif_Row_151_Col_301.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/12C88_CRC-Prim-HE-07_014.tif_Row_301_Col_2101.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/simple_stroma/133B9_CRC-Prim-HE-09.tif_Row_1_Col_1351.tif",
+      "label": 6,
+      "classname": "simple stroma"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/126E8_CRC-Prim-HE-07.tif_Row_601_Col_751.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/2585_CRC-Prim-HE-07.tif_Row_601_Col_901.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/A570_CRC-Prim-HE-04_016.tif_Row_1_Col_151.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    },
+    {
+      "image": "CHMNIST/CHMNIST/tumour_epithelium/1365_CRC-Prim-HE-08_001.tif_Row_1_Col_1.tif",
+      "label": 7,
+      "classname": "tumour epithelium"
+    }
+  ],
+  "classnames": [
+    "adipose tissue",
+    "complex stroma",
+    "debris",
+    "empty background",
+    "immune cells",
+    "normal mucosal glands",
+    "simple stroma",
+    "tumour epithelium"
+  ],
+  "test_count": 1504
+}

@@ -1,0 +1,93 @@
+{
+  "train": [
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/train32842_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/train82096_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/train24963_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/train70594_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/train94391_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/train74161_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/train64248_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/train59167_2.png",
+      "label": 2,
+      "classname": "drusen"
+    }
+  ],
+  "val": [
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/val1145_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/val10509_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/val155_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/val9979_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/val9097_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/val5219_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/val7167_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/val3138_2.png",
+      "label": 2,
+      "classname": "drusen"
+    }
+  ],
+  "classnames": [
+    "choroidal neovascularization",
+    "diabetic macular edema",
+    "drusen",
+    "normal OCT scan"
+  ],
+  "test_count": 1000
+}

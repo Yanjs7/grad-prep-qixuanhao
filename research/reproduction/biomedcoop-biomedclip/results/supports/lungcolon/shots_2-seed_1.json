@@ -1,0 +1,114 @@
+{
+  "train": [
+    {
+      "image": "LungColon/LungColon/colon_adenocarcinoma/colonca1993.jpeg",
+      "label": 0,
+      "classname": "colon adenocarcinoma"
+    },
+    {
+      "image": "LungColon/LungColon/colon_adenocarcinoma/colonca692.jpeg",
+      "label": 0,
+      "classname": "colon adenocarcinoma"
+    },
+    {
+      "image": "LungColon/LungColon/colon_benign_tissue/colonn1497.jpeg",
+      "label": 1,
+      "classname": "colon benign tissue"
+    },
+    {
+      "image": "LungColon/LungColon/colon_benign_tissue/colonn2874.jpeg",
+      "label": 1,
+      "classname": "colon benign tissue"
+    },
+    {
+      "image": "LungColon/LungColon/lung_adenocarcinoma/lungaca1891.jpeg",
+      "label": 2,
+      "classname": "lung adenocarcinoma"
+    },
+    {
+      "image": "LungColon/LungColon/lung_adenocarcinoma/lungaca4636.jpeg",
+      "label": 2,
+      "classname": "lung adenocarcinoma"
+    },
+    {
+      "image": "LungColon/LungColon/lung_benign_tissue/lungn4322.jpeg",
+      "label": 3,
+      "classname": "lung benign tissue"
+    },
+    {
+      "image": "LungColon/LungColon/lung_benign_tissue/lungn4479.jpeg",
+      "label": 3,
+      "classname": "lung benign tissue"
+    },
+    {
+      "image": "LungColon/LungColon/lung_squamous_cell_carcinoma/lungscc3834.jpeg",
+      "label": 4,
+      "classname": "lung squamous cell carcinoma"
+    },
+    {
+      "image": "LungColon/LungColon/lung_squamous_cell_carcinoma/lungscc2525.jpeg",
+      "label": 4,
+      "classname": "lung squamous cell carcinoma"
+    }
+  ],
+  "val": [
+    {
+      "image": "LungColon/LungColon/colon_adenocarcinoma/colonca1401.jpeg",
+      "label": 0,
+      "classname": "colon adenocarcinoma"
+    },
+    {
+      "image": "LungColon/LungColon/colon_adenocarcinoma/colonca3309.jpeg",
+      "label": 0,
+      "classname": "colon adenocarcinoma"
+    },
+    {
+      "image": "LungColon/LungColon/colon_benign_tissue/colonn114.jpeg",
+      "label": 1,
+      "classname": "colon benign tissue"
+    },
+    {
+      "image": "LungColon/LungColon/colon_benign_tissue/colonn639.jpeg",
+      "label": 1,
+      "classname": "colon benign tissue"
+    },
+    {
+      "image": "LungColon/LungColon/lung_adenocarcinoma/lungaca4881.jpeg",
+      "label": 2,
+      "classname": "lung adenocarcinoma"
+    },
+    {
+      "image": "LungColon/LungColon/lung_adenocarcinoma/lungaca2830.jpeg",
+      "label": 2,
+      "classname": "lung adenocarcinoma"
+    },
+    {
+      "image": "LungColon/LungColon/lung_benign_tissue/lungn3018.jpeg",
+      "label": 3,
+      "classname": "lung benign tissue"
+    },
+    {
+      "image": "LungColon/LungColon/lung_benign_tissue/lungn3759.jpeg",
+      "label": 3,
+      "classname": "lung benign tissue"
+    },
+    {
+      "image": "LungColon/LungColon/lung_squamous_cell_carcinoma/lungscc4525.jpeg",
+      "label": 4,
+      "classname": "lung squamous cell carcinoma"
+    },
+    {
+      "image": "LungColon/LungColon/lung_squamous_cell_carcinoma/lungscc4547.jpeg",
+      "label": 4,
+      "classname": "lung squamous cell carcinoma"
+    }
+  ],
+  "classnames": [
+    "colon adenocarcinoma",
+    "colon benign tissue",
+    "lung adenocarcinoma",
+    "lung benign tissue",
+    "lung squamous cell carcinoma"
+  ],
+  "test_count": 7500
+}

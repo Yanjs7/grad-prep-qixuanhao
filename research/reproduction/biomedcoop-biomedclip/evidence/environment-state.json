@@ -1,0 +1,26 @@
+{
+  "started_utc": "2026-10-14T14:04:09.079461+00:00",
+  "status": "complete",
+  "updated_utc": "2026-10-14T14:04:38.161777+00:00",
+  "verified_wheels": 65,
+  "validation": {
+    "executable": "/root/BiomedCoOp/.venv/bin/python",
+    "python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:42:22) [GCC 14.3.0]",
+    "versions": {
+      "torch": "2.1.0+cu121",
+      "torchvision": "0.16.0+cu121",
+      "numpy": "1.26.4",
+      "Pillow": "10.4.0",
+      "timm": "0.9.12",
+      "transformers": "4.35.2",
+      "scikit-learn": "1.3.2",
+      "matplotlib": "3.8.4",
+      "tensorboard": "2.15.2",
+      "open_clip_torch": "2.23.0"
+    },
+    "cuda": "12.1",
+    "device": "Tesla T4",
+    "numpy_bridge": true
+  },
+  "invocation_seconds": 29.082281262613833
+}

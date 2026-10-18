@@ -1,6 +1,6 @@
 # BiomedCoOp 阅读笔记
 
-[论文原文](../papers/biomedcoop.pdf) · [返回论文列表](../README.md#2-论文列表与阅读记录)
+[论文原文](../papers/biomedcoop.pdf) · [返回论文列表](../README.md#2-论文列表与阅读记录) · [主实验复现报告](../reproduction/biomedcoop-biomedclip/复现报告.md)
 
 - **论文**：BiomedCoOp: Learning to Prompt for Biomedical Vision-Language Models
 - **会议**：CVPR 2025

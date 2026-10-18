@@ -1,0 +1,413 @@
+{
+  "train": [
+    {
+      "image": "RETINA/RETINA/cataract/2248_left.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/2156_left.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/_15_7471583.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/2231_right.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/_87_635890.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/_391_3026815.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/_5_9005506.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/_291_9986876.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/_107_5060742.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/2195_right.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/_78_267330.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/2114_left.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/_30_8983681.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/_372_5630593.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/1084_right.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/_388_2242538.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/10810_left.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/10727_right.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/10306_left.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/10962_left.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/10109_left.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/10069_left.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/1008_right.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/10015_left.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/11228_left.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/10694_right.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/1133_right.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/10100_left.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/1289_left.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/10720_left.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/11388_right.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/1161_left.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/_176_88942.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/1477_right.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/Glaucoma_034.png",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/1476_right.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/_274_7999199.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/1462_left.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/_320_5280427.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/_12_3840622.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/_88_3424776.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/1999_right.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/_70_4843073.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/1221_right.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/_101_9321817.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/_377_2444638.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/_60_3287251.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/_177_4666662.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/2538_left.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/2695_left.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/2932_right.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/2575_right.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/3037_right.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/3422_right.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/3248_right.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/3434_left.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/2699_right.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/2946_left.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/2892_left.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/3420_right.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/3431_left.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/3184_right.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/2388_left.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/3387_left.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    }
+  ],
+  "val": [
+    {
+      "image": "RETINA/RETINA/cataract/cataract_015.png",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/_53_8912600.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/_90_4763455.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/cataract/_165_8028203.jpg",
+      "label": 2,
+      "classname": "cataract"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/10861_right.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/11382_left.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/10319_right.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/diabetic_retinopathy/1077_left.jpeg",
+      "label": 0,
+      "classname": "diabetic retinopathy"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/_276_1824789.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/_393_7224423.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/_88_3707930.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/glaucoma/_380_4081438.jpg",
+      "label": 1,
+      "classname": "glaucoma"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/3309_left.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/2787_right.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/2432_right.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    },
+    {
+      "image": "RETINA/RETINA/normal_retina/2880_right.jpg",
+      "label": 3,
+      "classname": "normal retina"
+    }
+  ],
+  "classnames": [
+    "diabetic retinopathy",
+    "glaucoma",
+    "cataract",
+    "normal retina"
+  ],
+  "test_count": 1268
+}

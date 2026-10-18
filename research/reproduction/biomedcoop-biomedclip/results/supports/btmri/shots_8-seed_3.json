@@ -1,0 +1,253 @@
+{
+  "train": [
+    {
+      "image": "BTMRI/BTMRI/glioma_tumor/image232.jpg",
+      "label": 0,
+      "classname": "glioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/glioma_tumor/image904.jpg",
+      "label": 0,
+      "classname": "glioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/glioma_tumor/image813.jpg",
+      "label": 0,
+      "classname": "glioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/glioma_tumor/image1223.jpg",
+      "label": 0,
+      "classname": "glioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/glioma_tumor/image483.jpg",
+      "label": 0,
+      "classname": "glioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/glioma_tumor/image930.jpg",
+      "label": 0,
+      "classname": "glioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/glioma_tumor/image680.jpg",
+      "label": 0,
+      "classname": "glioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/glioma_tumor/image967.jpg",
+      "label": 0,
+      "classname": "glioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/meningioma_tumor/image866.jpg",
+      "label": 1,
+      "classname": "meningioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/meningioma_tumor/image1117.jpg",
+      "label": 1,
+      "classname": "meningioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/meningioma_tumor/image922.jpg",
+      "label": 1,
+      "classname": "meningioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/meningioma_tumor/image101.jpg",
+      "label": 1,
+      "classname": "meningioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/meningioma_tumor/image664.jpg",
+      "label": 1,
+      "classname": "meningioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/meningioma_tumor/image254.jpg",
+      "label": 1,
+      "classname": "meningioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/meningioma_tumor/image817.jpg",
+      "label": 1,
+      "classname": "meningioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/meningioma_tumor/image213.jpg",
+      "label": 1,
+      "classname": "meningioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/normal_brain/image1334.jpg",
+      "label": 3,
+      "classname": "normal brain"
+    },
+    {
+      "image": "BTMRI/BTMRI/normal_brain/image876.jpg",
+      "label": 3,
+      "classname": "normal brain"
+    },
+    {
+      "image": "BTMRI/BTMRI/normal_brain/image413.jpg",
+      "label": 3,
+      "classname": "normal brain"
+    },
+    {
+      "image": "BTMRI/BTMRI/normal_brain/image529.jpg",
+      "label": 3,
+      "classname": "normal brain"
+    },
+    {
+      "image": "BTMRI/BTMRI/normal_brain/image543.jpg",
+      "label": 3,
+      "classname": "normal brain"
+    },
+    {
+      "image": "BTMRI/BTMRI/normal_brain/image423.jpg",
+      "label": 3,
+      "classname": "normal brain"
+    },
+    {
+      "image": "BTMRI/BTMRI/normal_brain/image274.jpg",
+      "label": 3,
+      "classname": "normal brain"
+    },
+    {
+      "image": "BTMRI/BTMRI/normal_brain/image718.jpg",
+      "label": 3,
+      "classname": "normal brain"
+    },
+    {
+      "image": "BTMRI/BTMRI/pituitary_tumor/image1259.jpg",
+      "label": 2,
+      "classname": "pituitary tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/pituitary_tumor/image140.jpg",
+      "label": 2,
+      "classname": "pituitary tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/pituitary_tumor/image849.jpg",
+      "label": 2,
+      "classname": "pituitary tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/pituitary_tumor/image1260.jpg",
+      "label": 2,
+      "classname": "pituitary tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/pituitary_tumor/image617.jpg",
+      "label": 2,
+      "classname": "pituitary tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/pituitary_tumor/image39.jpg",
+      "label": 2,
+      "classname": "pituitary tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/pituitary_tumor/image1010.jpg",
+      "label": 2,
+      "classname": "pituitary tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/pituitary_tumor/image929.jpg",
+      "label": 2,
+      "classname": "pituitary tumor"
+    }
+  ],
+  "val": [
+    {
+      "image": "BTMRI/BTMRI/glioma_tumor/image1165.jpg",
+      "label": 0,
+      "classname": "glioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/glioma_tumor/image22.jpg",
+      "label": 0,
+      "classname": "glioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/glioma_tumor/image1109.jpg",
+      "label": 0,
+      "classname": "glioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/glioma_tumor/image505.jpg",
+      "label": 0,
+      "classname": "glioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/meningioma_tumor/image1076.jpg",
+      "label": 1,
+      "classname": "meningioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/meningioma_tumor/image415.jpg",
+      "label": 1,
+      "classname": "meningioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/meningioma_tumor/image895.jpg",
+      "label": 1,
+      "classname": "meningioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/meningioma_tumor/image688.jpg",
+      "label": 1,
+      "classname": "meningioma tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/normal_brain/image562.jpg",
+      "label": 3,
+      "classname": "normal brain"
+    },
+    {
+      "image": "BTMRI/BTMRI/normal_brain/image487.jpg",
+      "label": 3,
+      "classname": "normal brain"
+    },
+    {
+      "image": "BTMRI/BTMRI/normal_brain/image914.jpg",
+      "label": 3,
+      "classname": "normal brain"
+    },
+    {
+      "image": "BTMRI/BTMRI/normal_brain/image602.jpg",
+      "label": 3,
+      "classname": "normal brain"
+    },
+    {
+      "image": "BTMRI/BTMRI/pituitary_tumor/image133.jpg",
+      "label": 2,
+      "classname": "pituitary tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/pituitary_tumor/image541.jpg",
+      "label": 2,
+      "classname": "pituitary tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/pituitary_tumor/image1226.jpg",
+      "label": 2,
+      "classname": "pituitary tumor"
+    },
+    {
+      "image": "BTMRI/BTMRI/pituitary_tumor/image1096.jpg",
+      "label": 2,
+      "classname": "pituitary tumor"
+    }
+  ],
+  "classnames": [
+    "glioma tumor",
+    "meningioma tumor",
+    "pituitary tumor",
+    "normal brain"
+  ],
+  "test_count": 1717
+}

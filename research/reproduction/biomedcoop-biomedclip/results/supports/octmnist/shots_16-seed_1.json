@@ -1,0 +1,413 @@
+{
+  "train": [
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/train18572_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/train78881_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/train8705_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/train35282_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/train16298_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/train68698_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/train62370_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/train65512_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/train90456_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/train52678_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/train28985_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/train13020_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/train67614_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/train3853_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/train54093_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/train60093_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/train398_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/train85042_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/train51057_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/train43861_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/train19490_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/train60771_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/train5834_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/train4250_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/train4851_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/train1666_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/train72725_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/train41612_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/train80608_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/train5511_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/train42589_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/train83645_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/train77589_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/train86509_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/train36711_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/train53980_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/train36406_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/train34522_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/train71959_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/train45423_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/train3405_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/train65082_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/train87074_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/train16116_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/train29589_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/train46429_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/train19366_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/train52105_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/train92216_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/train74462_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/train73436_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/train50642_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/train96329_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/train42330_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/train51410_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/train85546_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/train93805_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/train69276_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/train19511_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/train30993_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/train29129_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/train59784_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/train90803_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/train50434_2.png",
+      "label": 2,
+      "classname": "drusen"
+    }
+  ],
+  "val": [
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/val8770_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/val6765_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/val10217_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/normal_OCT_scan/val597_3.png",
+      "label": 3,
+      "classname": "normal OCT scan"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/val5734_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/val2926_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/val8895_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/choroidal_neovascularization/val9540_0.png",
+      "label": 0,
+      "classname": "choroidal neovascularization"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/val7867_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/val8089_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/val3393_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/diabetic_macular_edema/val7239_1.png",
+      "label": 1,
+      "classname": "diabetic macular edema"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/val7113_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/val8916_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/val9994_2.png",
+      "label": 2,
+      "classname": "drusen"
+    },
+    {
+      "image": "OCTMNIST/OCTMNIST/drusen/val8639_2.png",
+      "label": 2,
+      "classname": "drusen"
+    }
+  ],
+  "classnames": [
+    "choroidal neovascularization",
+    "diabetic macular edema",
+    "drusen",
+    "normal OCT scan"
+  ],
+  "test_count": 1000
+}

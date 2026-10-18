@@ -1,0 +1,199 @@
+{
+  "created_at_utc": "2026-10-14T13:06:48.173556+00:00",
+  "destination": "root@10.109.119.30:10365",
+  "root": "/root/BiomedCoOp",
+  "scope": "11 main datasets, frozen official source, BiomedCLIP and required text configuration/tokenizers; no training or all downstream checkpoints.",
+  "revisions": {
+    "data": "c50b6304ea49623188dc7f0f470c511b48538108",
+    "biomedclip": "9f341de24bfb00180f1b847274256e9b65a3a32e",
+    "biomedbert": "d673b8835373c6fa116d6d8006b33d48734e305d",
+    "code": "23710b0b867e8cb4a5ea95b0ccbaa5e35203db0d"
+  },
+  "files": [
+    {
+      "id": "source",
+      "name": "BiomedCoOp代码",
+      "relative_path": "archives/BiomedCoOp-source.zip",
+      "local_source": "/Users/qixuanhao/Documents/ChatGPT/多模态/artifacts/文献参考-20261014/biomedcoop-access-audit/BiomedCoOp-source-snapshot.zip",
+      "size": 5279481,
+      "checksum": "sha256:4a268f9845ef10e260c7c18289a856b27689fa554397ea3a085c978e4e78bf8e",
+      "code_commit": "23710b0b867e8cb4a5ea95b0ccbaa5e35203db0d"
+    },
+    {
+      "id": "biomedclip-open_clip_config-json",
+      "name": "biomedclip/open_clip_config.json",
+      "relative_path": "models/biomedclip/open_clip_config.json",
+      "url": "https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224/resolve/9f341de24bfb00180f1b847274256e9b65a3a32e/open_clip_config.json?download=true",
+      "local_source": "/Users/qixuanhao/Documents/ChatGPT/多模态/artifacts/BiomedCoOp服务器准备-20261014/small-resources/biomedclip-open_clip_config.json",
+      "size": 707,
+      "checksum": "sha256:9a41f334a8c444678772c0ebb9ab854c97ab350bced3a17b803e258d39c23dc0",
+      "official_git_blob_sha1": "127246c8e2bdbec4fff72874d2814f92ac77a403"
+    },
+    {
+      "id": "biomedclip-tokenizer-json",
+      "name": "biomedclip/tokenizer.json",
+      "relative_path": "models/biomedclip/tokenizer.json",
+      "url": "https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224/resolve/9f341de24bfb00180f1b847274256e9b65a3a32e/tokenizer.json?download=true",
+      "local_source": "/Users/qixuanhao/Documents/ChatGPT/多模态/artifacts/BiomedCoOp服务器准备-20261014/small-resources/biomedclip-tokenizer.json",
+      "size": 679168,
+      "checksum": "sha256:defc1f91456606e7847af3a2fb4a8abb96441423aa5407a52498395ea68327ff",
+      "official_git_blob_sha1": "12dad549bdbaebc16053beef12821e667968ec20"
+    },
+    {
+      "id": "biomedclip-tokenizer_config-json",
+      "name": "biomedclip/tokenizer_config.json",
+      "relative_path": "models/biomedclip/tokenizer_config.json",
+      "url": "https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224/resolve/9f341de24bfb00180f1b847274256e9b65a3a32e/tokenizer_config.json?download=true",
+      "local_source": "/Users/qixuanhao/Documents/ChatGPT/多模态/artifacts/BiomedCoOp服务器准备-20261014/small-resources/biomedclip-tokenizer_config.json",
+      "size": 394,
+      "checksum": "sha256:e1790949631401af1bfb6c9c7aeec7fcf612e274d73579d99f704faea40c8ba7",
+      "official_git_blob_sha1": "42046bd361a033a24264dc41de1fe6cafd68072f"
+    },
+    {
+      "id": "biomedclip-vocab-txt",
+      "name": "biomedclip/vocab.txt",
+      "relative_path": "models/biomedclip/vocab.txt",
+      "url": "https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224/resolve/9f341de24bfb00180f1b847274256e9b65a3a32e/vocab.txt?download=true",
+      "local_source": "/Users/qixuanhao/Documents/ChatGPT/多模态/artifacts/BiomedCoOp服务器准备-20261014/small-resources/biomedclip-vocab.txt",
+      "size": 225062,
+      "checksum": "sha256:7b36651908a88bc38bda41b728b2a598191e0d3b553cbacf7b1e5f026d5b5b9f",
+      "official_git_blob_sha1": "9d65c8495e044c70ce1a30e2ae8e2f0b3738dbae"
+    },
+    {
+      "id": "biomedclip-special_tokens_map-json",
+      "name": "biomedclip/special_tokens_map.json",
+      "relative_path": "models/biomedclip/special_tokens_map.json",
+      "url": "https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224/resolve/9f341de24bfb00180f1b847274256e9b65a3a32e/special_tokens_map.json?download=true",
+      "local_source": "/Users/qixuanhao/Documents/ChatGPT/多模态/artifacts/BiomedCoOp服务器准备-20261014/small-resources/biomedclip-special_tokens_map.json",
+      "size": 125,
+      "checksum": "sha256:b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "official_git_blob_sha1": "a8b3208c2884c4efb86e49300fdd3dc877220cdf"
+    },
+    {
+      "id": "biomedbert-config-json",
+      "name": "biomedbert/config.json",
+      "relative_path": "models/biomedbert/config.json",
+      "url": "https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract/resolve/d673b8835373c6fa116d6d8006b33d48734e305d/config.json?download=true",
+      "local_source": "/Users/qixuanhao/Documents/ChatGPT/多模态/artifacts/BiomedCoOp服务器准备-20261014/small-resources/biomedbert-config.json",
+      "size": 385,
+      "checksum": "sha256:56bab767c02bc792897638feb8addc06d483d9c73769a5f554bbabea1f5507a1",
+      "official_git_blob_sha1": "f8a8cd37533eee7ab2f72c09890b360824352953"
+    },
+    {
+      "id": "biomedbert-tokenizer_config-json",
+      "name": "biomedbert/tokenizer_config.json",
+      "relative_path": "models/biomedbert/tokenizer_config.json",
+      "url": "https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract/resolve/d673b8835373c6fa116d6d8006b33d48734e305d/tokenizer_config.json?download=true",
+      "local_source": "/Users/qixuanhao/Documents/ChatGPT/多模态/artifacts/BiomedCoOp服务器准备-20261014/small-resources/biomedbert-tokenizer_config.json",
+      "size": 28,
+      "checksum": "sha256:53b6f42b8b8daddbdc6d3532c324187a92b46c1602bd6e8d4ad5a413b4fc90e1",
+      "official_git_blob_sha1": "a661b1a138dac6dc5590367402d100765010ffd6"
+    },
+    {
+      "id": "biomedbert-vocab-txt",
+      "name": "biomedbert/vocab.txt",
+      "relative_path": "models/biomedbert/vocab.txt",
+      "url": "https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract/resolve/d673b8835373c6fa116d6d8006b33d48734e305d/vocab.txt?download=true",
+      "local_source": "/Users/qixuanhao/Documents/ChatGPT/多模态/artifacts/BiomedCoOp服务器准备-20261014/small-resources/biomedbert-vocab.txt",
+      "size": 225062,
+      "checksum": "sha256:7b36651908a88bc38bda41b728b2a598191e0d3b553cbacf7b1e5f026d5b5b9f",
+      "official_git_blob_sha1": "9d65c8495e044c70ce1a30e2ae8e2f0b3738dbae"
+    },
+    {
+      "id": "dataset-BTMRI",
+      "name": "BTMRI.zip",
+      "relative_path": "archives/BTMRI.zip",
+      "url": "https://huggingface.co/datasets/TahaKoleilat/BiomedCoOp/resolve/c50b6304ea49623188dc7f0f470c511b48538108/BTMRI.zip?download=true",
+      "size": 111816363,
+      "checksum": "sha256:33bf2521f29daff197859ff85ed2e5659a109b67d0513fed06a18848df09a001"
+    },
+    {
+      "id": "biomedclip-weights",
+      "name": "BiomedCLIP基础权重",
+      "relative_path": "models/biomedclip/open_clip_pytorch_model.bin",
+      "url": "https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224/resolve/9f341de24bfb00180f1b847274256e9b65a3a32e/open_clip_pytorch_model.bin?download=true",
+      "size": 783705670,
+      "checksum": "sha256:52cc993c5c5ff962bd0c60931874bc001e7e9b41666a385530f4a036294576be"
+    },
+    {
+      "id": "dataset-CTKidney",
+      "name": "CTKidney.zip",
+      "relative_path": "archives/CTKidney.zip",
+      "url": "https://huggingface.co/datasets/TahaKoleilat/BiomedCoOp/resolve/c50b6304ea49623188dc7f0f470c511b48538108/CTKidney.zip?download=true",
+      "size": 1627698951,
+      "checksum": "sha256:e7d0cb65dab99b14a4fcf90a1915df44f13a9e4b8b4246fb3c4cae58dba44421"
+    },
+    {
+      "id": "dataset-BUSI",
+      "name": "BUSI.zip",
+      "relative_path": "archives/BUSI.zip",
+      "url": "https://huggingface.co/datasets/TahaKoleilat/BiomedCoOp/resolve/c50b6304ea49623188dc7f0f470c511b48538108/BUSI.zip?download=true",
+      "size": 193183244,
+      "checksum": "sha256:86fa28e23409d6cf193bb9d446afeccc1e0d25d5556c4863f0eb4c7c62e8909f"
+    },
+    {
+      "id": "dataset-CHMNIST",
+      "name": "CHMNIST.zip",
+      "relative_path": "archives/CHMNIST.zip",
+      "url": "https://huggingface.co/datasets/TahaKoleilat/BiomedCoOp/resolve/c50b6304ea49623188dc7f0f470c511b48538108/CHMNIST.zip?download=true",
+      "size": 251057048,
+      "checksum": "sha256:35440a677813de4760a30dc27e4a7a23d8f4d7d8742a61a2dcc91bfd23042df1"
+    },
+    {
+      "id": "dataset-COVID_19",
+      "name": "COVID_19.zip",
+      "relative_path": "archives/COVID_19.zip",
+      "url": "https://huggingface.co/datasets/TahaKoleilat/BiomedCoOp/resolve/c50b6304ea49623188dc7f0f470c511b48538108/COVID_19.zip?download=true",
+      "size": 779499071,
+      "checksum": "sha256:f9066d45ae206e9dac7795dcfd804db386487c255cb4f9b167077716dacc7849"
+    },
+    {
+      "id": "dataset-DermaMNIST",
+      "name": "DermaMNIST.zip",
+      "relative_path": "archives/DermaMNIST.zip",
+      "url": "https://huggingface.co/datasets/TahaKoleilat/BiomedCoOp/resolve/c50b6304ea49623188dc7f0f470c511b48538108/DermaMNIST.zip?download=true",
+      "size": 674608547,
+      "checksum": "sha256:378e236bff9b6212aa36770faea98491266eced730ba75e587fe14322ea5b416"
+    },
+    {
+      "id": "dataset-KneeXray",
+      "name": "KneeXray.zip",
+      "relative_path": "archives/KneeXray.zip",
+      "url": "https://huggingface.co/datasets/TahaKoleilat/BiomedCoOp/resolve/c50b6304ea49623188dc7f0f470c511b48538108/KneeXray.zip?download=true",
+      "size": 180792819,
+      "checksum": "sha256:6e22a11c6dcc0b4ddc09b5997ce84b5a21310dbc25898962287f017bdcaed36e"
+    },
+    {
+      "id": "dataset-Kvasir",
+      "name": "Kvasir.zip",
+      "relative_path": "archives/Kvasir.zip",
+      "url": "https://huggingface.co/datasets/TahaKoleilat/BiomedCoOp/resolve/c50b6304ea49623188dc7f0f470c511b48538108/Kvasir.zip?download=true",
+      "size": 1237066034,
+      "checksum": "sha256:b916171b104ee05cc2fb5451bcb9fb5a5710c58b760e20466547f7c01fb08cd9"
+    },
+    {
+      "id": "dataset-LungColon",
+      "name": "LungColon.zip",
+      "relative_path": "archives/LungColon.zip",
+      "url": "https://huggingface.co/datasets/TahaKoleilat/BiomedCoOp/resolve/c50b6304ea49623188dc7f0f470c511b48538108/LungColon.zip?download=true",
+      "size": 1890143468,
+      "checksum": "sha256:8b8a4862f8b5d0451728e81b177a9dc2ee0c8b9725039678622f6248526e940d"
+    },
+    {
+      "id": "dataset-OCTMNIST",
+      "name": "OCTMNIST.zip",
+      "relative_path": "archives/OCTMNIST.zip",
+      "url": "https://huggingface.co/datasets/TahaKoleilat/BiomedCoOp/resolve/c50b6304ea49623188dc7f0f470c511b48538108/OCTMNIST.zip?download=true",
+      "size": 3151185065,
+      "checksum": "sha256:15467290c8db0a0cb27aa341f1fdda8b354731ff5a8dde28dbad7e05121d1ad9"
+    },
+    {
+      "id": "dataset-RETINA",
+      "name": "RETINA.zip",
+      "relative_path": "archives/RETINA.zip",
+      "url": "https://huggingface.co/datasets/TahaKoleilat/BiomedCoOp/resolve/c50b6304ea49623188dc7f0f470c511b48538108/RETINA.zip?download=true",
+      "size": 771285695,
+      "checksum": "sha256:7c5c104f2117b7e6ecc92427bc3cb9c823a47414e1b3946bc51b35c7e3465539"
+    }
+  ]
+}

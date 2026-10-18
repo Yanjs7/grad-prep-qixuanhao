@@ -1,0 +1,58 @@
+{
+  "utc": "2026-10-15T23:04:53.186988+00:00",
+  "verified_configurations": 506,
+  "metrics_independently_recomputed": [
+    "accuracy_percent",
+    "balanced_accuracy_percent",
+    "macro_f1",
+    "macro_ovr_auroc"
+  ],
+  "AUROC_implementation": "ascending rank-sum with average ranks for tied probabilities; one-vs-rest macro mean",
+  "max_absolute_metric_error": {
+    "accuracy_percent": 1.4210854715202004e-14,
+    "balanced_accuracy_percent": 1.4210854715202004e-14,
+    "macro_f1": 2.220446049250313e-16,
+    "auroc": 2.220446049250313e-16
+  },
+  "prediction_rows_recomputed_across_reused_configurations": 1296050,
+  "unique_dataset_image_paths_not_unique_patients": 28175,
+  "exact_supports_and_test_orders_verified": true,
+  "summary_rows_verified": 165,
+  "all_overall_values_verified": true,
+  "actual_100_epoch_curves_verified": 330,
+  "eight_actual_error_examples_and_byte_SHA_verified": true,
+  "actual_released_splits_verified": 11,
+  "full_raw_datasets_or_model_weights_in_package": false,
+  "overall_accuracy": {
+    "BiomedCoOp": [
+      55.605265450363184,
+      59.36333288097726,
+      63.611124657946746,
+      69.00788640294026,
+      72.55222877300572
+    ],
+    "CoOp": [
+      49.81214538952735,
+      54.837559783964004,
+      60.834352527650864,
+      67.20169589928604,
+      70.91461183744269
+    ],
+    "LinearProbe": [
+      47.95463787021499,
+      54.90217025074646,
+      60.626885260735456,
+      65.6554337123936,
+      69.04051795611598
+    ],
+    "ZeroShot": [
+      42.04195581481695,
+      42.04195581481695,
+      42.04195581481695,
+      42.04195581481695,
+      42.04195581481695
+    ]
+  },
+  "verification_tool_sha256": "b68a92309cf0c156c1a56882f1184e326fba17c4a4ce89fd913e548212ca4376",
+  "report_sha256": "a500bbada95bcf771fe65dfa2051b3fbcc37c4658597b01bd0d9f1b7a63b9a14"
+}

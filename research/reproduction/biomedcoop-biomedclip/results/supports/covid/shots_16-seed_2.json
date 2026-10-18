@@ -1,0 +1,413 @@
+{
+  "train": [
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-936.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-890.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-1214.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-1339.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-1318.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-2362.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-838.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-1615.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-475.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-749.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-3473.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-905.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-2146.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-1934.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-3224.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-1772.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-5461.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-1274.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-5267.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-602.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-2197.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-4189.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-570.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-3929.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-918.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-4720.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-3787.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-4979.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-4294.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-4677.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-3004.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-1279.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-1220.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-6217.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-7676.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-5535.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-6444.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-7059.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-8558.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-3274.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-9069.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-3467.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-4344.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-4254.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-1163.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-3457.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-5641.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-3406.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-1240.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-726.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-435.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-732.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-819.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-1324.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-611.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-55.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-748.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-447.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-876.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-425.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-44.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-1283.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-524.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-642.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    }
+  ],
+  "val": [
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-742.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-3382.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-203.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/covid_lungs/COVID-3146.png",
+      "label": 0,
+      "classname": "covid lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-347.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-5563.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-5618.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/lung_opacity_lungs/Lung_Opacity-5756.png",
+      "label": 1,
+      "classname": "lung opacity lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-8464.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-8170.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-4047.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/normal_lungs/Normal-6939.png",
+      "label": 3,
+      "classname": "normal lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-85.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-882.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-619.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    },
+    {
+      "image": "COVID_19/COVID_19/viral_pneumonia_lungs/Viral Pneumonia-856.png",
+      "label": 2,
+      "classname": "viral pneumonia lungs"
+    }
+  ],
+  "classnames": [
+    "covid lungs",
+    "lung opacity lungs",
+    "viral pneumonia lungs",
+    "normal lungs"
+  ],
+  "test_count": 6351
+}

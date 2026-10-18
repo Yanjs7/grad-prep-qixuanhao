@@ -1,0 +1,53 @@
+{
+  "train": [
+    {
+      "image": "CTKidney/CTKidney/cyst_kidney/Cyst- (1485).jpg",
+      "label": 0,
+      "classname": "cyst kidney"
+    },
+    {
+      "image": "CTKidney/CTKidney/kidney_stone/Stone- (80).jpg",
+      "label": 1,
+      "classname": "kidney stone"
+    },
+    {
+      "image": "CTKidney/CTKidney/kidney_tumor/Tumor- (1237).jpg",
+      "label": 2,
+      "classname": "kidney tumor"
+    },
+    {
+      "image": "CTKidney/CTKidney/normal_kidney/Normal- (2868).jpg",
+      "label": 3,
+      "classname": "normal kidney"
+    }
+  ],
+  "val": [
+    {
+      "image": "CTKidney/CTKidney/cyst_kidney/Cyst- (1508).jpg",
+      "label": 0,
+      "classname": "cyst kidney"
+    },
+    {
+      "image": "CTKidney/CTKidney/kidney_stone/Stone- (919).jpg",
+      "label": 1,
+      "classname": "kidney stone"
+    },
+    {
+      "image": "CTKidney/CTKidney/kidney_tumor/Tumor- (69).jpg",
+      "label": 2,
+      "classname": "kidney tumor"
+    },
+    {
+      "image": "CTKidney/CTKidney/normal_kidney/Normal- (3099).jpg",
+      "label": 3,
+      "classname": "normal kidney"
+    }
+  ],
+  "classnames": [
+    "cyst kidney",
+    "kidney stone",
+    "kidney tumor",
+    "normal kidney"
+  ],
+  "test_count": 3738
+}

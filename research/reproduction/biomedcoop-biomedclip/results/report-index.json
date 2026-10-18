@@ -1,0 +1,147 @@
+[
+  {
+    "file": "BiomedCoOp完整主实验复现报告.md",
+    "bytes": 23252,
+    "sha256": "a500bbada95bcf771fe65dfa2051b3fbcc37c4658597b01bd0d9f1b7a63b9a14"
+  },
+  {
+    "file": "actual-data-ready-proof.json",
+    "bytes": 5016,
+    "sha256": "6d423aaa48f8a437f39822c1a49b38e506f1d1e1ca806c7c92b12760b735af3d"
+  },
+  {
+    "file": "actual-released-splits.csv",
+    "bytes": 1984,
+    "sha256": "9e83c13a4a9ea2620cc8f93d5669e0683b22c182785adfaac550b5ab9ad9f6b3"
+  },
+  {
+    "file": "all-main-completed-local-proof.json",
+    "bytes": 9394,
+    "sha256": "c74c37efe2dd7c63e43f4bc40e329d9172da7f90596d028448ca53b578948071"
+  },
+  {
+    "file": "completion-evidence.json",
+    "bytes": 259927,
+    "sha256": "0857caf3df273f9844e650d456678e191f42af152a8e88a3c3c307dc34e1bfd8"
+  },
+  {
+    "file": "displayed-example-image-provenance.csv",
+    "bytes": 1643,
+    "sha256": "6a996fb25e3d20ccbe2dc0fd0e2ab834a7f8540cd0944ba0f098517b32615c6e"
+  },
+  {
+    "file": "displayed-examples.csv",
+    "bytes": 1074,
+    "sha256": "a8cd4be74f70aaedb08937fdd44c641f4e45aa383b0ae6dada5cbf05bb332eec"
+  },
+  {
+    "file": "example-images/01-image05.jpg",
+    "bytes": 14920,
+    "sha256": "52e4471befeb91eea5a65e7d2b4f7156b889bdc757c9d49474ad413fede25732"
+  },
+  {
+    "file": "example-images/02-image1013.jpg",
+    "bytes": 16743,
+    "sha256": "fa99defdb6e194090b1675596aaa4d4d7657d1fd5884269b4ffeee8da32e2b6a"
+  },
+  {
+    "file": "example-images/03-image1113.jpg",
+    "bytes": 16929,
+    "sha256": "432fe1959d40f71f55d5504681e22cef5e871f0433cf3a40092d0fc0a92c790f"
+  },
+  {
+    "file": "example-images/04-image119.jpg",
+    "bytes": 20740,
+    "sha256": "de031cd29337aa16975048b36807dd769fd7f76a70dc8b479e33be199b090a35"
+  },
+  {
+    "file": "example-images/05-image1230.jpg",
+    "bytes": 14728,
+    "sha256": "72b7f325f897c7ce9a3f75d8436eab98fa4edc64961d5f4e870bd23bf9fa8e3c"
+  },
+  {
+    "file": "example-images/06-image1267.jpg",
+    "bytes": 13523,
+    "sha256": "42794ec07b12307980e87236b2071d427d9b7565abba6654ffe09d407a89add5"
+  },
+  {
+    "file": "example-images/07-image1303.jpg",
+    "bytes": 19458,
+    "sha256": "fcb6d335982535fac86f4e1d875ffe7dc79d9c0e74ffe8ea19d0d7eaa0c7883d"
+  },
+  {
+    "file": "example-images/08-image145.jpg",
+    "bytes": 17356,
+    "sha256": "92bea1292dca8ffb211a68f9c454bc14136d18ec2096e364fc4759116a5dd923"
+  },
+  {
+    "file": "figures/btmri-prediction-examples.pdf",
+    "bytes": 359388,
+    "sha256": "bdcb3377b5095882ab16ac71089d856e4f8f883067747e092dd23b3410b169a1"
+  },
+  {
+    "file": "figures/btmri-prediction-examples.png",
+    "bytes": 984622,
+    "sha256": "6426cb5daf96e5283ed3b7c4675fea16cdf1ca67b745f87395458bc8c690b850"
+  },
+  {
+    "file": "figures/few-shot-all-datasets.pdf",
+    "bytes": 45880,
+    "sha256": "c49a4e4d10ef13a21499d5955852895c04e61149cbd407617d491dddd20b8c66"
+  },
+  {
+    "file": "figures/few-shot-all-datasets.png",
+    "bytes": 388796,
+    "sha256": "22443c376616f900bcfc4d756e1956a157bab3c7572a5849a0e1fdb23bd9b04e"
+  },
+  {
+    "file": "figures/few-shot-overall.pdf",
+    "bytes": 17916,
+    "sha256": "64f16d81a931a599f450e251d0cf918214af601471a94f621fb14a730a527704"
+  },
+  {
+    "file": "figures/few-shot-overall.png",
+    "bytes": 103198,
+    "sha256": "c201368d5d0aa6a7ecdba09673d896470ae5a257bac34213d1c7580bce74a53c"
+  },
+  {
+    "file": "figures/paired-differences-16shot.pdf",
+    "bytes": 15237,
+    "sha256": "97aafba04e7225eee024b958f5f4bb5c66c6f89519fc0c5382f31614513855da"
+  },
+  {
+    "file": "figures/paired-differences-16shot.png",
+    "bytes": 80246,
+    "sha256": "3e26ddffd3a696f97341ecbef917243d52d6b04e6d87c280ff9c4ce05c0394f2"
+  },
+  {
+    "file": "figures/training-curves-btmri16.pdf",
+    "bytes": 16492,
+    "sha256": "4b4f7976e5d73a80094ed67a2df00dff41081756707bdad5da381facbe9a5e28"
+  },
+  {
+    "file": "figures/training-curves-btmri16.png",
+    "bytes": 106126,
+    "sha256": "5540634aeb0d659aabf5f4948b978b4172ad49c9be3584421c24a75f857e2cd2"
+  },
+  {
+    "file": "label-budgets.csv",
+    "bytes": 3442,
+    "sha256": "2ad2f504aeb8c0b4d19b58229771a4b080e9b5daca6c4718dc900700f2d623a1"
+  },
+  {
+    "file": "per-run-metrics.csv",
+    "bytes": 78132,
+    "sha256": "c2604354d316e64370de722e56097857c361c6d58e4e4bf1ae6bc9a8d2efda60"
+  },
+  {
+    "file": "report-enrichment-proof.json",
+    "bytes": 8122,
+    "sha256": "2553bcc618eeaba76b44d1f2b301eed2aca22c53183d07bc118ce3d7a16dd62f"
+  },
+  {
+    "file": "summary-metrics.csv",
+    "bytes": 20641,
+    "sha256": "5c311db1e906aa68f724e421d06ece8c847225a5ff6b4408b8362f22d92ed3f9"
+  }
+]

@@ -24,7 +24,8 @@
 | 项目 | 状态 | 当前进度 |
 | --- | --- | --- |
 | 论文阅读与笔记 | 持续完善 | 12 篇已有笔记，继续补充方法、实验与局限分析 |
-| 模型实现与实验 | 已有成果 | 3 项实践：FIVES 血管分割、ISIC 病灶平台、主动脉夹层CTA半监督研究 |
+| 模型实现与实验 | 已有成果 | 3项工程实践 + 1项论文主实验复现：FIVES、ISIC、CTA及BiomedCoOp / BiomedCLIP |
+| 论文复现 | 已完成BiomedCoOp主实验 | 11数据集、5个shot档位、3种子，506项配置；[图文报告](research/reproduction/biomedcoop-biomedclip/复现报告.md) |
 
 科研总览：[research/README.md](research/README.md)。
 
@@ -62,6 +63,7 @@
 | ISIC 2017 | ResNet18 / 三类分类 | 最佳验证宏平均 F1 0.7907，同轮准确率 81.33% | [实验报告](engineering/基于U-net和ResNet的皮肤病灶分析与分类平台/项目实验报告.md) |
 | 皮肤镜图像应用 | FastAPI Web 平台 | 图像上传、模型分析、历史查询、结果导出与打印 | [使用文档](engineering/基于U-net和ResNet的皮肤病灶分析与分类平台/readme.md) |
 | 公开CTA（AortaSeg主分析） | MASS + MIL + Mean Teacher / 夹层类别判别 | S0+ / S1 OOF AUROC 0.7316 / 0.7263；主差异区间跨0 | [第三项实践报告](engineering/主动脉夹层CTA半监督研究/项目实验报告.md) |
+| 11个医学分类数据集 | BiomedCLIP骨干 / BiomedCoOp少样本提示学习 | 506项配置完成；16-shot等权平均准确率72.55%，CoOp为70.91% | [复现报告](research/reproduction/biomedcoop-biomedclip/复现报告.md) |
 
 ## 科研学习
 
@@ -107,6 +109,17 @@
 | BiomedCoOp: Learning to Prompt for Biomedical Vision-Language Models | 医学视觉语言模型的少样本提示学习、语义一致性与知识蒸馏 | [PDF](research/papers/biomedcoop.pdf) | [BiomedCoOp 笔记](research/papernotes/biomedcoop.md) |
 
 
+
+### 3. 论文复现：BiomedCoOp / BiomedCLIP
+
+已完成以冻结BiomedCLIP为骨干的BiomedCoOp主实验，覆盖11个数据集、1/2/4/8/16-shot和3个种子：BiomedCoOp与CoOp各165次训练、线性探针165次拟合、零样本11次评估，共506项配置。
+
+![BiomedCoOp总体少样本结果](research/reproduction/biomedcoop-biomedclip/images/06-overall.png)
+
+16-shot下，BiomedCoOp跨数据集等权平均准确率为72.55%，CoOp为70.91%，线性探针为69.04%；相对CoOp高1.64个百分点，分数据集为6升5降。该结果不是BiomedCLIP预训练复现，也不表示全部数据集均有提升。
+
+- [图文复现报告与27幅图](research/reproduction/biomedcoop-biomedclip/复现报告.md)
+- [复现入口、代码、配置与文件说明](research/reproduction/biomedcoop-biomedclip/README.md)
 
 ## 工程实践
 

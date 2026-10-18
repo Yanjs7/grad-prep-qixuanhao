@@ -1,0 +1,36 @@
+{
+  "plan_sha256": "a69b43169203ed9e7bf94bed344b67d82a635e501bd424165c6c2ee5fdac981f",
+  "plan": "/root/BiomedCoOp/reports/main-study-freeze-v1-20261014/plan.json",
+  "probe_files": [
+    {
+      "path": "/root/BiomedCoOp/reports/cuda-probe-btmri16-20261014/probe-proof.json",
+      "sha256": "5277785142bdc28fc0867d9d39e3f9e03c276bd5ba10cf4371f9dc65a87553d7",
+      "bytes": 15869,
+      "mtime_ns": 1791986790633252191
+    },
+    {
+      "path": "/root/BiomedCoOp/reports/cuda-probe-chmnist16-20261014/probe-proof.json",
+      "sha256": "a525101c01360a37b92e427cf1a98d047ceefe501ee7abc371a64c1489f7ca4d",
+      "bytes": 32388,
+      "mtime_ns": 1791987219080682733
+    }
+  ],
+  "manifest": {
+    "path": "/root/BiomedCoOp/manifests/download-manifest.json",
+    "sha256": "f2ef4f51aabe951e30798742fe9652f02df59e777f164922bf0f04985f505313",
+    "bytes": 11197,
+    "mtime_ns": 1791985707959120986
+  },
+  "runner": {
+    "path": "/root/BiomedCoOp/tools/run_main_experiment.py",
+    "sha256": "6e4a428e51f54fbd9c87e4b86b672467d721c9bf02f751ba0f1c7c15a9ad43bb",
+    "bytes": 16467,
+    "mtime_ns": 1791987426133015718
+  },
+  "runtime_freeze": {
+    "path": "/root/BiomedCoOp/reports/runtime-freeze.txt",
+    "sha256": "7a57dce169ca3e01ccf3b1c36961202b66132dbf541f99254d635cc33ead40f7",
+    "bytes": 1302,
+    "mtime_ns": 1791986678161700761
+  }
+}

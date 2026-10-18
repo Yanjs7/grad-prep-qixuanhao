@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-15T23:02:20.396474+00:00",
+  "server_archive": {
+    "archive": "/root/BiomedCoOp/reports/main-final-delivery-20261014.tar.gz",
+    "bytes": 87932051,
+    "sha256": "883120a8069a5d752abbdffad07138ecb661cabdfaa1c0763846f984b4edd3ff",
+    "files": 3795,
+    "verified_jobs": 506,
+    "actual_figure_inspection_and_local_delivery_remaining": true
+  },
+  "local_archive": "/Users/qixuanhao/Documents/ChatGPT/多模态/artifacts/BiomedCoOp服务器准备-20261014/main-final-delivery-20261014.tar.gz",
+  "safe_tar_members": 4810,
+  "tar_regular_files": 3795,
+  "tar_uncompressed_bytes": 384142273,
+  "all_tar_paths_regular_or_directory_no_links_no_traversal": true,
+  "local_delivery_root": "/Users/qixuanhao/Documents/ChatGPT/多模态/artifacts/BiomedCoOp完整主实验交付-20261016",
+  "all_server_index_file_SHA_and_bytes_verified": 3794,
+  "exact_server_index_membership_verified": true,
+  "delivery_index_sha256": "78ce54da0c565e06ae3e63e6e8f45b7a3cdcbe76417c1647824c9610c5c18232",
+  "all_report_artifact_SHA_verified": true,
+  "server_verified_configurations": 506,
+  "server_verified_prompt_curves": 330,
+  "checkpoint_locations_stat_only": 660,
+  "full_raw_datasets_and_weights_included": false,
+  "eight_public_images_for_report_examples_only": true
+}

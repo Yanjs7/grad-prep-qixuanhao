@@ -1,0 +1,432 @@
+{
+  "created_date": "2026-10-18",
+  "purpose": "图文重排，使用既有实验，未新增训练或评估",
+  "pages": [
+    {
+      "page": 1,
+      "title": "BiomedCoOp 图文复现报告"
+    },
+    {
+      "page": 2,
+      "title": "先看三个发现"
+    },
+    {
+      "page": 3,
+      "title": "少标签时，让文本提示参与学习"
+    },
+    {
+      "page": 4,
+      "title": "从作者方法图理解三项约束"
+    },
+    {
+      "page": 5,
+      "title": "同一支持集，比较四种方法"
+    },
+    {
+      "page": 6,
+      "title": "11 个基准，覆盖多种医学影像"
+    },
+    {
+      "page": 7,
+      "title": "少量标注带来持续的总体收益"
+    },
+    {
+      "page": 8,
+      "title": "总体提升由哪些数据集贡献"
+    },
+    {
+      "page": 9,
+      "title": "脑部、超声与组织病理"
+    },
+    {
+      "page": 10,
+      "title": "胸部、肾脏与皮肤影像"
+    },
+    {
+      "page": 11,
+      "title": "膝关节、内镜与组织病理"
+    },
+    {
+      "page": 12,
+      "title": "眼科影像：OCT 与眼底照片"
+    },
+    {
+      "page": 13,
+      "title": "三个种子，呈现真实差异"
+    },
+    {
+      "page": 14,
+      "title": "从训练历史到完整测试集"
+    },
+    {
+      "page": 15,
+      "title": "八张真实 MRI 错误样例"
+    },
+    {
+      "page": 16,
+      "title": "高分类分数也可能预测错误"
+    },
+    {
+      "page": 17,
+      "title": "结果可追溯，差异有记录"
+    },
+    {
+      "page": 18,
+      "title": "复现完成，结论保持具体"
+    }
+  ],
+  "derived_figures": [
+    {
+      "file": "images/01-prompt-learning.png",
+      "description": "图文分类与可学习提示示意",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/02-three-objectives.png",
+      "description": "BiomedCoOp 三项训练目标示意",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/03-shared-supports.png",
+      "description": "共享支持集与三方法对照流程",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/04-study-scope.png",
+      "description": "506 个配置的实验范围",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/05-dataset-atlas.png",
+      "description": "11 个数据集与影像类型",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/06-overall.png",
+      "description": "11 数据集总体少样本准确率",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/07-shot-gains.png",
+      "description": "不同 shot 的相对收益",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/08-dataset-differences.png",
+      "description": "16-shot 各数据集配对均值差",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/20-seed-variation.png",
+      "description": "16-shot 三种子的实际准确率点",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/21-training-history.png",
+      "description": "BTMRI 两种提示方法的真实训练目标曲线",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/22-btmri-confusion.png",
+      "description": "BTMRI 完整测试集混淆矩阵",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/23-mri-gallery.png",
+      "description": "公开 MRI 测试集按顺序的前八个错误样例",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/24-case-high-score.png",
+      "description": "错误样例02与模型分类分数",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/25-case-ambiguous.png",
+      "description": "错误样例08与模型分类分数",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/26-verification.png",
+      "description": "实验与图像证据核验链",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/09-btmri-curve.png",
+      "description": "BTMRI 少样本准确率曲线",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/10-busi-curve.png",
+      "description": "BUSI 少样本准确率曲线",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/11-chmnist-curve.png",
+      "description": "CHMNIST 少样本准确率曲线",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/12-covid-curve.png",
+      "description": "COVID_19 少样本准确率曲线",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/13-ctkidney-curve.png",
+      "description": "CTKidney 少样本准确率曲线",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/14-dermamnist-curve.png",
+      "description": "DermaMNIST 少样本准确率曲线",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/15-kneexray-curve.png",
+      "description": "KneeXray 少样本准确率曲线",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/16-kvasir-curve.png",
+      "description": "Kvasir 少样本准确率曲线",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/17-lungcolon-curve.png",
+      "description": "LungColon 少样本准确率曲线",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/18-octmnist-curve.png",
+      "description": "OCTMNIST 少样本准确率曲线",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/19-retina-curve.png",
+      "description": "RETINA 少样本准确率曲线",
+      "type": "derived figure"
+    },
+    {
+      "file": "images/author-method.jpg",
+      "description": "作者发布的方法图，原图复用",
+      "type": "author source"
+    }
+  ],
+  "unique_original_mri_images": 8,
+  "original_mri_selection": "BTMRI BiomedCoOp 16-shot seed1 author test order first8 errors",
+  "summary_rows_read": 165,
+  "run_rows_read": 506,
+  "btmri_confusion_rows": 1717,
+  "btmri_confusion_matrix": [
+    [
+      357,
+      36,
+      3,
+      1
+    ],
+    [
+      74,
+      269,
+      58,
+      2
+    ],
+    [
+      100,
+      15,
+      323,
+      0
+    ],
+    [
+      21,
+      14,
+      9,
+      435
+    ]
+  ],
+  "overall_accuracy_percent": {
+    "BiomedCoOp": [
+      55.605265450363184,
+      59.36333288097726,
+      63.611124657946746,
+      69.00788640294026,
+      72.55222877300571
+    ],
+    "CoOp": [
+      49.81214538952736,
+      54.837559783964004,
+      60.83435252765085,
+      67.20169589928604,
+      70.91461183744269
+    ],
+    "LinearProbe": [
+      47.95463787021499,
+      54.90217025074646,
+      60.62688526073544,
+      65.6554337123936,
+      69.04051795611598
+    ],
+    "ZeroShot": [
+      42.04195581481696,
+      42.04195581481696,
+      42.04195581481696,
+      42.04195581481696,
+      42.04195581481696
+    ]
+  },
+  "sources": {
+    "original_delivery": "/Users/qixuanhao/Documents/ChatGPT/多模态/artifacts/BiomedCoOp完整主实验交付-20261016",
+    "summary": "report/summary-metrics.csv",
+    "predictions": "evidence/project/runs/main-v1-20261014/btmri/BiomedCoOp/shots_16/seed_1/predictions.csv"
+  },
+  "pdf": "BiomedCoOp图文复现报告.pdf",
+  "visual_inspection": {
+    "status": "complete",
+    "pages_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "final_changed_pages_reinspected": [
+      1,
+      3
+    ],
+    "unchanged_final_renders_match_reviewed_pixels": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "checks": [
+      "字号与坐标可读",
+      "图片和图注无重叠",
+      "MRI类别按support.json映射",
+      "8张公开原图SHA不变",
+      "负收益数据集保留",
+      "方法图箭头与实际图文两路编码一致"
+    ],
+    "renders": [
+      {
+        "page": 1,
+        "sha256": "2a00a9c7ba3bd81eb1e145fb0d373e2683b9fda4feafa88555e52a4a5eff4ae5"
+      },
+      {
+        "page": 2,
+        "sha256": "e07e79375083b86eaf310e2e5426fe12c579ac480d73f37e6d352f21e43caeaa"
+      },
+      {
+        "page": 3,
+        "sha256": "6e8d6747b1b63ba3fd3e2dd091350629fa68726aca0232fd1e409ec26bcbc456"
+      },
+      {
+        "page": 4,
+        "sha256": "04d887c3d7cfec4895e5cb1c11e6faa0cd03b228cee3b414839c89499c3dab48"
+      },
+      {
+        "page": 5,
+        "sha256": "86c95254d8d52613512a54004928843cf276c602a0014077026c790f58290f25"
+      },
+      {
+        "page": 6,
+        "sha256": "565a23151b65e8a3e2146ec8357dbe4f7bb0ddc8b1bf4679dbdfdd48b64f27d0"
+      },
+      {
+        "page": 7,
+        "sha256": "2b605430cc3c29965da21515d9550d796fb19ac55ab81f785157c13aaa753bc9"
+      },
+      {
+        "page": 8,
+        "sha256": "aad78030b9bb6c7d4caef93363c914d0c80ceafd09fb783bd6b9cb82b47f57ff"
+      },
+      {
+        "page": 9,
+        "sha256": "50ccd8fc657867abaa4371ab893b602ec2c502f852f5729a7004e5d0e72102c0"
+      },
+      {
+        "page": 10,
+        "sha256": "0ab92b1a027494fb6817e083946b9e3de04f0ed30bfbad7069cc0f991d64b376"
+      },
+      {
+        "page": 11,
+        "sha256": "823261c61224e95a2968bcf78b64a41e671ff8f5e358387d5dad14c8fdcc0586"
+      },
+      {
+        "page": 12,
+        "sha256": "088a3fa158b025f136aac6645f819e9e5f0241991ec56e33b36291d31d70c5f7"
+      },
+      {
+        "page": 13,
+        "sha256": "f4f2028bb12553046e47248323512348043f0e43127068911628c6b60ea57d43"
+      },
+      {
+        "page": 14,
+        "sha256": "c3cfa368702e5ade51468b134006be313182ed5eaeafe1beafb7cf1c2024b72e"
+      },
+      {
+        "page": 15,
+        "sha256": "77d91cdb11aa8139c4ad6d5652da84781b89984f201ea4ade37f245670b13238"
+      },
+      {
+        "page": 16,
+        "sha256": "7f3d7c07406775b29d6023741024ea0feb3aa40a648074d31ab82a7208afb537"
+      },
+      {
+        "page": 17,
+        "sha256": "d1f046eada30e8d5ec87e61da5e2be65b9bf45100c84e0999a92dd9edf016571"
+      },
+      {
+        "page": 18,
+        "sha256": "093d78172a05bd1511a63f2062d48a8dee01d87744c75a3f3b9e9e6a296d531f"
+      }
+    ]
+  },
+  "btmri_class_order": [
+    "glioma tumor",
+    "meningioma tumor",
+    "pituitary tumor",
+    "normal brain"
+  ],
+  "btmri_single_run_accuracy_percent": 80.60570762958649,
+  "source_file_sha256": {
+    "report/summary-metrics.csv": "5c311db1e906aa68f724e421d06ece8c847225a5ff6b4408b8362f22d92ed3f9",
+    "report/per-run-metrics.csv": "c2604354d316e64370de722e56097857c361c6d58e4e4bf1ae6bc9a8d2efda60",
+    "report/displayed-examples.csv": "a8cd4be74f70aaedb08937fdd44c641f4e45aa383b0ae6dada5cbf05bb332eec",
+    "report/displayed-example-image-provenance.csv": "6a996fb25e3d20ccbe2dc0fd0e2ab834a7f8540cd0944ba0f098517b32615c6e",
+    "evidence/project/runs/main-v1-20261014/btmri/BiomedCoOp/shots_16/seed_1/support.json": "371c2e385c6ecfabc4e09eb437128264e7784e4701414473715ce78f2b75f267",
+    "evidence/project/runs/main-v1-20261014/btmri/BiomedCoOp/shots_16/seed_1/predictions.csv": "6e9f22ae1b71a51cbf3f710a83f3ed8c5a77417ef2968bfabf62fde18fcc8af3"
+  },
+  "final_pdf_sha256": "2d880aff28f478de6fc48e1c59b061384d2d91c331fedad5380d7b1bd0dcc9dc",
+  "markdown_paragraph_revision": {
+    "scope": "合并短段落，补足结果解释与衔接，精简碎片化小标题",
+    "unchanged_images": 27,
+    "unchanged_experimental_results": true,
+    "markdown_sha256": "ba20dbc2e0a3a04c1d5ce14e9383f1d0143c1d893a3f6eb5becfd297573f6e6f",
+    "pdf_rebuilt": false
+  }
+}

@@ -1,0 +1,9 @@
+example,original_image,report_image,bytes,sha256,ground_truth,prediction,predicted_class_probability
+1,BTMRI/BTMRI/glioma_tumor/image05.jpg,example-images/01-image05.jpg,14920,52e4471befeb91eea5a65e7d2b4f7156b889bdc757c9d49474ad413fede25732,glioma tumor,meningioma tumor,0.7407529354095459
+2,BTMRI/BTMRI/glioma_tumor/image1013.jpg,example-images/02-image1013.jpg,16743,fa99defdb6e194090b1675596aaa4d4d7657d1fd5884269b4ffeee8da32e2b6a,glioma tumor,meningioma tumor,0.8724234700202942
+3,BTMRI/BTMRI/glioma_tumor/image1113.jpg,example-images/03-image1113.jpg,16929,432fe1959d40f71f55d5504681e22cef5e871f0433cf3a40092d0fc0a92c790f,glioma tumor,meningioma tumor,0.5204461216926575
+4,BTMRI/BTMRI/glioma_tumor/image119.jpg,example-images/04-image119.jpg,20740,de031cd29337aa16975048b36807dd769fd7f76a70dc8b479e33be199b090a35,glioma tumor,pituitary tumor,0.561999499797821
+5,BTMRI/BTMRI/glioma_tumor/image1230.jpg,example-images/05-image1230.jpg,14728,72b7f325f897c7ce9a3f75d8436eab98fa4edc64961d5f4e870bd23bf9fa8e3c,glioma tumor,meningioma tumor,0.6914857625961304
+6,BTMRI/BTMRI/glioma_tumor/image1267.jpg,example-images/06-image1267.jpg,13523,42794ec07b12307980e87236b2071d427d9b7565abba6654ffe09d407a89add5,glioma tumor,meningioma tumor,0.7432286739349365
+7,BTMRI/BTMRI/glioma_tumor/image1303.jpg,example-images/07-image1303.jpg,19458,fcb6d335982535fac86f4e1d875ffe7dc79d9c0e74ffe8ea19d0d7eaa0c7883d,glioma tumor,meningioma tumor,0.8510241508483887
+8,BTMRI/BTMRI/glioma_tumor/image145.jpg,example-images/08-image145.jpg,17356,92bea1292dca8ffb211a68f9c454bc14136d18ec2096e364fc4759116a5dd923,glioma tumor,pituitary tumor,0.4834422171115875

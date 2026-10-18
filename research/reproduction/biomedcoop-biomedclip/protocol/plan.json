@@ -1,0 +1,3179 @@
+{
+  "frozen_utc": "2026-10-14T14:17:32.425168+00:00",
+  "run_id": "main-v1-20261014",
+  "scope": "complete main experiments and the three agreed comparators; no extensions or ablations",
+  "datasets": [
+    "btmri",
+    "busi",
+    "chmnist",
+    "covid",
+    "ctkidney",
+    "dermamnist",
+    "kneexray",
+    "kvasir",
+    "lungcolon",
+    "octmnist",
+    "retina"
+  ],
+  "dataset_directories": {
+    "btmri": "BTMRI",
+    "busi": "BUSI",
+    "chmnist": "CHMNIST",
+    "covid": "COVID_19",
+    "ctkidney": "CTKidney",
+    "dermamnist": "DermaMNIST",
+    "kneexray": "KneeXray",
+    "kvasir": "Kvasir",
+    "lungcolon": "LungColon",
+    "octmnist": "OCTMNIST",
+    "retina": "RETINA"
+  },
+  "shots": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "methods": [
+    "BiomedCoOp",
+    "CoOp",
+    "LinearProbe",
+    "ZeroShot"
+  ],
+  "prompt_runs": 330,
+  "linear_probe_runs": 165,
+  "zero_shot_evaluations": 11,
+  "total_jobs": 506,
+  "precision": "fp32",
+  "train_batch": 4,
+  "test_batch": 16,
+  "workers": 2,
+  "prompt_epochs": 100,
+  "model_selection": "last_step, not test-selected",
+  "code_commit": "23710b0b867e8cb4a5ea95b0ccbaa5e35203db0d",
+  "model_sha256": "52cc993c5c5ff962bd0c60931874bc001e7e9b41666a385530f4a036294576be",
+  "model_binding": {
+    "path": "/root/BiomedCoOp/models/biomedclip/open_clip_pytorch_model.bin",
+    "sha256": "52cc993c5c5ff962bd0c60931874bc001e7e9b41666a385530f4a036294576be",
+    "bytes": 783705670,
+    "mtime_ns": 1791986006852364152
+  },
+  "runner_sha256": "6e4a428e51f54fbd9c87e4b86b672467d721c9bf02f751ba0f1c7c15a9ad43bb",
+  "source_bindings": [
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/.flake8",
+      "sha256": "f92482b900fbaac367f6f7ea1379cd9bd7bbc974ef41c55a6316509876958566",
+      "bytes": 577,
+      "mtime_ns": 1791985786533274198
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/.gitignore",
+      "sha256": "c57fcd6882973178a80f5c36ef2c1d8948b15170d9d061fc7e2641f315314fe0",
+      "bytes": 1888,
+      "mtime_ns": 1791985786533429882
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/.isort.cfg",
+      "sha256": "5c77541b5c69cdc24ceda4b146100223c88b6aa0d18612602cde67b349380653",
+      "bytes": 315,
+      "mtime_ns": 1791985786533571195
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/.style.yapf",
+      "sha256": "8d6bd2b69e03b62f6120103d57a2baca3549af8e783c88af402899d13fdbf6de",
+      "bytes": 222,
+      "mtime_ns": 1791985786533679450
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/DATASETS.md",
+      "sha256": "4c8c73918d172fe5b8b98056e01e2f722a8517fab71f5bce864f36926addf26b",
+      "bytes": 7446,
+      "mtime_ns": 1791985786533782037
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/LICENSE",
+      "sha256": "92bcf1e961ce7ac07ef07243ff34bb8f228a8e180207b88f0455fd68c248e2e3",
+      "bytes": 1064,
+      "mtime_ns": 1791985786533933990
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/README.md",
+      "sha256": "30cafe541e65666670ced63a87c60194dc5c1f4b0a496d56d798650c1644072b",
+      "bytes": 22588,
+      "mtime_ns": 1791985786534043332
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/README.md",
+      "sha256": "99c51c767f0abbf9dd38cac4122625964c0d49cc6e3ddda300a47f027c77b59b",
+      "bytes": 331,
+      "mtime_ns": 1791985786534358871
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/datasets/da/cifar_stl.yaml",
+      "sha256": "9526631742b7c06355ae19e475853ffc18275232b3dc790e937be8d0deea27ee",
+      "bytes": 111,
+      "mtime_ns": 1791985786534602755
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/datasets/da/digit5.yaml",
+      "sha256": "6e4e1ec916f2ce91982553aa3d85fdcde30e1db4a4f3037f99f18cb1bae3d598",
+      "bytes": 186,
+      "mtime_ns": 1791985786534704995
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/datasets/da/domainnet.yaml",
+      "sha256": "26c5a615c41106645675e3f8b31fd221097cb157c12dfa0a44a3b631b5c17df1",
+      "bytes": 162,
+      "mtime_ns": 1791985786534808435
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/datasets/da/mini_domainnet.yaml",
+      "sha256": "ea59136a7bedf6eae9ab60bad4e788e2fd6107e5d135bc7bc31f44514594c2d2",
+      "bytes": 163,
+      "mtime_ns": 1791985786534912190
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/datasets/da/office31.yaml",
+      "sha256": "eea7464a073aa128d7745cce59d2aab0f3107c3ce8254b9084a50c994dedb4e1",
+      "bytes": 225,
+      "mtime_ns": 1791985786535024584
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/datasets/da/office_home.yaml",
+      "sha256": "6cdfee88cbd0c949856b860d425ac7b591a8d034d7fe9358db5c0cf6a08d555e",
+      "bytes": 56,
+      "mtime_ns": 1791985786535122567
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/datasets/da/visda17.yaml",
+      "sha256": "316b8f7710ff3d12613dfebfd16a09fa0803a2a785a741564c1f03f7b4c384ea",
+      "bytes": 185,
+      "mtime_ns": 1791985786535224452
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/datasets/dg/cifar100_c.yaml",
+      "sha256": "10c4cea42c7a3571c776f7c5df7d7587e4597ff12c9cacf2ec6b273bd9f8fc45",
+      "bytes": 260,
+      "mtime_ns": 1791985786535353984
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/datasets/dg/cifar10_c.yaml",
+      "sha256": "edbdc088a3d9b1460eeaa48fc502dd7d65ba3a5492ac633464ae5cadcfcdf9e9",
+      "bytes": 259,
+      "mtime_ns": 1791985786535476029
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/datasets/dg/digit_single.yaml",
+      "sha256": "b7b1c62e21e27fa76acf0383d909ab31e7a2b01079ce2e759a1350df1222ad7c",
+      "bytes": 190,
+      "mtime_ns": 1791985786535586192
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/datasets/dg/digits_dg.yaml",
+      "sha256": "756c6cbd36baed44e51acb396ca6a9d9c5e162c81e051afa7557d92dd26c09ea",
+      "bytes": 184,
+      "mtime_ns": 1791985786535692968
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/datasets/dg/office_home_dg.yaml",
+      "sha256": "09fac1e1520aedec8bad5c81e42760be6ccaa99dff5bb0dcfc3d4356b819fe71",
+      "bytes": 185,
+      "mtime_ns": 1791985786535796425
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/datasets/dg/pacs.yaml",
+      "sha256": "747ee6be6925346b238deaf5c8d6e0863a58ecacb93a0dcf4a91d55b340ea35c",
+      "bytes": 177,
+      "mtime_ns": 1791985786535902628
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/datasets/dg/vlcs.yaml",
+      "sha256": "fe6c4c191371876ccae5c2d4aaad4be9040ede8fa73fa757e8ad10c4eb220042",
+      "bytes": 177,
+      "mtime_ns": 1791985786536006305
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/datasets/ssl/cifar10.yaml",
+      "sha256": "ab9e6c62d124fb49dee9e1c33180bc604a7b5fe447e761accc8530a040d41450",
+      "bytes": 255,
+      "mtime_ns": 1791985786536161820
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/datasets/ssl/cifar100.yaml",
+      "sha256": "b4642da49ff28cc31eacd53c3f983854075ab524f737d8c093377896d462ef73",
+      "bytes": 275,
+      "mtime_ns": 1791985786536269861
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/datasets/ssl/stl10.yaml",
+      "sha256": "7823047f1e76daa4af9678efe8498a609aba53a6f3cb53bd5e4b2bc8b41d084c",
+      "bytes": 249,
+      "mtime_ns": 1791985786536377177
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/datasets/ssl/svhn.yaml",
+      "sha256": "bf1af6b84d04f74379944d51db42107449057e6307790119ff122a9201ab6a53",
+      "bytes": 255,
+      "mtime_ns": 1791985786536506563
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/da/dael/digit5.yaml",
+      "sha256": "087c5d2fd0f3ce31c71a1f50386d248f743e24b964993102b94d929b5073e88f",
+      "bytes": 318,
+      "mtime_ns": 1791985786536766174
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/da/dael/domainnet.yaml",
+      "sha256": "0296fa2418210340bbd314e7e92892eb6b1f801c1cc8b6914220354895befc82",
+      "bytes": 341,
+      "mtime_ns": 1791985786536880756
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/da/dael/mini_domainnet.yaml",
+      "sha256": "cbc562c29e124429e3d1f0452ce03b79ddba768facd8c0a895bdb97dffe60517",
+      "bytes": 344,
+      "mtime_ns": 1791985786536991105
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/da/m3sda/digit5.yaml",
+      "sha256": "fef9b4f6415612a5445f8bf0a3457681def02db5e648d3e995f9f8aff47da0d4",
+      "bytes": 247,
+      "mtime_ns": 1791985786537156276
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/da/m3sda/domainnet.yaml",
+      "sha256": "c2c68222ad1951e7237f3d411033e167ca458049c2b6578c2f55af413c8f3b5b",
+      "bytes": 245,
+      "mtime_ns": 1791985786537269462
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/da/m3sda/mini_domainnet.yaml",
+      "sha256": "a3ac59173140503d04b783cfcafe69c6770ae28956d2b8200064094ec77d1cfc",
+      "bytes": 248,
+      "mtime_ns": 1791985786537385124
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/da/source_only/digit5.yaml",
+      "sha256": "f21974a213c36e0d63740e36c0f34244411ccc90c193a7e91bdbffc735a03630",
+      "bytes": 161,
+      "mtime_ns": 1791985786537561911
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/da/source_only/mini_domainnet.yaml",
+      "sha256": "9768d5dc8ee109d354107d12bce791cc2bb9b41e282bc311b3db73825d9d7263",
+      "bytes": 162,
+      "mtime_ns": 1791985786537672190
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/da/source_only/office31.yaml",
+      "sha256": "a6b1ebd7bb7fc38964ccc05d1f363a7244e361064c42b32d1cef36ebb45867fa",
+      "bytes": 135,
+      "mtime_ns": 1791985786537781781
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/da/source_only/visda17.yaml",
+      "sha256": "6939bf15fb3352b974aa46a64facac2b66a06e8c295e75d45d852dfb6f19d330",
+      "bytes": 183,
+      "mtime_ns": 1791985786537896690
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/dg/dael/digits_dg.yaml",
+      "sha256": "ea6f0675724b4626e82a1027a9e3efe451d0a3f7f04638e93d1d0a253d8201d1",
+      "bytes": 242,
+      "mtime_ns": 1791985786538125685
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/dg/dael/office_home_dg.yaml",
+      "sha256": "676fb3138494cb7abbba246c0aaaf92c1bcf65a161c5fefdf8f5d8e895106df7",
+      "bytes": 275,
+      "mtime_ns": 1791985786538231354
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/dg/dael/pacs.yaml",
+      "sha256": "676fb3138494cb7abbba246c0aaaf92c1bcf65a161c5fefdf8f5d8e895106df7",
+      "bytes": 275,
+      "mtime_ns": 1791985786538334062
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/dg/ddaig/digits_dg.yaml",
+      "sha256": "5066d65f3d0f7598dec92531abb4fba1d1971ff9958185459267de2bf91035c7",
+      "bytes": 258,
+      "mtime_ns": 1791985786538475992
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/dg/ddaig/office_home_dg.yaml",
+      "sha256": "b1f68950578f3df5afc3732b3658f65bc3c4313d91e86120dda676c331e9b06f",
+      "bytes": 272,
+      "mtime_ns": 1791985786538589475
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/dg/ddaig/pacs.yaml",
+      "sha256": "b1f68950578f3df5afc3732b3658f65bc3c4313d91e86120dda676c331e9b06f",
+      "bytes": 272,
+      "mtime_ns": 1791985786538698113
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/dg/vanilla/digits_dg.yaml",
+      "sha256": "922df85968504075be54081a94a3ff0d57b66c6849cceda3bd12f8679f4c6634",
+      "bytes": 178,
+      "mtime_ns": 1791985786538862062
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/dg/vanilla/mini_domainnet.yaml",
+      "sha256": "9768d5dc8ee109d354107d12bce791cc2bb9b41e282bc311b3db73825d9d7263",
+      "bytes": 162,
+      "mtime_ns": 1791985786538972945
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/dg/vanilla/office_home_dg.yaml",
+      "sha256": "889357d84bc3635b2ac25227ab5ce078e2726a3260a67e30f205b3934e5215e8",
+      "bytes": 161,
+      "mtime_ns": 1791985786539081444
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/dg/vanilla/pacs.yaml",
+      "sha256": "889357d84bc3635b2ac25227ab5ce078e2726a3260a67e30f205b3934e5215e8",
+      "bytes": 161,
+      "mtime_ns": 1791985786539191393
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/configs/trainers/ssl/fixmatch/cifar10.yaml",
+      "sha256": "6267d8d88945e03f14ebb7ab0340a6d35e397cf1fbcac6659ca60968d79e6591",
+      "bytes": 373,
+      "mtime_ns": 1791985786539425395
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/__init__.py",
+      "sha256": "90300f6785e00da58d1d821a758565952e9c2514bceced07696d77430570e9ef",
+      "bytes": 443,
+      "mtime_ns": 1791985786539563351
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/config/__init__.py",
+      "sha256": "f5f8643f04554c93ab52b2c6c5794c6866a83a5e0fc102e918f92e39bfaa232a",
+      "bytes": 96,
+      "mtime_ns": 1791985786539719760
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/config/defaults.py",
+      "sha256": "75dee5bbd0ff3ffe8d6d3a9c3b46acafc32384fd3451a9a27d42b427a28daa0a",
+      "bytes": 8752,
+      "mtime_ns": 1791985786539821456
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/__init__.py",
+      "sha256": "a9db83252d7644cfbf8274de1f59780e3baf1b04c8709e1ae0d96b8e0807f4b7",
+      "bytes": 54,
+      "mtime_ns": 1791985786540040854
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/data_manager.py",
+      "sha256": "84f10c23fc261db2d1a2f27af2634f73ffd576fac23ebc5d8c4cc394476313d3",
+      "bytes": 8069,
+      "mtime_ns": 1791985786540143087
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/__init__.py",
+      "sha256": "f451f85d8162af5b0e94eef0108c39d2f6da24129070d88955fd15d6c72cc2bb",
+      "bytes": 180,
+      "mtime_ns": 1791985786540348716
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/base_dataset.py",
+      "sha256": "b63f538a533361d14029d5487bce2f1fda7718c9218643fc7d0f6e98680a8a5c",
+      "bytes": 6252,
+      "mtime_ns": 1791985786540462742
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/build.py",
+      "sha256": "ae96d1e216926ebdac6f8569e281972bf17bafdd311eb0791d1626a9b078a3b9",
+      "bytes": 368,
+      "mtime_ns": 1791985786540619372
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/da/__init__.py",
+      "sha256": "36047cec8f245ddcb1646e9367b6fef221334d8afcb2cd6505c8190dc52322e5",
+      "bytes": 229,
+      "mtime_ns": 1791985786540785826
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/da/cifarstl.py",
+      "sha256": "10a26727f2c8a801571abf14ba95d180409e0b5c17f4a954e68f4b7e5831a143",
+      "bytes": 2309,
+      "mtime_ns": 1791985786540894177
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/da/digit5.py",
+      "sha256": "e885d5b624f3d396b95957d493ffe76f1fc33f08589ad41bf58b1ec602b1a62a",
+      "bytes": 4109,
+      "mtime_ns": 1791985786541018349
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/da/domainnet.py",
+      "sha256": "011db8795b246f3c3db0e6b99afe546cf41ef4076c8556a6aea7f8c2ffc58219",
+      "bytes": 2304,
+      "mtime_ns": 1791985786541156860
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/da/mini_domainnet.py",
+      "sha256": "935c9a4ec893dde9198550cd9f5b38bdf6c8aa636838d24f67f5e35da24a0d67",
+      "bytes": 1978,
+      "mtime_ns": 1791985786541279793
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/da/office31.py",
+      "sha256": "703c56009852384c0c061d2c9e68fa0fbf280563b23764842d394ebc7994880a",
+      "bytes": 1952,
+      "mtime_ns": 1791985786541400115
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/da/office_home.py",
+      "sha256": "69a02a045b56209878754132e3ca310d3f8703d9ebbd31c10f93c304ce665965",
+      "bytes": 2013,
+      "mtime_ns": 1791985786541531210
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/da/visda17.py",
+      "sha256": "5874affa39ef911073b9727817af75b37e3caab84d1a3f930e13c71e3b0d70ee",
+      "bytes": 1765,
+      "mtime_ns": 1791985786541654988
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/dg/__init__.py",
+      "sha256": "e7ae6543cffdb5775ddf3a3a9054897f86e593f0f6f990e2f3af8ac98112b6ff",
+      "bytes": 198,
+      "mtime_ns": 1791985786541840980
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/dg/cifar_c.py",
+      "sha256": "58b23e1011fdcb8056e95b56a99e3edc151918abf508957f8470c23b3a1f6f37",
+      "bytes": 3248,
+      "mtime_ns": 1791985786541949115
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/dg/digit_single.py",
+      "sha256": "069cca5ebb9f12d607edef2f26bcacb1c613a2a50bdffffff26e4aac55c54d7a",
+      "bytes": 4315,
+      "mtime_ns": 1791985786542077405
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/dg/digits_dg.py",
+      "sha256": "26f4fef79c4630f6441c4986bbd8084c34182bd6db5879f910c8fe050cdd1c5d",
+      "bytes": 3220,
+      "mtime_ns": 1791985786542217703
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/dg/office_home_dg.py",
+      "sha256": "5237d18f1b5121091352add3cad65c2fe044540b78586abafeea69d1703ab44d",
+      "bytes": 1564,
+      "mtime_ns": 1791985786542350385
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/dg/pacs.py",
+      "sha256": "a7cc0f10c720098f8a3b29379a6d38801fe294f4d06f43fb1b453fbcbdc94b1d",
+      "bytes": 3174,
+      "mtime_ns": 1791985786542478072
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/dg/vlcs.py",
+      "sha256": "fba407f76aa656741d041717508d06ec2e738eea3245f446be8641a71e173b6b",
+      "bytes": 1895,
+      "mtime_ns": 1791985786542606326
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/ssl/__init__.py",
+      "sha256": "ee91948848387da87970181695025a7d3a29d15caa7f3f1c58a83ef86e9a8c30",
+      "bytes": 85,
+      "mtime_ns": 1791985786542788251
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/ssl/cifar.py",
+      "sha256": "191e2f957608182e065e884f28e801e32fa66c9e79aabe6ab9845427ee54e27f",
+      "bytes": 3252,
+      "mtime_ns": 1791985786542899274
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/ssl/stl10.py",
+      "sha256": "b8f2f2bbf678f6b527bfc5018d91994409bf9b244f973a69c457fd3cced6b437",
+      "bytes": 2712,
+      "mtime_ns": 1791985786543027348
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/datasets/ssl/svhn.py",
+      "sha256": "bd6ff6baad826e8fe43d14d77dc8180dd6fb5d7f254eba0d3aa44a4badbf3465",
+      "bytes": 361,
+      "mtime_ns": 1791985786543153120
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/samplers.py",
+      "sha256": "06bd592ca2e52b59d5f68bcbb5a987e81f7d3959ea638e5dae2211583326f269",
+      "bytes": 6660,
+      "mtime_ns": 1791985786543313360
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/transforms/__init__.py",
+      "sha256": "7e1ac24903a96875bb85348bc38bfb96d7c2700f0afc76041bb67b7aeb59964f",
+      "bytes": 40,
+      "mtime_ns": 1791985786543461033
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/transforms/autoaugment.py",
+      "sha256": "0ecbff1244396c8a944139a98cdf677c6dea0fd254565c9a047c7a72707963b4",
+      "bytes": 11840,
+      "mtime_ns": 1791985786543572628
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/transforms/randaugment.py",
+      "sha256": "d98e106911803e39522f6efb35a8c1f83fa37c895328a1e094edbf39359dd1ce",
+      "bytes": 8715,
+      "mtime_ns": 1791985786543727592
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/data/transforms/transforms.py",
+      "sha256": "ba72f187df485469c8e2270e96ff4781a342f82b540f4790aff7c34b6840c98c",
+      "bytes": 10226,
+      "mtime_ns": 1791985786543886251
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/__init__.py",
+      "sha256": "91eb87dab342bfdecae552699606c677f1c7f991f4dc473f688585ab1767b4e2",
+      "bytes": 215,
+      "mtime_ns": 1791985786544112953
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/build.py",
+      "sha256": "c6e9aa7dc2b93d45d62c968119ce0cc166013fbc6d17f1f6f25f678a3ee1839b",
+      "bytes": 368,
+      "mtime_ns": 1791985786544218772
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/da/__init__.py",
+      "sha256": "3dfb8588aead7b678541e3dfafff40ca07288d8f12e65c3c1b684b3043c0cbfd",
+      "bytes": 241,
+      "mtime_ns": 1791985786544378573
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/da/adabn.py",
+      "sha256": "b17318ee97a4ac378b9018d47fd5e54743bd9d435f859b75514c7c6f59c4e981",
+      "bytes": 986,
+      "mtime_ns": 1791985786544498497
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/da/adda.py",
+      "sha256": "5963ea37980c6b0902dbb24bae88f6575b0badc53db24dc86b0bf612e5fb2c63",
+      "bytes": 2847,
+      "mtime_ns": 1791985786544617548
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/da/dael.py",
+      "sha256": "bcc653aaaf46176c118ae36a03e4b48979e4c649fecca9be22b52db0eb7de62c",
+      "bytes": 7522,
+      "mtime_ns": 1791985786544741757
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/da/dann.py",
+      "sha256": "82086da7c577cc9455879c21a420a30f07bfd6dc312456d53614afbd5cc68c59",
+      "bytes": 2661,
+      "mtime_ns": 1791985786544890580
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/da/m3sda.py",
+      "sha256": "6ac6e245501170d28917a7d856c084cc5f50a9900243770f5f7516681b0c6363",
+      "bytes": 6194,
+      "mtime_ns": 1791985786545016555
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/da/mcd.py",
+      "sha256": "9e5e07b634c8ae8186b97f33b536b6386679b668a48ccba4dd947683f81194da",
+      "bytes": 3593,
+      "mtime_ns": 1791985786545157192
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/da/mme.py",
+      "sha256": "cc0cd3e39d70e541eec4e32f87d58fe29e30cfa9ef2efc73028448f3b8d0a3c4",
+      "bytes": 2693,
+      "mtime_ns": 1791985786545280977
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/da/self_ensembling.py",
+      "sha256": "e03a7fb2550e09af00d652269447b5c535086140888c13fb134ec382b3ccaede",
+      "bytes": 2516,
+      "mtime_ns": 1791985786545406052
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/da/source_only.py",
+      "sha256": "2b79b8ca5e464a1532caa58c9640a1110a5e23dd4d79aca36848996376a88dfc",
+      "bytes": 996,
+      "mtime_ns": 1791985786545539889
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/dg/__init__.py",
+      "sha256": "2a766747bb88e112bf401ecc45de059023a478da6f11ca5159761afbd3a0809b",
+      "bytes": 114,
+      "mtime_ns": 1791985786545707010
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/dg/crossgrad.py",
+      "sha256": "f87a0c117d09a1bade24d366dde3d20d56a843744d3ad38bccefc2c45d3d56b1",
+      "bytes": 2896,
+      "mtime_ns": 1791985786545811103
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/dg/daeldg.py",
+      "sha256": "d838b968776544dd0f4e9d129a9e5591d7271fca42f78131e2cd925dc51ff355",
+      "bytes": 5550,
+      "mtime_ns": 1791985786545937348
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/dg/ddaig.py",
+      "sha256": "d6a1b07732b705db91fef2b578e24d7922c40d5a5dbd7df962ccb5d8a663560f",
+      "bytes": 3709,
+      "mtime_ns": 1791985786546079787
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/dg/vanilla.py",
+      "sha256": "f6637f3add707c163ac6275117ca71f329c9cbf909b39b5bd852eb8172fe78bc",
+      "bytes": 884,
+      "mtime_ns": 1791985786546204044
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/ssl/__init__.py",
+      "sha256": "015d3582a1b0cd68c17a73d1480865fe0248135454d5e21bcb0cd6d374a73fc1",
+      "bytes": 165,
+      "mtime_ns": 1791985786546366134
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/ssl/entmin.py",
+      "sha256": "3d142862eb432afe0653766d35e450c7825223fdc47b6619c647cd834c474691",
+      "bytes": 1162,
+      "mtime_ns": 1791985786546484248
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/ssl/fixmatch.py",
+      "sha256": "4cf65f35847958bc465a2e365c0a81e9f59b685de6f025afcd762effab8a755b",
+      "bytes": 4063,
+      "mtime_ns": 1791985786546602153
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/ssl/mean_teacher.py",
+      "sha256": "5b17d5e4dec710c54370ce80b855099e312e4ee8cc5363af4d6ea73dc20785eb",
+      "bytes": 1757,
+      "mtime_ns": 1791985786546734108
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/ssl/mixmatch.py",
+      "sha256": "9a114aff2e5847ac6e68fcdb4cee7d9b956a481a8720dc495015d726a8ac2328",
+      "bytes": 3119,
+      "mtime_ns": 1791985786546853925
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/ssl/sup_baseline.py",
+      "sha256": "e05224c352f8eda45d6402c9e13fd056ce1f759493154b98376107b159221b8f",
+      "bytes": 930,
+      "mtime_ns": 1791985786546978144
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/engine/trainer.py",
+      "sha256": "1b6dca6850c6670b9f70cd9711bf8bd1f2e6329b056fa7d0f1589a9430d9e676",
+      "bytes": 26173,
+      "mtime_ns": 1791985786547235730
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/evaluation/__init__.py",
+      "sha256": "877d8f5762fa50d3c2394c5c0752e8e3fd78c65fa1f5b0acc9de36c0e7fa3642",
+      "bytes": 123,
+      "mtime_ns": 1791985786547392221
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/evaluation/build.py",
+      "sha256": "b0030da809990b5a42b1b4c0fd6eda564ed17f856ac04d83d7dd93fb512e4aed",
+      "bytes": 410,
+      "mtime_ns": 1791985786547508756
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/evaluation/evaluator.py",
+      "sha256": "4a8c319460a0f23ba2b677b300a9e4742e2e1a758266fd19c8671efd2006837a",
+      "bytes": 3850,
+      "mtime_ns": 1791985786547616334
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/metrics/__init__.py",
+      "sha256": "aab20acedce5d9e1b370a28b3dc43c4a320685b996c3a79304900c0c80f27385",
+      "bytes": 138,
+      "mtime_ns": 1791985786547798579
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/metrics/accuracy.py",
+      "sha256": "1826ef2dde1ed20c1674ef40d5d6f5a5475faae7eeea9da3aff8190bfb450441",
+      "bytes": 972,
+      "mtime_ns": 1791985786547905209
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/metrics/distance.py",
+      "sha256": "0b53c3e95ab9c02d7eaf6c780311c1cfd8a64e5017ab762c77e832b9cc2a3371",
+      "bytes": 2247,
+      "mtime_ns": 1791985786548015003
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/__init__.py",
+      "sha256": "9135c4492d32016444082a31714529ff392800ef4f2313042cf803b8b304ea0f",
+      "bytes": 163,
+      "mtime_ns": 1791985786548184483
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/backbone/__init__.py",
+      "sha256": "0550ac207b64afebbd80784784b292f8b49d0697894c4b261e8b4daf47dc32c9",
+      "bytes": 1175,
+      "mtime_ns": 1791985786548341334
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/backbone/alexnet.py",
+      "sha256": "54095dd19ac913092fb51b7171892ec1c99040a6631411eacc9ce196bfd176ab",
+      "bytes": 1908,
+      "mtime_ns": 1791985786548463806
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/backbone/backbone.py",
+      "sha256": "800fd64f3ebc3d37f3721b4f62dfdaf1e8472bdd036c0dff8255bfb2fe4611d9",
+      "bytes": 336,
+      "mtime_ns": 1791985786548583924
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/backbone/build.py",
+      "sha256": "ecc84da802b2326dfabb27dbe8007635c24d63bedace334524ad821a576247d7",
+      "bytes": 358,
+      "mtime_ns": 1791985786548692947
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/backbone/cnn_digit5_m3sda.py",
+      "sha256": "ce7dd5fa49c90b6da47473ab2d0de47d96e51c1ab14ca8ab874bf6129ab67c2a",
+      "bytes": 1819,
+      "mtime_ns": 1791985786548801079
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/backbone/cnn_digitsdg.py",
+      "sha256": "b553ab390fc907f79616a1c88ff9c5bca08458a0c333fffa2a04ce07283e9fb7",
+      "bytes": 1630,
+      "mtime_ns": 1791985786548919130
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/backbone/cnn_digitsingle.py",
+      "sha256": "39d6ae34c7459115861bfd2672e0b957d332a414d4c4e1f9266e8674d62a8ca4",
+      "bytes": 1265,
+      "mtime_ns": 1791985786549037642
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/backbone/efficientnet/__init__.py",
+      "sha256": "98e9d7b401d60c93dc60d1f3df8f03eb73616e592b8e9e3404429f9ad6011d00",
+      "bytes": 370,
+      "mtime_ns": 1791985786549209181
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/backbone/efficientnet/model.py",
+      "sha256": "b19a24d063ce7bb7eed2b88b7f7a236e25fd0d491bc595dff638d549083e28ad",
+      "bytes": 13021,
+      "mtime_ns": 1791985786549322943
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/backbone/efficientnet/utils.py",
+      "sha256": "6afe3dc185afaba007139533699b3f9e4f32413935d255ad169f2000c9c10664",
+      "bytes": 15997,
+      "mtime_ns": 1791985786549515980
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/backbone/mobilenetv2.py",
+      "sha256": "4907b601cb4648b9450c7de9516c12a14624a6daeb724ec7e478ce6b42df0ffb",
+      "bytes": 6728,
+      "mtime_ns": 1791985786549773864
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/backbone/preact_resnet18.py",
+      "sha256": "3a51de5794915f04dd737e26c61df3168477b6083141eeff574321408bc2e892",
+      "bytes": 4014,
+      "mtime_ns": 1791985786549906234
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/backbone/resnet.py",
+      "sha256": "8a401a45452ee2f842e4bc89e3c81aafb088b84cbd533f4de5d59e1e21d17d02",
+      "bytes": 14605,
+      "mtime_ns": 1791985786550059339
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/backbone/shufflenetv2.py",
+      "sha256": "2f34659cb8f38b3d2e91a130bebcf5041830e2143a5076c9145783694da4b3bd",
+      "bytes": 7007,
+      "mtime_ns": 1791985786550203980
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/backbone/vgg.py",
+      "sha256": "c81278a47eaac1921589b9560893df8ad08df0989894a7d21814cc9ff4f2e0df",
+      "bytes": 3934,
+      "mtime_ns": 1791985786550338305
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/backbone/wide_resnet.py",
+      "sha256": "cfa281849d9938a551e2032fadc02510ce7f64a929cc8b0e950bc1cc8d1587dd",
+      "bytes": 4403,
+      "mtime_ns": 1791985786550473850
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/head/__init__.py",
+      "sha256": "90db749ad572ffe67ab499f1cd05348ab51f8ba7080e1491dc6c91661095ad64",
+      "bytes": 81,
+      "mtime_ns": 1791985786550617851
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/head/build.py",
+      "sha256": "d569803004150db4ae01aee23aa02a3f1d55aa3fc2fea2ea0ff6d86dd9fd6259",
+      "bytes": 326,
+      "mtime_ns": 1791985786550731309
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/head/mlp.py",
+      "sha256": "8914f18629ba2e51b0b5a6b701cedfb90a8285901cf534d81fe252c040c203e9",
+      "bytes": 1202,
+      "mtime_ns": 1791985786550841152
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/network/__init__.py",
+      "sha256": "8d0bfc958c4d5d2d3c737badd0e801b94173887b75b7f2a580cde0b8d0dffdd3",
+      "bytes": 164,
+      "mtime_ns": 1791985786551008207
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/network/build.py",
+      "sha256": "7260aacd16bb4b9f04dd928c892783f6f24f1180b40cd177ca0ac8ea8b5a517c",
+      "bytes": 346,
+      "mtime_ns": 1791985786551112477
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/network/ddaig_fcn.py",
+      "sha256": "bb04c6719301cca7833b8096499a969d15d5c44740b1ddb8038deb9693a48b18",
+      "bytes": 9613,
+      "mtime_ns": 1791985786551218999
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/ops/__init__.py",
+      "sha256": "ac044b49039304068ca53d6f3e7f5e6cd8528695c1d579c15ee0283984e7622c",
+      "bytes": 647,
+      "mtime_ns": 1791985786551433534
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/ops/cross_entropy.py",
+      "sha256": "dffbe6ecad5030450f000f123f7666f6a85eb28e020e68e19fb1c8f923005ee6",
+      "bytes": 1033,
+      "mtime_ns": 1791985786551555428
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/ops/dsbn.py",
+      "sha256": "b27d26c24610689fbf24e9ad9628b8d3485546922d1d6599f974d1ee39173bee",
+      "bytes": 1159,
+      "mtime_ns": 1791985786551669081
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/ops/efdmix.py",
+      "sha256": "fd686d6cd420abf230f665ef185c33c11a5ba544b01b837c6c8bb5cce8ebe2cb",
+      "bytes": 3159,
+      "mtime_ns": 1791985786551780662
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/ops/mixstyle.py",
+      "sha256": "56279a46bfa28bf490face795ee446d06348179b1790f2910e8682dbd9980e5c",
+      "bytes": 3170,
+      "mtime_ns": 1791985786551912676
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/ops/mixup.py",
+      "sha256": "0910aa17958c481220ab759c5bb7594008da4f5f6fb870e16655154d4edcf2c7",
+      "bytes": 774,
+      "mtime_ns": 1791985786552038764
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/ops/mmd.py",
+      "sha256": "8a1631f9f61966cdbdd6f76ebb6edde15e6ca19de660f7ac0c4e98b19f8045e8",
+      "bytes": 3082,
+      "mtime_ns": 1791985786552151204
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/ops/optimal_transport.py",
+      "sha256": "9a5e3fe1c45dce603319e8744b8b1a643b07691688e82d8ad937de40420f032c",
+      "bytes": 4663,
+      "mtime_ns": 1791985786552274318
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/ops/reverse_grad.py",
+      "sha256": "91cc7a68fb7117a3d726708f685861cd7997a41bb018a0a6d98c6cecaf060d87",
+      "bytes": 845,
+      "mtime_ns": 1791985786552412825
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/ops/sequential2.py",
+      "sha256": "7446ad88522611a0fb097eeda352fb54035e17c72b98b44e4697785c94fe767a",
+      "bytes": 427,
+      "mtime_ns": 1791985786552532722
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/ops/transnorm.py",
+      "sha256": "a1ae7f72e3bdfa956c57c79c4ba3d229940d1cd825819f9481033200712f7d2c",
+      "bytes": 4669,
+      "mtime_ns": 1791985786552642235
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/modeling/ops/utils.py",
+      "sha256": "6c6aa19ad7208afc624281512b3780dfcea45b18e6a82ca1ce5a20d9106aa7ee",
+      "bytes": 1977,
+      "mtime_ns": 1791985786552774802
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/optim/__init__.py",
+      "sha256": "3f83afa74e14d5eec9ad10b510ffc955d8ce54f2fcd8a45f479eb0cd5372c474",
+      "bytes": 84,
+      "mtime_ns": 1791985786552944420
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/optim/lr_scheduler.py",
+      "sha256": "22870265e10d88bf21211abf7a7bf873a8cd5c6daf95ecc4f1eb1ab29b0f2d20",
+      "bytes": 4225,
+      "mtime_ns": 1791985786553050202
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/optim/optimizer.py",
+      "sha256": "9dbd717b8bdcfde58bfbb49ed74cb9e3158035296b4d8187b1c390f58d41a457",
+      "bytes": 3654,
+      "mtime_ns": 1791985786553181064
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/optim/radam.py",
+      "sha256": "b7197851cabe700ce024453a9602dcb498538a4c13d6e55b03cbdf6bbd9af0d4",
+      "bytes": 11648,
+      "mtime_ns": 1791985786553305427
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/utils/__init__.py",
+      "sha256": "011968995da796bf0e1aae8c4f36c4e4f1c1762fe22a5b22f82c6a1fcb5e4f4a",
+      "bytes": 115,
+      "mtime_ns": 1791985786553513448
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/utils/logger.py",
+      "sha256": "982b4acdbcd25e3bf5d8454f7dafb75b329140b92f81bac9f9c2fb94357f37c7",
+      "bytes": 1703,
+      "mtime_ns": 1791985786553655670
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/utils/meters.py",
+      "sha256": "03e87dd0ba74013314e2aa8adef457881d99f37dcaf26106e6dc0bc0172fd094",
+      "bytes": 2163,
+      "mtime_ns": 1791985786553770933
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/utils/registry.py",
+      "sha256": "531c83ee95fd3b80f0f375291e9423262f8f7b2d055567a70e2b25d1d632bb2f",
+      "bytes": 1709,
+      "mtime_ns": 1791985786553888077
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/utils/tools.py",
+      "sha256": "519d706f8c830eb35be035afe1ab68d04e100610d81d7c5ce57e4bdec0f1f3ad",
+      "bytes": 4685,
+      "mtime_ns": 1791985786554008180
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/dassl/utils/torchtools.py",
+      "sha256": "ea8cecefffd2364048e96832de009a3925af6998ed23bdfc3b68dc8d5b6db124",
+      "bytes": 10547,
+      "mtime_ns": 1791985786554146100
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/datasets/da/cifar_stl.py",
+      "sha256": "37396215117830bd926167424cb4b65c9bc8aee611e25d5a27397b75a311fb09",
+      "bytes": 2383,
+      "mtime_ns": 1791985786554556390
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/datasets/da/digit5.py",
+      "sha256": "d436de678095c5bbe6e6689db8669bd526a0a5bdc989894fbc603f283fc5e807",
+      "bytes": 3771,
+      "mtime_ns": 1791985786554690383
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/datasets/da/visda17.sh",
+      "sha256": "893ee9dcd7d8b7e78fc9f76d8c88e1c5087bc8e019323fae14602e1b39c14a48",
+      "bytes": 801,
+      "mtime_ns": 1791985786554794912
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/datasets/dg/cifar_c.py",
+      "sha256": "6a3399afc470606e11f1d152febe5002051ae4748bd0522427153c24bd2e7439",
+      "bytes": 2165,
+      "mtime_ns": 1791985786554921323
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/datasets/ssl/cifar10_cifar100_svhn.py",
+      "sha256": "eccc2022fc0b5715a6a05b5c02433c9a46ea1039b11e265239ea2285755310cd",
+      "bytes": 1528,
+      "mtime_ns": 1791985786555092507
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/datasets/ssl/stl10.py",
+      "sha256": "b7d4dc96cf527eebf90ef3171c49227dc96d08cd057b77f66a3bf7496609424a",
+      "bytes": 1171,
+      "mtime_ns": 1791985786555208626
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/linter.sh",
+      "sha256": "f718e059e9c57dd1b7cd3f4b261af8babffa750ee3c6a8416fe562620ec041cb",
+      "bytes": 150,
+      "mtime_ns": 1791985786555345471
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/requirements.txt",
+      "sha256": "21b1755095d36f660bd4fe7eb0bb5833459dbc1772ac945ff73f5487ffaa8a75",
+      "bytes": 94,
+      "mtime_ns": 1791985786555463002
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/setup.py",
+      "sha256": "77b327e2d5d4ab77798f2bc6588162c5621c51690e5dab20768a69788f6a8dc2",
+      "bytes": 1237,
+      "mtime_ns": 1791985786555574057
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/tools/parse_test_res.py",
+      "sha256": "e1b05a9fb47c70ae59f3ce9436c7195dc10e6254a61b819bf14cd1c537f33092",
+      "bytes": 4662,
+      "mtime_ns": 1791985786555697404
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/tools/replace_text.py",
+      "sha256": "ded96adcdaa59d30b161903fbdffefc062b10b25c6ea56badd409ab5c3784546",
+      "bytes": 1957,
+      "mtime_ns": 1791985786555830950
+    },
+    {
+      "path": "/root/BiomedCoOp/code/Dassl.pytorch/tools/train.py",
+      "sha256": "0b01b295125e470a1c72d9be810bff4859977cdc6d996535761488efa460163f",
+      "bytes": 4800,
+      "mtime_ns": 1791985786555942574
+    },
+    {
+      "path": "/root/BiomedCoOp/code/LICENSE",
+      "sha256": "2b9fb73f806db1e13a81909dcbf21bd03f28725487032c1bd55be09668685bdb",
+      "bytes": 1069,
+      "mtime_ns": 1791985786556106261
+    },
+    {
+      "path": "/root/BiomedCoOp/code/README.md",
+      "sha256": "7aebb416cd5b8ad852d8058fcf43586d66e2d5ceac61a0a5061a09409fd912d1",
+      "bytes": 10131,
+      "mtime_ns": 1791985786556262165
+    },
+    {
+      "path": "/root/BiomedCoOp/code/assets/BiomedCoOp.jpg",
+      "sha256": "5fb1de0453a2aca1dc46762ade22a467404e81acd30ebcf4f9fe9d6a53b4aaff",
+      "bytes": 868693,
+      "mtime_ns": 1791985786559710877
+    },
+    {
+      "path": "/root/BiomedCoOp/code/assets/DATASETS.md",
+      "sha256": "10a027948982b5e62449ec2c1d957bd7bdadfe867b2b7b62817804fc55817b22",
+      "bytes": 9437,
+      "mtime_ns": 1791985786561832840
+    },
+    {
+      "path": "/root/BiomedCoOp/code/assets/INSTALL.md",
+      "sha256": "1da499f0801501aba26f66916c40bbd3744b3e2ffc2de385ad4fff8a30c2e502",
+      "bytes": 1042,
+      "mtime_ns": 1791985786561966094
+    },
+    {
+      "path": "/root/BiomedCoOp/code/assets/RUN.md",
+      "sha256": "efe901baebe15600cdd295a7a4f59e7017bf952d3a089cd563ee0c23010569d8",
+      "bytes": 8502,
+      "mtime_ns": 1791985786562108629
+    },
+    {
+      "path": "/root/BiomedCoOp/code/assets/overview.png",
+      "sha256": "f94f1d0512da42fe91915998c07754ff6a6d61fd6feb9ac6a4da9eb8b33c2d89",
+      "bytes": 438662,
+      "mtime_ns": 1791985786563710908
+    },
+    {
+      "path": "/root/BiomedCoOp/code/clip/__init__.py",
+      "sha256": "d7930eb290ebed432116795c91473200d098451a94c0aedd4ae0f934f97955e8",
+      "bytes": 20,
+      "mtime_ns": 1791985786565624714
+    },
+    {
+      "path": "/root/BiomedCoOp/code/clip/bpe_simple_vocab_16e6.txt.gz",
+      "sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a",
+      "bytes": 1356917,
+      "mtime_ns": 1791985786566710930
+    },
+    {
+      "path": "/root/BiomedCoOp/code/clip/clip.py",
+      "sha256": "12adb4f2348447a0935164a7e6424d9f21f76615c9ab3e797c34945f5ed1ebcc",
+      "bytes": 8255,
+      "mtime_ns": 1791985786568171297
+    },
+    {
+      "path": "/root/BiomedCoOp/code/clip/model.py",
+      "sha256": "778077cc71977cd6362c6494608e3917661bf9e8ce5c723486ddfa0c34a436bb",
+      "bytes": 17241,
+      "mtime_ns": 1791985786568370902
+    },
+    {
+      "path": "/root/BiomedCoOp/code/clip/pmcclip.py",
+      "sha256": "7c695ec432b19db354780a5a693d83e6f1309d2af7d53f6a7995bb85d39e659d",
+      "bytes": 8260,
+      "mtime_ns": 1791985786568538984
+    },
+    {
+      "path": "/root/BiomedCoOp/code/clip/simple_tokenizer.py",
+      "sha256": "e0f5830b4c969099e64212f8058746559ccd14b9df9b3ceaa3993c5bb4c554ff",
+      "bytes": 4631,
+      "mtime_ns": 1791985786568680616
+    },
+    {
+      "path": "/root/BiomedCoOp/code/combine_acc_columns.py",
+      "sha256": "198362d17364ec32fd3501776a0f25ceb6156a058d5ee4b38f97693c8359234f",
+      "bytes": 1071,
+      "mtime_ns": 1791985786568796378
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/datasets/brisc.yaml",
+      "sha256": "718a73a6e70ef67adf44d206ab2fc2bb1afb9a931a41970dd457fda12d916583",
+      "bytes": 24,
+      "mtime_ns": 1791985786568981448
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/datasets/btmri.yaml",
+      "sha256": "6311f8b428ce8589880834ab55780fe828f47237a7a1f3a86459fc550ddb2489",
+      "bytes": 24,
+      "mtime_ns": 1791985786569070595
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/datasets/btmri_p.yaml",
+      "sha256": "3ed2687f8deae15a9361b3d7d5adc7ffa14f6fc6eb639777ea9ea74e9ab0fcb6",
+      "bytes": 26,
+      "mtime_ns": 1791985786569157098
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/datasets/btmri_s.yaml",
+      "sha256": "92ba0b3ad256b52fc1976c281dcf6c1c570b275cd422f4201cd38ca5beed2f20",
+      "bytes": 26,
+      "mtime_ns": 1791985786569242516
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/datasets/buid.yaml",
+      "sha256": "1d58a351546a213175e5d572dd9ca7097e777e006c2a32c136d3d44cf30b39f6",
+      "bytes": 23,
+      "mtime_ns": 1791985786569328858
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/datasets/busbra.yaml",
+      "sha256": "3c1c22a31b7ed0cd032b138c38d13c6f68080931462a45134fcdd3ddc8c6db0b",
+      "bytes": 25,
+      "mtime_ns": 1791985786569417743
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/datasets/busi.yaml",
+      "sha256": "e258bfc61a031413634e630479a3266f4410eb9737fcf9b9f2c3370be526eff0",
+      "bytes": 23,
+      "mtime_ns": 1791985786569518059
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/datasets/chmnist.yaml",
+      "sha256": "c02063cf37b5e47ae7d644e56d3f22b9a35de9dd8d36887b775bb0c8bf71fd06",
+      "bytes": 26,
+      "mtime_ns": 1791985786569605165
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/datasets/covid.yaml",
+      "sha256": "4ea79ba7f53dfdcbabb2e415903984058912651239ee936cf8d5af4405821544",
+      "bytes": 27,
+      "mtime_ns": 1791985786569692149
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/datasets/ctkidney.yaml",
+      "sha256": "868d95985b0bd1abbcf5d051b23d4e85d1c43165143707160388adfc14b8b8fa",
+      "bytes": 27,
+      "mtime_ns": 1791985786569777740
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/datasets/dermamnist.yaml",
+      "sha256": "e9083cafda79551868cf10a44dfa76d44b7a02d7c3123c6310a02cd62911fc42",
+      "bytes": 29,
+      "mtime_ns": 1791985786569865881
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/datasets/kneexray.yaml",
+      "sha256": "340a7a7f6b3738c4a321938e93a99c0bb00f10517cc6303627a0bc48b5401d34",
+      "bytes": 27,
+      "mtime_ns": 1791985786569953178
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/datasets/kvasir.yaml",
+      "sha256": "9bf88caf3851a6821549ff04db51522322f5e01a9c33a05e09bec568cc6cb6f5",
+      "bytes": 25,
+      "mtime_ns": 1791985786570038508
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/datasets/lungcolon.yaml",
+      "sha256": "a8368af7193138920eed8d7d7715bfbae590bfba12e270d76ba235f022d575ee",
+      "bytes": 28,
+      "mtime_ns": 1791985786570124452
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/datasets/octmnist.yaml",
+      "sha256": "cad36404d9f9b66e10b7a10574155493b7a9deee7f65a7fcf8321bb935f7dff0",
+      "bytes": 27,
+      "mtime_ns": 1791985786570208853
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/datasets/retina.yaml",
+      "sha256": "af25d349fb82ae17bef898064e9e27edc783518d061850a449cdcb5b7c2475f8",
+      "bytes": 25,
+      "mtime_ns": 1791985786570294310
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/datasets/udiat.yaml",
+      "sha256": "657206bc703d3a46247cf454c242401947430cbd89c7b8fbbe0f679b71ff99ec",
+      "bytes": 24,
+      "mtime_ns": 1791985786570381464
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/base_to_novel/btmri.yaml",
+      "sha256": "b462cb1e5c84e4f87c33b80b8752cb345564b1dd229ebb5977976d0af1621863",
+      "bytes": 631,
+      "mtime_ns": 1791985786570601226
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/base_to_novel/chmnist.yaml",
+      "sha256": "386947608cf09fd65c7cbb6627b83b16a9f55ae4120371742d0c63876207513f",
+      "bytes": 631,
+      "mtime_ns": 1791985786570724818
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/base_to_novel/covid.yaml",
+      "sha256": "95b59dc5eef12546c92d00fa4c7c719a07848b33c6e8d89e56d20b84d22f8b56",
+      "bytes": 632,
+      "mtime_ns": 1791985786570834446
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/base_to_novel/ctkidney.yaml",
+      "sha256": "d82e826644fa2e2e9606610c3dc5c17f0395b2274276e980eee34dd1a50b7b60",
+      "bytes": 633,
+      "mtime_ns": 1791985786570945226
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/base_to_novel/dermamnist.yaml",
+      "sha256": "0ff8fd3a1b5ba0d9ce842318005940f78c2f4b38d426aedb921762886f5fc7a7",
+      "bytes": 630,
+      "mtime_ns": 1791985786571049791
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/base_to_novel/kneexray.yaml",
+      "sha256": "94e944e0d3e8809dd108a40d30e3161fce0c285cab760f1a7a924ea1e4bb4339",
+      "bytes": 632,
+      "mtime_ns": 1791985786571154888
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/base_to_novel/kvasir.yaml",
+      "sha256": "b9a53cad42cc0aa4e5b9821f4f0a8764578c8093162477560228cd3e6fab2ea6",
+      "bytes": 631,
+      "mtime_ns": 1791985786571258526
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/base_to_novel/lungcolon.yaml",
+      "sha256": "8fe3be4a6d900c0f47edd054209e6f7650d196e2c4cc822e46de85fc83972b5b",
+      "bytes": 632,
+      "mtime_ns": 1791985786571360660
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/base_to_novel/octmnist.yaml",
+      "sha256": "50b4f8d823cc050399d729443ecf9c35ae05eed6259e16229ac1089d0561e459",
+      "bytes": 631,
+      "mtime_ns": 1791985786571483320
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/base_to_novel/retina.yaml",
+      "sha256": "b8d1f6b743885dcbcf01d13be363e5fd139ceb982a63f950e267b91a84116077",
+      "bytes": 630,
+      "mtime_ns": 1791985786571587543
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/few_shot/btmri.yaml",
+      "sha256": "ca3929e4cdb5447e6195094af906a8b71b679c6d0c2c0ba8a06f194a58029960",
+      "bytes": 632,
+      "mtime_ns": 1791985786571739653
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/few_shot/busi.yaml",
+      "sha256": "cc4e543e8b062fea9f7d27b439313790c76ee5b23acdefb1244e3bbba1bc8fcf",
+      "bytes": 633,
+      "mtime_ns": 1791985786571844866
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/few_shot/chmnist.yaml",
+      "sha256": "28d07ca6c02bbb1b0b16ced75cf973b074df6c9ef8a3dfc06ae804b89d2a2d6b",
+      "bytes": 633,
+      "mtime_ns": 1791985786571946092
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/few_shot/covid.yaml",
+      "sha256": "ea718461b84bd7e5d4e74b9b95f29d5d0fde97ae472d54dbb7e6fa20888153c0",
+      "bytes": 631,
+      "mtime_ns": 1791985786572047963
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/few_shot/ctkidney.yaml",
+      "sha256": "df5e526cc76d452f36980232dc2cfb8994eb0946ca66cb16dd3f9df3659330b3",
+      "bytes": 631,
+      "mtime_ns": 1791985786572150429
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/few_shot/dermamnist.yaml",
+      "sha256": "dfe3e77095414b1b26d97b06cf0bf299f6bed3aa21efb784139887426fe4f153",
+      "bytes": 632,
+      "mtime_ns": 1791985786572253255
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/few_shot/kneexray.yaml",
+      "sha256": "7064f0134d4cd01ac32790b18c5b53552a467ddf289dcc1bc1a966483f0fa0b9",
+      "bytes": 633,
+      "mtime_ns": 1791985786572362610
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/few_shot/kvasir.yaml",
+      "sha256": "cc4e543e8b062fea9f7d27b439313790c76ee5b23acdefb1244e3bbba1bc8fcf",
+      "bytes": 633,
+      "mtime_ns": 1791985786572473101
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/few_shot/lungcolon.yaml",
+      "sha256": "16cbbe42bdef627ad138e744fc758334552ecd9c4e85bbc497a6be7e7f9fd251",
+      "bytes": 631,
+      "mtime_ns": 1791985786572577761
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/few_shot/octmnist.yaml",
+      "sha256": "95d1a185a1dec578d05d0353551419d96acf9854713941473e6fc3a836c15bd0",
+      "bytes": 632,
+      "mtime_ns": 1791985786572678509
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/BiomedCoOp/few_shot/retina.yaml",
+      "sha256": "28d07ca6c02bbb1b0b16ced75cf973b074df6c9ef8a3dfc06ae804b89d2a2d6b",
+      "bytes": 633,
+      "mtime_ns": 1791985786572780330
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/CLIP_Adapter/few_shot.yaml",
+      "sha256": "2546df9f3f606aec0d387442e86b32ecdae84800467dfa4cd9623ebaa632d62f",
+      "bytes": 562,
+      "mtime_ns": 1791985786572930872
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/CoCoOp/vit_b16.yaml",
+      "sha256": "1a09cf6e8691ecd60220dcf2752eddbf3f5c5579b80864e74202829ca22e607e",
+      "bytes": 592,
+      "mtime_ns": 1791985786573087714
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/CoCoOp/vit_b16_base2new.yaml",
+      "sha256": "1a09cf6e8691ecd60220dcf2752eddbf3f5c5579b80864e74202829ca22e607e",
+      "bytes": 592,
+      "mtime_ns": 1791985786573195834
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/CoOp/vit_b16.yaml",
+      "sha256": "b696b518d57dfef8ff22380db26d933bfd02f9d8756e9397fc17f7cbda9dca48",
+      "bytes": 559,
+      "mtime_ns": 1791985786573348507
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/CoOp/vit_b16_base2new.yaml",
+      "sha256": "cbb1447c17bd14419c82b115a45bcd149a3fa3a07592d0238b5f8573b4039dd7",
+      "bytes": 558,
+      "mtime_ns": 1791985786573465207
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/KgCoOp/few_shot/btmri.yaml",
+      "sha256": "4b1e142260282a47d1fdd91fb0dfbd1c10c28aa9ba367ebe5c8ceeaa7cdc472d",
+      "bytes": 560,
+      "mtime_ns": 1791985786573696548
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/KgCoOp/few_shot/busi.yaml",
+      "sha256": "0b6f075ad7f8eb978b9832f3349d76768fa321a9e32b33b86263757c7f4a5ff9",
+      "bytes": 561,
+      "mtime_ns": 1791985786573805758
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/KgCoOp/few_shot/chmnist.yaml",
+      "sha256": "96e65e080fcd0df0c684fb99cd7ad9c57155181d1dbc50a31019c9c4dbc3c896",
+      "bytes": 560,
+      "mtime_ns": 1791985786573908528
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/KgCoOp/few_shot/covid.yaml",
+      "sha256": "96e65e080fcd0df0c684fb99cd7ad9c57155181d1dbc50a31019c9c4dbc3c896",
+      "bytes": 560,
+      "mtime_ns": 1791985786574009469
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/KgCoOp/few_shot/ctkidney.yaml",
+      "sha256": "7be60ea055e180a97c34f3a677ff6d2bbb0369bc70dcf9a0ca6c873ec36d5b0b",
+      "bytes": 560,
+      "mtime_ns": 1791985786574111532
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/KgCoOp/few_shot/dermamnist.yaml",
+      "sha256": "7be60ea055e180a97c34f3a677ff6d2bbb0369bc70dcf9a0ca6c873ec36d5b0b",
+      "bytes": 560,
+      "mtime_ns": 1791985786574213717
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/KgCoOp/few_shot/kneexray.yaml",
+      "sha256": "eccafa7ea5eceabbd357d6536ef98541b37cebb7f3fde5575a8feed0566a9c66",
+      "bytes": 560,
+      "mtime_ns": 1791985786574316007
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/KgCoOp/few_shot/kvasir.yaml",
+      "sha256": "b539374e8ce7da4da82cdcbd62394f2af2507e8e325b2372dfc745147882ce65",
+      "bytes": 560,
+      "mtime_ns": 1791985786574417941
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/KgCoOp/few_shot/lungcolon.yaml",
+      "sha256": "7be60ea055e180a97c34f3a677ff6d2bbb0369bc70dcf9a0ca6c873ec36d5b0b",
+      "bytes": 560,
+      "mtime_ns": 1791985786574528447
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/KgCoOp/few_shot/octmnist.yaml",
+      "sha256": "96e65e080fcd0df0c684fb99cd7ad9c57155181d1dbc50a31019c9c4dbc3c896",
+      "bytes": 560,
+      "mtime_ns": 1791985786574629200
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/KgCoOp/few_shot/retina.yaml",
+      "sha256": "96e65e080fcd0df0c684fb99cd7ad9c57155181d1dbc50a31019c9c4dbc3c896",
+      "bytes": 560,
+      "mtime_ns": 1791985786574731904
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/KgCoOp/vit_b16_base2new.yaml",
+      "sha256": "ee3768bdd918b2b6ebb5d2b80b4cc6affd7eeb7eafa7840ab94e7b8f7624487c",
+      "bytes": 573,
+      "mtime_ns": 1791985786574835225
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/LP/few_shot.yaml",
+      "sha256": "cc630db52456212efeec19b1d9bcb1cb2326d2d969cdb6b1718a9be74a22ba0b",
+      "bytes": 493,
+      "mtime_ns": 1791985786574957848
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/LP2/few_shot.yaml",
+      "sha256": "84450826f60da5b17f54ff78afe32de057830923d5befcb2d6ee3303fd92e06d",
+      "bytes": 658,
+      "mtime_ns": 1791985786575112274
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/ProGrad/few_shot/btmri.yaml",
+      "sha256": "cc327f74f922abfc4ba3aae2a0d6e9ae18772de70cb18715ebcc4c21c3d7cdcf",
+      "bytes": 582,
+      "mtime_ns": 1791985786575349235
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/ProGrad/few_shot/busi.yaml",
+      "sha256": "73babf3c7dd1b1b8711d0419a29eb08180dea7095f4f230a370511a0e6076f03",
+      "bytes": 583,
+      "mtime_ns": 1791985786575465024
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/ProGrad/few_shot/chmnist.yaml",
+      "sha256": "28ef8c67dfdd412eb491c8b5c2c080bf82afc4904798e46c715959a0354bdad9",
+      "bytes": 582,
+      "mtime_ns": 1791985786575575605
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/ProGrad/few_shot/covid.yaml",
+      "sha256": "28ef8c67dfdd412eb491c8b5c2c080bf82afc4904798e46c715959a0354bdad9",
+      "bytes": 582,
+      "mtime_ns": 1791985786575680911
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/ProGrad/few_shot/ctkidney.yaml",
+      "sha256": "28ef8c67dfdd412eb491c8b5c2c080bf82afc4904798e46c715959a0354bdad9",
+      "bytes": 582,
+      "mtime_ns": 1791985786575784602
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/ProGrad/few_shot/dermamnist.yaml",
+      "sha256": "db3ca615e1005856a73fba19c096a62646e5e35874d68c51ac1bad0cc057a65b",
+      "bytes": 582,
+      "mtime_ns": 1791985786575891383
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/ProGrad/few_shot/kneexray.yaml",
+      "sha256": "28ef8c67dfdd412eb491c8b5c2c080bf82afc4904798e46c715959a0354bdad9",
+      "bytes": 582,
+      "mtime_ns": 1791985786575995605
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/ProGrad/few_shot/kvasir.yaml",
+      "sha256": "28ef8c67dfdd412eb491c8b5c2c080bf82afc4904798e46c715959a0354bdad9",
+      "bytes": 582,
+      "mtime_ns": 1791985786576099777
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/ProGrad/few_shot/lungcolon.yaml",
+      "sha256": "28ef8c67dfdd412eb491c8b5c2c080bf82afc4904798e46c715959a0354bdad9",
+      "bytes": 582,
+      "mtime_ns": 1791985786576207464
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/ProGrad/few_shot/octmnist.yaml",
+      "sha256": "28ef8c67dfdd412eb491c8b5c2c080bf82afc4904798e46c715959a0354bdad9",
+      "bytes": 582,
+      "mtime_ns": 1791985786576319011
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/ProGrad/few_shot/retina.yaml",
+      "sha256": "28ef8c67dfdd412eb491c8b5c2c080bf82afc4904798e46c715959a0354bdad9",
+      "bytes": 582,
+      "mtime_ns": 1791985786576423868
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/ProGrad/vit_b16_base2new.yaml",
+      "sha256": "96bf20fbc247d283d90a43e1b9aeb83bf38e270c28793f8d483943c6f9e892d3",
+      "bytes": 595,
+      "mtime_ns": 1791985786576539047
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/TiP_Adapter/few_shot.yaml",
+      "sha256": "984bcc91eeb4e2b0f0bb4f87b290b5f424f51b23c5632743783f73b1f9068b4d",
+      "bytes": 870,
+      "mtime_ns": 1791985786576667062
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/Zeroshot/vit_b16.yaml",
+      "sha256": "aaa5cc1e1803d81b27dedd85753e7a601784de4f1e1a797570220484fef1c645",
+      "bytes": 588,
+      "mtime_ns": 1791985786576823241
+    },
+    {
+      "path": "/root/BiomedCoOp/code/configs/trainers/Zeroshot/vit_b16_base2new.yaml",
+      "sha256": "bc563135bcbcdf179d4685c2f19e33f64dc8ece118722238b506dbf193e77c8f",
+      "bytes": 587,
+      "mtime_ns": 1791985786576931590
+    },
+    {
+      "path": "/root/BiomedCoOp/code/data/BRISC/split_BRISC.json",
+      "sha256": "87ab0bce9f8e583a193a34c859425c338b8ea2ae125513c747e132d2ae218c4b",
+      "bytes": 615826,
+      "mtime_ns": 1791985786577711013
+    },
+    {
+      "path": "/root/BiomedCoOp/code/data/BTMRI/split_BTMRI.json",
+      "sha256": "9818f18eb8e7d211f3719b6bd9d1fa31eba24df2f1c3048766b2e25a26505025",
+      "bytes": 614876,
+      "mtime_ns": 1791985786582917225
+    },
+    {
+      "path": "/root/BiomedCoOp/code/data/BTMRI-P/split_BTMRI-P.json",
+      "sha256": "2a70ad9893e8debb50c1bb8729876b8ddcd7cacc04a17e8ab3d6a28eba2eb5aa",
+      "bytes": 1229562,
+      "mtime_ns": 1791985786580711035
+    },
+    {
+      "path": "/root/BiomedCoOp/code/data/BTMRI-S/split_BTMRI-S.json",
+      "sha256": "3cd478375878366bb6a53aad82e1c9795e8b32b398a2e448ba5a34c5bba014a0",
+      "bytes": 377745,
+      "mtime_ns": 1791985786581760643
+    },
+    {
+      "path": "/root/BiomedCoOp/code/data/BUID/split_BUID.json",
+      "sha256": "955c865f81aa7bba754ca96dad00e2ed9c8639a8ccf526b902275c7550b804e7",
+      "bytes": 26937,
+      "mtime_ns": 1791985786584417732
+    },
+    {
+      "path": "/root/BiomedCoOp/code/data/BUSBRA/split_BUSBRA.json",
+      "sha256": "9ebbc352598c2fdc77b82bb1d5e4f09e248789a198a1c79478a99c2957ba3117",
+      "bytes": 202454,
+      "mtime_ns": 1791985786584649621
+    },
+    {
+      "path": "/root/BiomedCoOp/code/data/BUSI/split_BUSI.json",
+      "sha256": "3117f49854e639920f85d3ea11e34ecbe261c390410b19c29c424e631396ed4f",
+      "bytes": 85602,
+      "mtime_ns": 1791985786585228812
+    },
+    {
+      "path": "/root/BiomedCoOp/code/data/CHMNIST/split_CHMNIST.json",
+      "sha256": "61a8616d5a759646a272ef2f84b321ae0136c2f318e194c0a0f690a0aabe2f1d",
+      "bytes": 717795,
+      "mtime_ns": 1791985786585711073
+    },
+    {
+      "path": "/root/BiomedCoOp/code/data/COVID_19/split_COVID_19.json",
+      "sha256": "9c73d1ef14da6bae08de1108720f2df2883cf678fb6a52debf6bca6ae54e24d3",
+      "bytes": 2394165,
+      "mtime_ns": 1791985786591711118
+    },
+    {
+      "path": "/root/BiomedCoOp/code/data/CTKidney/split_CTKidney.json",
+      "sha256": "a711bdb6d171cb5ad7231a5ddda29d640459989e72d15726d3f64db740b0b54f",
+      "bytes": 1356352,
+      "mtime_ns": 1791985786594711140
+    },
+    {
+      "path": "/root/BiomedCoOp/code/data/DermaMNIST/split_DermaMNIST.json",
+      "sha256": "23892796a89275ce641fc4a1f16000e1e1c7cea90a5f1452c19b209be2c7eda6",
+      "bytes": 1143956,
+      "mtime_ns": 1791985786599232011
+    },
+    {
+      "path": "/root/BiomedCoOp/code/data/KneeXray/split_KneeXray.json",
+      "sha256": "e0590a075c2ccaf22a1372a1fa78845231d4b17a67901bab328f17649719bf37",
+      "bytes": 963902,
+      "mtime_ns": 1791985786600711185
+    },
+    {
+      "path": "/root/BiomedCoOp/code/data/Kvasir/split_Kvasir.json",
+      "sha256": "e4716c2bf50cf7e3809bfae98eeda6fb1f028e28370f57a367aa80efa0dd1fc7",
+      "bytes": 547097,
+      "mtime_ns": 1791985786603711208
+    },
+    {
+      "path": "/root/BiomedCoOp/code/data/LungColon/split_LungColon.json",
+      "sha256": "02b10f1b789d7e27b9e7903c5e36501e9dabaa17a71fa5fb0fd41ecf1d4b63cb",
+      "bytes": 3119527,
+      "mtime_ns": 1791985786609711253
+    },
+    {
+      "path": "/root/BiomedCoOp/code/data/OCTMNIST/split_OCTMNIST.json",
+      "sha256": "95b1d35aa3f49ad2484af2023539d92ab34c618e78222cd50d37edaacd76eefb",
+      "bytes": 13390772,
+      "mtime_ns": 1791985786638711470
+    },
+    {
+      "path": "/root/BiomedCoOp/code/data/RETINA/split_RETINA.json",
+      "sha256": "526b297caf66d7a69ed836565f6ac04f6a59db9e1b768d881e78836adc9a12ee",
+      "bytes": 453375,
+      "mtime_ns": 1791985786640126768
+    },
+    {
+      "path": "/root/BiomedCoOp/code/data/UDIAT/split_UDIAT.json",
+      "sha256": "5d3e3121ab36277a782e81edc3b514cd4a1a60b5cd320f2e55ceca35ae9fa79f",
+      "bytes": 17012,
+      "mtime_ns": 1791985786641567798
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/__init__.py",
+      "sha256": "ef7eaf6781a30f5324a1509fa1c96ff5bd1ccb7a1ad5059624385db7c3a6a6b5",
+      "bytes": 1185,
+      "mtime_ns": 1791985786641772289
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/brisc.py",
+      "sha256": "d7d47dd30aff79a7728fe43bc07db5f7f8015f872dc2302e7bee1142fb873de4",
+      "bytes": 5759,
+      "mtime_ns": 1791985786641891180
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/btmri.py",
+      "sha256": "abab87e9c15338baec0c96bfd2f50e33219c947f882c092667815ad9a1f6de95",
+      "bytes": 8631,
+      "mtime_ns": 1791985786642028194
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/btmri_b.py",
+      "sha256": "d6a9a90de0a180d7997ecd2db82ac9fe61e42e6a01af6a48274997f1231a2f6f",
+      "bytes": 5767,
+      "mtime_ns": 1791985786642183090
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/btmri_p.py",
+      "sha256": "bebf8f47e80cb7b7040fac4497b0c1e9cf16105b5ecd73b92e667ccd60032280",
+      "bytes": 5767,
+      "mtime_ns": 1791985786642315951
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/btmri_s.py",
+      "sha256": "f3df9c7088687bbdd29ae65d76b4a1d4bcc5d0a4dd49284c7adff48e031b0987",
+      "bytes": 5767,
+      "mtime_ns": 1791985786642457610
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/buid.py",
+      "sha256": "8f6afea0b8ca41fa22c8364e1cd7a3aff9186d6f6e307d51a867b6a5258177af",
+      "bytes": 5755,
+      "mtime_ns": 1791985786642595760
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/busbra.py",
+      "sha256": "29e49818fab11d98d6a5b0de855b2ebd1deb6448223878aebd60f22ab28e2fa9",
+      "bytes": 5763,
+      "mtime_ns": 1791985786642727188
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/busi.py",
+      "sha256": "38af65ae3ccd5aa64bbe2cbea99fbb8dc54cb7c6295de9521bcde4a9599fb68d",
+      "bytes": 8627,
+      "mtime_ns": 1791985786642859500
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/chmnist.py",
+      "sha256": "07ca871472e01919dffb5aee8e8d5ea19b545047cb16121947dc74321aa437d1",
+      "bytes": 8639,
+      "mtime_ns": 1791985786643007700
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/covid.py",
+      "sha256": "cb9a0469b5e8d9ee9577b727532863f75b4aa878a61bb661ed46c2656bffeb4b",
+      "bytes": 8644,
+      "mtime_ns": 1791985786643160360
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/ctkidney.py",
+      "sha256": "8d4b69c67a97a4f8b463fe76159f79afc15d5f461649b098cc3430319b7f11ff",
+      "bytes": 8643,
+      "mtime_ns": 1791985786643310691
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/dermamnist.py",
+      "sha256": "39ec551d365c10313cab4a36f2e762c598c470408acfc807762cb4d935a4dad2",
+      "bytes": 8651,
+      "mtime_ns": 1791985786643470200
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/kneexray.py",
+      "sha256": "998b0e4a55c578bcf24a73afc0788d2efba2800d9550fc6fece686ebddfbc48f",
+      "bytes": 8643,
+      "mtime_ns": 1791985786643626984
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/kvasir.py",
+      "sha256": "3635b91de73af992e066ced31f42b7b1de77ba1cb7d07039f6e3cc3f8a40fde0",
+      "bytes": 8635,
+      "mtime_ns": 1791985786643781082
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/lungcolon.py",
+      "sha256": "c3c6ba1013f135f97d4495592f64b6c5632f37dfb202cff37390d7c88da5cf46",
+      "bytes": 8647,
+      "mtime_ns": 1791985786643930826
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/octmnist.py",
+      "sha256": "c03075f36f5fa0da48b93efd78d92172fed9fc108bfc8e835b8725e0586f13a4",
+      "bytes": 8643,
+      "mtime_ns": 1791985786644084931
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/retina.py",
+      "sha256": "867844b422010467ad3eaca5d85cd48dae84a6708d5601df084bdfe0691b4be5",
+      "bytes": 8635,
+      "mtime_ns": 1791985786644236479
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/udiat.py",
+      "sha256": "acfecbe7d023998d285084d3eaddb0632a3b7caca0bb94417fcb45b68b2cd37a",
+      "bytes": 5759,
+      "mtime_ns": 1791985786644386526
+    },
+    {
+      "path": "/root/BiomedCoOp/code/datasets/utils.py",
+      "sha256": "5411afb8dd7bc52051fd2614a24e85891a9cb338923fa0b7b52caa32f23bdac7",
+      "bytes": 10539,
+      "mtime_ns": 1791985786644530528
+    },
+    {
+      "path": "/root/BiomedCoOp/code/download_ckpts.py",
+      "sha256": "2985fadce65eaf44aa52a0a53053824e6be715b35772dc2cf6a6dd866fdbba87",
+      "bytes": 988,
+      "mtime_ns": 1791985786644728144
+    },
+    {
+      "path": "/root/BiomedCoOp/code/interpret_prompt.py",
+      "sha256": "2cef7cf7dbc9cc1051536c59d746f891d7df7548b40b6f9a5cf80787480ec867",
+      "bytes": 1513,
+      "mtime_ns": 1791985786644837662
+    },
+    {
+      "path": "/root/BiomedCoOp/code/main.py",
+      "sha256": "c08e96672364d83e5ed3f7ca0c0aec6febd58946dead50c584d3dd9995b94fdb",
+      "bytes": 11340,
+      "mtime_ns": 1791985786644993159
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/.gitignore",
+      "sha256": "41a6a451d15cef79f9d0ea8cafb0aa3cf4cda70df4f071840b75fd612fd0c71d",
+      "bytes": 2003,
+      "mtime_ns": 1791985786645122172
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/CITATION.cff",
+      "sha256": "9e74d52e9093286f800119186c4b938d0533a36b7098b920905438bb45a79f91",
+      "bytes": 824,
+      "mtime_ns": 1791985786645240894
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/HISTORY.md",
+      "sha256": "cf7431d9dbd226d34b91c8d16ec624e35dc8a77773bb7eb88b6375da60b3f91f",
+      "bytes": 5144,
+      "mtime_ns": 1791985786645351288
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/LICENSE",
+      "sha256": "4a5b4f13ea4792a8211a69f32d2b460b6d520e57cd23c6301e707c76a6e97a55",
+      "bytes": 1229,
+      "mtime_ns": 1791985786645496316
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/MANIFEST.in",
+      "sha256": "c5ddad55831ff08e9e3dbf1fc70a24337de9575c23d0bb6ccb5f99381a288c36",
+      "bytes": 95,
+      "mtime_ns": 1791985786645609257
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/Makefile",
+      "sha256": "2aab7cec44ef6da33f843b6e532b870fc4cce24748fa4f69fb5f8501dc3ef283",
+      "bytes": 403,
+      "mtime_ns": 1791985786645706461
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/README.md",
+      "sha256": "26c4ccf033b7bac1f109d16019b47df5dc3cd2cb3272691ddbba69780407afec",
+      "bytes": 28841,
+      "mtime_ns": 1791985786645806597
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mtime_ns": 1791985786645806597
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/pytest.ini",
+      "sha256": "4686dac5c57eb41726253639acd5966819aa552759eaf5f3e942220b12ec1501",
+      "bytes": 39,
+      "mtime_ns": 1791985786646170095
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/requirements-test.txt",
+      "sha256": "fb3ce13455b305a3e03356ac1add9800764eefa925ff6f2133f70f9332e8e8cc",
+      "bytes": 59,
+      "mtime_ns": 1791985786646264805
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/requirements-training.txt",
+      "sha256": "0c3dc9b065be52196f223796dfcc148fa1039fd9244a91c78e8db6c2fb185d29",
+      "bytes": 126,
+      "mtime_ns": 1791985786646358912
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/requirements.txt",
+      "sha256": "21844aca3a902dabbfbaad1b9d1b7314406c69c60bc47c90daaa1b1f84060248",
+      "bytes": 85,
+      "mtime_ns": 1791985786646466202
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/scripts/clipav1_vit_l16_i37_t8.sh",
+      "sha256": "4ded5b0b6bd4c65ede084ed21bd6cf6944501fdfee0c11312d7ce4a8b27a66f0",
+      "bytes": 269,
+      "mtime_ns": 1791985786646621287
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/scripts/clipav2_vit_h14_i84_224_336_cl32_gap_datacomp1b.sh",
+      "sha256": "15d65c6c58abbeef750097e2e847d7caf91fe94e93942559a98a7e23a92fb1a1",
+      "bytes": 385,
+      "mtime_ns": 1791985786646730954
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/scripts/h14_224_32_finetune.sh",
+      "sha256": "b86431b25c26345ab78c46bab78b8b129d7b65a7f253feb4f10bfd49378f8bad",
+      "bytes": 883,
+      "mtime_ns": 1791985786646836202
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/scripts/h14_84_8_pretrain.sh",
+      "sha256": "b32eb748e3c57edd51c15185b3501cf4271bfdcfea85865f8a142589d53556e9",
+      "bytes": 892,
+      "mtime_ns": 1791985786646946873
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/setup.py",
+      "sha256": "09c09515af9e36fd1f212b0ec12ee0afe135d1946a7f527de5fac9882c7d10b1",
+      "bytes": 2104,
+      "mtime_ns": 1791985786647092807
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mtime_ns": 1791985786647092807
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/__init__.py",
+      "sha256": "b9b6d1014ab74b8a135acd07b7ee7bf7f5844b6b2d75a7407c4dcd2b60bce954",
+      "bytes": 1264,
+      "mtime_ns": 1791985786647360564
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/big_vision.py",
+      "sha256": "aea5ca63e7cabe24b6cae8371db1e44198ca64a5591534dd3e7b3125de4339ef",
+      "bytes": 7711,
+      "mtime_ns": 1791985786647483856
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/bpe_simple_vocab_16e6.txt.gz",
+      "sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a",
+      "bytes": 1356917,
+      "mtime_ns": 1791985786648711545
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/coca_model.py",
+      "sha256": "b040e3ecdd797f038e8885ae2987a455ddce48e26f0b234d9785941394872b16",
+      "bytes": 18038,
+      "mtime_ns": 1791985786649870811
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/constants.py",
+      "sha256": "eaf08275e171187683b129da702f2f586ab3a3d876884aa345d9136d42e49c03",
+      "bytes": 256,
+      "mtime_ns": 1791985786649992872
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/factory.py",
+      "sha256": "3cb8129ac493ebe0e69460f440cda710a32bf93750f47a14adde5836032a45ae",
+      "bytes": 17940,
+      "mtime_ns": 1791985786650177474
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/hf_configs.py",
+      "sha256": "1f29974215001c88b68c9ed77fa91eab3129347c8245a5c0516c803c630dd807",
+      "bytes": 2422,
+      "mtime_ns": 1791985786650301347
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/hf_model.py",
+      "sha256": "28992bc3509d06abc7ee73890caef0b4b3f01cbe4efce553e8989580b294ce4f",
+      "bytes": 7359,
+      "mtime_ns": 1791985786650458239
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/loss.py",
+      "sha256": "42d92ca49ebdeb004ebc73fca096a2fa7b18369edbdc33b51c1db70bdd84f22f",
+      "bytes": 15383,
+      "mtime_ns": 1791985786650633824
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model.py",
+      "sha256": "978261ca7a9096a24ad6dcec1b9ba2ab0aee62616b31d3f81026b28e5a0e3fcd",
+      "bytes": 25181,
+      "mtime_ns": 1791985786650853609
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/EVA01-g-14-plus.json",
+      "sha256": "818a6bbd661e27a6b3ff0d4c26e5394516cf407b06fd5c45b053fd360ba8fd80",
+      "bytes": 401,
+      "mtime_ns": 1791985786651005522
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/EVA01-g-14.json",
+      "sha256": "158832e2457b0a520b04eb3f6f2206cc3ade922ebcfe7460b57cc49b509c458a",
+      "bytes": 400,
+      "mtime_ns": 1791985786651116264
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/EVA02-B-16.json",
+      "sha256": "710c46f5ffe3e850d15e070ff7b60f51977bd5b1787d2aae81c72a5243cb91fb",
+      "bytes": 404,
+      "mtime_ns": 1791985786651225114
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/EVA02-E-14-plus.json",
+      "sha256": "6e5ed3af4cc263db6535c8eebf5fd1bbf70df706c0f056e23ce363ee0b2ec630",
+      "bytes": 411,
+      "mtime_ns": 1791985786651332435
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/EVA02-E-14.json",
+      "sha256": "6490bdc1a9786c2cd384fb4f96425ed343875c2f4791a8edb7a59a0cee060b1f",
+      "bytes": 411,
+      "mtime_ns": 1791985786651451625
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/EVA02-L-14-336.json",
+      "sha256": "fd39103806d6316a620e70b153d19afdfe6d1c925d60c546e8f5fffeb022961f",
+      "bytes": 406,
+      "mtime_ns": 1791985786651563009
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/EVA02-L-14.json",
+      "sha256": "273c4fec39646cb0f25f5f85cd133b00ddcae817dfc692b799156217fd93d2be",
+      "bytes": 406,
+      "mtime_ns": 1791985786651668680
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/RN101-quickgelu.json",
+      "sha256": "24dd435eec6871d7675bd6b02098e71e105a957aa6a3a59153b03181103756b5",
+      "bytes": 388,
+      "mtime_ns": 1791985786651773180
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/RN101.json",
+      "sha256": "0466aae72c1cd259a8655e25af3170d54acb4cbac95304cb9832d68e0716538b",
+      "bytes": 364,
+      "mtime_ns": 1791985786651884057
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/RN50-quickgelu.json",
+      "sha256": "079e9c4f3d7808a767de08061ab417f98d9e8aaaecec6510949cad0c0c389a41",
+      "bytes": 389,
+      "mtime_ns": 1791985786651990197
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/RN50.json",
+      "sha256": "a5b9845a44b5a052fb1697055b41b492171aa84868f1408e5fed7e6077d046d4",
+      "bytes": 364,
+      "mtime_ns": 1791985786652095646
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/RN50x16.json",
+      "sha256": "971064787fdc0266bb51d924db6f7f5311763118733315b54f2a9e52bdb64d50",
+      "bytes": 365,
+      "mtime_ns": 1791985786652199894
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/RN50x4.json",
+      "sha256": "aea39b4ec952ccfe1b7f9242a9c0d36e1abeb90f5c6fd4b2cfac6e402462df72",
+      "bytes": 365,
+      "mtime_ns": 1791985786652304259
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/RN50x64.json",
+      "sha256": "c9547262af1b739ca64766246b12d9b5e51f33c354f2bb1d8fe871dbb2ded3de",
+      "bytes": 370,
+      "mtime_ns": 1791985786652409847
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-B-16-SigLIP-256.json",
+      "sha256": "5b5bc1d47748d1681c3b843bc6d5fc77f36ac2ddb07db7a2a2c0c07ec19d5c0b",
+      "bytes": 710,
+      "mtime_ns": 1791985786652526887
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-B-16-SigLIP-384.json",
+      "sha256": "5011115711c21dae3a6efc4983461bac7ebae227c0155ed345802754b6616bbe",
+      "bytes": 710,
+      "mtime_ns": 1791985786652639032
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-B-16-SigLIP-512.json",
+      "sha256": "4cf5c83e3fcee1c55174cdf85bc637c6d05d0d80da8c954658f1373c84b9c37a",
+      "bytes": 710,
+      "mtime_ns": 1791985786652753270
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-B-16-SigLIP-i18n-256.json",
+      "sha256": "333feb29b23ee26be33221a6b5e085b19d8e7d8270375940abc076461c0a58bd",
+      "bytes": 720,
+      "mtime_ns": 1791985786652862711
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-B-16-SigLIP.json",
+      "sha256": "0c49495bdaeb419c02bf0de9c948b69b52547fb781d17a08ca32e95c1b63f40b",
+      "bytes": 710,
+      "mtime_ns": 1791985786652973462
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-B-16-plus-240.json",
+      "sha256": "09b2a65ea7bf757440b89b52e7a09ff85d556635f0e3a4ca76109e42aac6e351",
+      "bytes": 295,
+      "mtime_ns": 1791985786653082875
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-B-16-plus.json",
+      "sha256": "8e0c645c9190b34c48c281cbc243e1ed7c3fd3c1ee5f2c5885fe9c17b11c327a",
+      "bytes": 295,
+      "mtime_ns": 1791985786653193282
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-B-16-quickgelu.json",
+      "sha256": "4be2e81cacf5acb157cd56af7ddf7ae04ecf64b4a50953ddb690b33dc929614d",
+      "bytes": 318,
+      "mtime_ns": 1791985786653300204
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-B-16.json",
+      "sha256": "66d48767ab11591f4af2d2d1bf21845c3f2bea17ac70e0989991ff166a53ae52",
+      "bytes": 294,
+      "mtime_ns": 1791985786653405779
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-B-32-256.json",
+      "sha256": "16a91bb7023b8c720f8d2cab8b8245cb4d91d4d149b6c4b732a4c0b0bd3e0e52",
+      "bytes": 295,
+      "mtime_ns": 1791985786653519259
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-B-32-plus-256.json",
+      "sha256": "fcb771914c59371ec222f05dd5af44a5da74c72855c1c686f3f9701c95d64732",
+      "bytes": 295,
+      "mtime_ns": 1791985786653625116
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-B-32-quickgelu.json",
+      "sha256": "437dc6acc8455267c2646e84f880a026d91ac20828db9b100b18a5edba0e767a",
+      "bytes": 318,
+      "mtime_ns": 1791985786653731045
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-B-32.json",
+      "sha256": "743f4fcee3aea1705c1865f89a3767d816513769f57eb483a9eea3e610ebe633",
+      "bytes": 294,
+      "mtime_ns": 1791985786653834785
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-H-14-378-quickgelu.json",
+      "sha256": "8f286de8d3884d340ff7d728f9defa36e6f5573d1c0a036da6da5a38150d484b",
+      "bytes": 348,
+      "mtime_ns": 1791985786653944513
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-H-14-CLIPA-336.json",
+      "sha256": "116c13bd106cf3d2bf555fe7ca86413e6f6a428bea5adb31d3af81a3d00d2974",
+      "bytes": 604,
+      "mtime_ns": 1791985786654050359
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-H-14-CLIPA.json",
+      "sha256": "d1a3c42091754ceae93a8b11de41ee0f8ee75f20b028c69b385c6a694768e17a",
+      "bytes": 604,
+      "mtime_ns": 1791985786654159433
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-H-14-quickgelu.json",
+      "sha256": "b848bf57a19fe06d54d360b27396ba169e014936ee385e6bcb243764146efa8b",
+      "bytes": 348,
+      "mtime_ns": 1791985786654266364
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-H-14.json",
+      "sha256": "8b5bd11e1775f0fd79227ba05c07f3339b1c4da2e0f21f5426631774a84a6058",
+      "bytes": 324,
+      "mtime_ns": 1791985786654372471
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-H-16.json",
+      "sha256": "45c950e8c98300b5e0085781e9f91cc6f12ff94b43d0ed0f9687ed993209e8ef",
+      "bytes": 324,
+      "mtime_ns": 1791985786654486730
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-L-14-280.json",
+      "sha256": "848f42db24beda55ce044fb82cc4ffae34fa3a769184c2187a71e5074df209c1",
+      "bytes": 296,
+      "mtime_ns": 1791985786654593862
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-L-14-336.json",
+      "sha256": "980d8da26bf11b651426addb113881f24f707589ebecc7b882269e3678b33e84",
+      "bytes": 296,
+      "mtime_ns": 1791985786654704860
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-L-14-CLIPA-336.json",
+      "sha256": "c2757b77120d5e6e1954edb2753662f91624acc39728ef936a469620d63bc0f8",
+      "bytes": 576,
+      "mtime_ns": 1791985786654811515
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-L-14-CLIPA.json",
+      "sha256": "f2736ed6148cee6862d3248c36e0fc181f3f9e6ef6b1d3f8959e944a53f1298a",
+      "bytes": 576,
+      "mtime_ns": 1791985786654919708
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-L-14-quickgelu.json",
+      "sha256": "05618c9aeb50d41100bc778209d59cdea49687684e5009aec4ccf1b85a7ee272",
+      "bytes": 320,
+      "mtime_ns": 1791985786655028726
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-L-14.json",
+      "sha256": "616750a927ea8d8b0b8e4ec93179cab3df9e4f1531cb60cc5dd6882cb063888b",
+      "bytes": 296,
+      "mtime_ns": 1791985786655137196
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-L-16-320.json",
+      "sha256": "e4b766875aa5b1b303db804bb446d4c78213ed34bc089e79297b14287b952331",
+      "bytes": 296,
+      "mtime_ns": 1791985786655243318
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-L-16-SigLIP-256.json",
+      "sha256": "dfec7d35911d6fc6765acb584d841fb90291912ad12b22017a7e3938a8ad11e1",
+      "bytes": 713,
+      "mtime_ns": 1791985786655349736
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-L-16-SigLIP-384.json",
+      "sha256": "7f8dbbf9bab9aad2b8699045dbacb81293fb113d1e7ad58fc47b0612df60d32e",
+      "bytes": 713,
+      "mtime_ns": 1791985786655466517
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-L-16.json",
+      "sha256": "eae893277137e6cd4f071265423d135663528018cc13bdbf50709feaa80284fa",
+      "bytes": 296,
+      "mtime_ns": 1791985786655577704
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-M-16-alt.json",
+      "sha256": "a7888dab87466d26cdd7fe6b1df995c17028ca21b8e6848aa9ff549cd57fdf08",
+      "bytes": 325,
+      "mtime_ns": 1791985786655683957
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-M-16.json",
+      "sha256": "22852ee6d1e4c977f99b79d837fe226c315f75c16a22f809a16df6a2c1792d49",
+      "bytes": 294,
+      "mtime_ns": 1791985786655790430
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-M-32-alt.json",
+      "sha256": "a1be2c52a813f752842683c60472712bbe6cf10a8adbeecff94cfe0c9f5ef310",
+      "bytes": 294,
+      "mtime_ns": 1791985786655903077
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-M-32.json",
+      "sha256": "30b866c3c488a841903f0ce0892224cf6cd88924186a2f1bf5cca90fe3e529ef",
+      "bytes": 294,
+      "mtime_ns": 1791985786656010157
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-S-16-alt.json",
+      "sha256": "377ff96ac3126125c2d59f71567542ab4563230b1cf94287614dd12df86e78ff",
+      "bytes": 294,
+      "mtime_ns": 1791985786656117715
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-S-16.json",
+      "sha256": "68a3b267da2d98daa52d6df7f9e7764dfe68b619e2ddcda0ab7a0074d5057beb",
+      "bytes": 294,
+      "mtime_ns": 1791985786656227186
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-S-32-alt.json",
+      "sha256": "8e60da19a82ea42e7c97102ae551d31497da66dbb11793800875584fcb46c760",
+      "bytes": 294,
+      "mtime_ns": 1791985786656333079
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-S-32.json",
+      "sha256": "f8eeef14759a63a27686abd7eba45ae45b69f0344c32fbff67c059c8f016da3b",
+      "bytes": 294,
+      "mtime_ns": 1791985786656448222
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-SO400M-14-SigLIP-384.json",
+      "sha256": "a0cc409efb645c37d8763ae08796f2a5b617f27df357c7f3cb22d22dd6ca0af4",
+      "bytes": 743,
+      "mtime_ns": 1791985786656557707
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-SO400M-14-SigLIP.json",
+      "sha256": "f38301e1b87d3ea2ebed8df9d529cc7c6776001f539c8193b0b7ad229ab269ec",
+      "bytes": 743,
+      "mtime_ns": 1791985786656668218
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-bigG-14-CLIPA-336.json",
+      "sha256": "92391b33e657cc1349b8a0a4db2da0e5906cad17caf9390ab22014d6df62169f",
+      "bytes": 634,
+      "mtime_ns": 1791985786656779287
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-bigG-14-CLIPA.json",
+      "sha256": "dfdd52a989e3f7d71899c6d12b6df175437b5d5d48e53e6a0e4a0ac5b2eb282c",
+      "bytes": 634,
+      "mtime_ns": 1791985786656888767
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-bigG-14.json",
+      "sha256": "6f5fc4e85739ca3546804e30178f5241b3be2becd8cf52c282b6e90c742a9f30",
+      "bytes": 354,
+      "mtime_ns": 1791985786656997192
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-e-14.json",
+      "sha256": "27e8d32a1c7727ef84fb4ab2c337b69fcb7aae96243c8bcfb4b4bbaffd2a83d1",
+      "bytes": 354,
+      "mtime_ns": 1791985786657110057
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/ViT-g-14.json",
+      "sha256": "463160a932f75774ded241d4217eebd172fe7c03c24646530a24b89b20148df5",
+      "bytes": 353,
+      "mtime_ns": 1791985786657218405
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/coca_ViT-B-32.json",
+      "sha256": "5dc0a9a7803fefb45fadd78ae534839d2adc258efe4b732fdf9c370b49caeee5",
+      "bytes": 659,
+      "mtime_ns": 1791985786657325390
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/coca_ViT-L-14.json",
+      "sha256": "709768239a6598fe13f19f1ccffd152d503c4c51847ea211f4aefec2158a91f8",
+      "bytes": 664,
+      "mtime_ns": 1791985786657433624
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/coca_base.json",
+      "sha256": "41ea88529c52700715eba5e90ac0e4edca4453346195d1c305cb71ab7d8c75e0",
+      "bytes": 669,
+      "mtime_ns": 1791985786657550405
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/coca_roberta-ViT-B-32.json",
+      "sha256": "f1a2bf83f300285c7428b3aa8f5dcffa35bffb6b28291054e131097adcdddfa6",
+      "bytes": 525,
+      "mtime_ns": 1791985786657664902
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/convnext_base.json",
+      "sha256": "aca749568baacbeed4d9e80259440f377023b42744ac26ab2f3a01a0eeea9b84",
+      "bytes": 421,
+      "mtime_ns": 1791985786657772632
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/convnext_base_w.json",
+      "sha256": "3de1efb055e506c05952ef13faef6eedabcd68a001d0f7df2c595541f3c3f66a",
+      "bytes": 422,
+      "mtime_ns": 1791985786657883161
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/convnext_base_w_320.json",
+      "sha256": "37b39ef036e6c949af1d5a2f404e469cc216e2ee73d290d0e3169e326f367e93",
+      "bytes": 422,
+      "mtime_ns": 1791985786657990329
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/convnext_large.json",
+      "sha256": "571e78940760a9f389169da9eda00f32f584bb9814bc507fb79e5051c771c29b",
+      "bytes": 423,
+      "mtime_ns": 1791985786658097391
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/convnext_large_d.json",
+      "sha256": "76a8d687335fb75dc02c10bac5de66f7f687e3ab8b23cf0f372ebf86fb0ce58a",
+      "bytes": 420,
+      "mtime_ns": 1791985786658207420
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/convnext_large_d_320.json",
+      "sha256": "44c8dea391af808d38e16d4ff489e2f498bbfa35a974deb9f7273d8932c56679",
+      "bytes": 420,
+      "mtime_ns": 1791985786658315695
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/convnext_small.json",
+      "sha256": "54c0d8b6168b6a7907e32ff8134ef096aa1b1e2100c815f366b728b7fcedd122",
+      "bytes": 422,
+      "mtime_ns": 1791985786658423751
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/convnext_tiny.json",
+      "sha256": "c919729a818c48f95371c8b52030c96513cf2d38e28a94a098be78da3b345e89",
+      "bytes": 422,
+      "mtime_ns": 1791985786658539197
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/convnext_xlarge.json",
+      "sha256": "320f6ee194db97b3b98511ccd9086f29d65ca69bfe1889686f0b4d3fda4334f2",
+      "bytes": 426,
+      "mtime_ns": 1791985786658646530
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/convnext_xxlarge.json",
+      "sha256": "5017c8577bfe979ebcf227b0d651b783809717a12177905d7ce71254b363108e",
+      "bytes": 427,
+      "mtime_ns": 1791985786658752826
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/convnext_xxlarge_320.json",
+      "sha256": "ab4f469f9ef8df163259e91f145f0a7b2fec21824fb1c2dfa863cc6ab01b52f4",
+      "bytes": 427,
+      "mtime_ns": 1791985786658859865
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/mt5-base-ViT-B-32.json",
+      "sha256": "4500e4afbf60fb7de67eeb29b17ad0d16543e83169bc6d26d1e146cb7db36e56",
+      "bytes": 305,
+      "mtime_ns": 1791985786658968382
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/mt5-xl-ViT-H-14.json",
+      "sha256": "ef39c8cd72497262ee30284ec7a76b7fdfba47451aad414e9202cffc40a3d700",
+      "bytes": 329,
+      "mtime_ns": 1791985786659085058
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/nllb-clip-base-siglip.json",
+      "sha256": "431a98c2b575b62248c792f84f94503d42f66cf740a3109382f21addf4e530ff",
+      "bytes": 509,
+      "mtime_ns": 1791985786659194764
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/nllb-clip-base.json",
+      "sha256": "bd0513883ac288fadb048ec501a3bb2dab21fa304ac39a32f670f4c93268bf21",
+      "bytes": 371,
+      "mtime_ns": 1791985786659303450
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/nllb-clip-large-siglip.json",
+      "sha256": "d2102a3683662468f0394779114e155526835d7a1cc269ca8b2922fb3d306e97",
+      "bytes": 512,
+      "mtime_ns": 1791985786659410742
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/nllb-clip-large.json",
+      "sha256": "62e73e592f50963b22f7288c14a39c115a9210af2dacc985a18aa75b7b1a65e5",
+      "bytes": 399,
+      "mtime_ns": 1791985786659549959
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/roberta-ViT-B-32.json",
+      "sha256": "e3d92d60e6522a09c0282c44499d4c26b6cd51448538073d4401920f30985f81",
+      "bytes": 323,
+      "mtime_ns": 1791985786659660512
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/swin_base_patch4_window7_224.json",
+      "sha256": "1cb823b9fab9bd851d81ac0af751ccb7fa9ed1ebb31a16cea29e01ca8c3edd87",
+      "bytes": 380,
+      "mtime_ns": 1791985786659767380
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/vit_medium_patch16_gap_256.json",
+      "sha256": "50426397fc6e28e205df55b9aadedc49c47e73904229ea588fcef29e0e65a07f",
+      "bytes": 377,
+      "mtime_ns": 1791985786659876587
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/vit_relpos_medium_patch16_cls_224.json",
+      "sha256": "b0539ae19daff98d4edfabfd711a808e01bc362e23414438dd158ec430dd7b28",
+      "bytes": 384,
+      "mtime_ns": 1791985786659988967
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/xlm-roberta-base-ViT-B-32.json",
+      "sha256": "16551a11d9af85a667d80b3e6030f0998a1443b08990d81d6e639954e1dace8e",
+      "bytes": 307,
+      "mtime_ns": 1791985786660102044
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/model_configs/xlm-roberta-large-ViT-H-14.json",
+      "sha256": "313a3be236f830ff4836854379e1ba11f8c263e24bc16b429c4615415de929f8",
+      "bytes": 337,
+      "mtime_ns": 1791985786660211159
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/modified_resnet.py",
+      "sha256": "939c463e50bf4a5accd9c116a17c5043dcca8cbf0e751a1de03ad5d12b7e6702",
+      "bytes": 7049,
+      "mtime_ns": 1791985786660386144
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/openai.py",
+      "sha256": "a85761641ab845dd7f676b441140e9fe846be38f30e4bb56b48354b25840c260",
+      "bytes": 3302,
+      "mtime_ns": 1791985786660527308
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/pos_embed.py",
+      "sha256": "153ba2e3de1e50ca1d3b5ffe20309ac8ec085a682c9d1b3f802844b2cc418cbf",
+      "bytes": 4044,
+      "mtime_ns": 1791985786660661193
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/pretrained.py",
+      "sha256": "14aa2b4cf05000f340a60e3d71880d09de9a2a625aa4f849739c01122f8659ad",
+      "bytes": 22546,
+      "mtime_ns": 1791985786660855593
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/push_to_hf_hub.py",
+      "sha256": "efb1ce8ad0d00a9dd6d9b1889ebeeb648618d7b4dc7e06b9b488d658fb0982a6",
+      "bytes": 10647,
+      "mtime_ns": 1791985786661037461
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/timm_model.py",
+      "sha256": "83ded7394e679e82a59c2f85a7e13fbe6aa1a2c11d97a05d204364fc975f92f1",
+      "bytes": 5951,
+      "mtime_ns": 1791985786661187445
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/tokenizer.py",
+      "sha256": "e5f3572dfb5027b8cc06580e536fe9c9fb9b201c27e5108fc1d2bc71a752b633",
+      "bytes": 18091,
+      "mtime_ns": 1791985786661388227
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/transform.py",
+      "sha256": "11c80cb26058a9e6b6af0169d9655ba3a6a704420082f4d789fd3371b4a75eb8",
+      "bytes": 14339,
+      "mtime_ns": 1791985786661582178
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/transformer.py",
+      "sha256": "7cac708abe6e7668a25cd84280ddfec5afa67ee7e37cf4dfa449e17c4e321214",
+      "bytes": 30372,
+      "mtime_ns": 1791985786661816774
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/utils.py",
+      "sha256": "f0267bb9d5402b1b5b38a90f96f6cd9002ac21d2db0f3f3fbee8ed48b2f46047",
+      "bytes": 3472,
+      "mtime_ns": 1791985786661956492
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/version.py",
+      "sha256": "b084f4d3ab8c362b7843d785c86860a7f6f068cd92e7bddc9e7a6ac148d3c15b",
+      "bytes": 23,
+      "mtime_ns": 1791985786662057242
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/zero_shot_classifier.py",
+      "sha256": "683bc78fa3c43d6dae522490a331da005fee8664793db654c9fbb6e0c296aea9",
+      "bytes": 4340,
+      "mtime_ns": 1791985786662180480
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/open_clip/zero_shot_metadata.py",
+      "sha256": "3bd8adb168bdf80fd681a71258e67f2c4d0f8ed73eae9b504ed5063e1726bbe9",
+      "bytes": 19245,
+      "mtime_ns": 1791985786662401502
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/training/.gitignore",
+      "sha256": "96731671afe640d782dff36b82a3ad8d1ce0ebe4a7b174f6506f251395941e2f",
+      "bytes": 6,
+      "mtime_ns": 1791985786662555311
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/training/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mtime_ns": 1791985786662555311
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/training/data.py",
+      "sha256": "d272760fe1fc4090b9a8972fe2e703c279b3be017b0b6d5bb2a5693ac3c9778b",
+      "bytes": 20415,
+      "mtime_ns": 1791985786662736510
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/training/distributed.py",
+      "sha256": "7bb8358f67f4381fafc1d39861ea6efca07621b5b0d2736ea6d53fa020941eb3",
+      "bytes": 4444,
+      "mtime_ns": 1791985786662953012
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/training/file_utils.py",
+      "sha256": "37b9e166605feefa8de5b8d2b0032ccae8708b5edfa54d82353dafc78bf1b4aa",
+      "bytes": 2686,
+      "mtime_ns": 1791985786663088773
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/training/logger.py",
+      "sha256": "d90ffad0a42e9d8f1b15af6a0db819e178d6a880f8203c6a51368856cd26f3ee",
+      "bytes": 899,
+      "mtime_ns": 1791985786663206594
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/training/main.py",
+      "sha256": "42cdcb978936cc6819dca8afb647d1ed0c871cd3356015c35d877c6f7e1620b3",
+      "bytes": 20987,
+      "mtime_ns": 1791985786663314361
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/training/params.py",
+      "sha256": "6a0810fdbdedb775231f2e307b16929a871f14cee3ff2003ea7d1967273e0028",
+      "bytes": 15386,
+      "mtime_ns": 1791985786663547316
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/training/precision.py",
+      "sha256": "29c7d1b5c749a22d4dec9c73c8b0ed8281fb0ff983458ea9c279685ea97dc765",
+      "bytes": 383,
+      "mtime_ns": 1791985786663726117
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/training/profiler.py",
+      "sha256": "2c17224ee8655fd0e2ec868aebc06e6f05bb07a7f933294add746fc33950dd6f",
+      "bytes": 9326,
+      "mtime_ns": 1791985786663829604
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/training/scheduler.py",
+      "sha256": "53c48109f8a2c4edda0e417bbe4a9257242826d47f6edf7d4bf16b4381789a05",
+      "bytes": 1747,
+      "mtime_ns": 1791985786663974352
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/training/train.py",
+      "sha256": "87fd017bd0ef26c68d78d627cb5aefe7f226133778eee276cd26922bc74ce50b",
+      "bytes": 15033,
+      "mtime_ns": 1791985786664082154
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/src/training/zero_shot.py",
+      "sha256": "dde92b1e7c4d6f3c2ef9c51ec9a89df18030aaac136e5e60adff3b8e8c61687b",
+      "bytes": 2854,
+      "mtime_ns": 1791985786664265453
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/testing_new.py",
+      "sha256": "06e7a5fda2790ebdf3152c9e3aece696f58879cbe0341c36614bda2fc3ac0bf3",
+      "bytes": 754,
+      "mtime_ns": 1791985786664416861
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/tests/test_download_pretrained.py",
+      "sha256": "3db850bd4e1f14dc0a49fd5608a67d18db98ba89581a44d95c652550aa9e89fa",
+      "bytes": 5718,
+      "mtime_ns": 1791985786664553924
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/tests/test_hf_model.py",
+      "sha256": "c29434892b6e1487c33dc6e9de5a2b71a50c21b0b6bc0475b3ee93dc7dfdd1d1",
+      "bytes": 1040,
+      "mtime_ns": 1791985786664685102
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/tests/test_inference.py",
+      "sha256": "6f0fe6171801edea0aecba17b5fc2497df3771fd7f146485d77fc7117677bff1",
+      "bytes": 5448,
+      "mtime_ns": 1791985786664791864
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/tests/test_inference_simple.py",
+      "sha256": "d1cbf9a6c0659da311f57c9557e02c40ca69abb95ce70ad78f7c2e7dbed4e223",
+      "bytes": 1623,
+      "mtime_ns": 1791985786664925411
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/tests/test_num_shards.py",
+      "sha256": "9891b512eb2647da58303cd9aaaf2777780c52b5580d6f93774e4e7ce265d9f7",
+      "bytes": 757,
+      "mtime_ns": 1791985786665035108
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/tests/test_training_simple.py",
+      "sha256": "615a417a319ac45c33ccec43248b86ae286f17b4161d1e57eddd59ee4f775d65",
+      "bytes": 2714,
+      "mtime_ns": 1791985786665138710
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/tests/test_wds.py",
+      "sha256": "ffc4480bb27196dea4db6b3f45355cfce18111fd1338789067fae5273ab4d1a5",
+      "bytes": 5050,
+      "mtime_ns": 1791985786665249380
+    },
+    {
+      "path": "/root/BiomedCoOp/code/open_clip/tests/util_test.py",
+      "sha256": "c954f7162b678ab68b9a55fab5cb82fba0840fda32e22dc62d45757ad4a26113",
+      "bytes": 11423,
+      "mtime_ns": 1791985786665377544
+    },
+    {
+      "path": "/root/BiomedCoOp/code/parse_test_res.py",
+      "sha256": "320c88ffd020e9a5fbe86fc3b17259e9cea04ed70c1ea2685c9abb943acc95b7",
+      "bytes": 4607,
+      "mtime_ns": 1791985786665605095
+    },
+    {
+      "path": "/root/BiomedCoOp/code/requirements.txt",
+      "sha256": "ad772c4e147cd9ba60a1dede1d702eb2872327eacad6e833375c34f0ca2b0f27",
+      "bytes": 216,
+      "mtime_ns": 1791985786665708963
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/biomedcoop/base2new.sh",
+      "sha256": "341735e38ab58333caef9407e5da399e098276eec9a5bd8ba233d9889e557cf1",
+      "bytes": 1459,
+      "mtime_ns": 1791985786665901426
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/biomedcoop/dg.sh",
+      "sha256": "50e90e34bffa37a56384fe42fa19ab189eaa5007b00efe67c91ce618be2d0aae",
+      "bytes": 2458,
+      "mtime_ns": 1791985786666009819
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/biomedcoop/eval_base2new.sh",
+      "sha256": "3b177e2ed89dde2771f92e5317e11808fda3d8e4c6a5f72d6399145705632b9a",
+      "bytes": 1437,
+      "mtime_ns": 1791985786666114443
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/biomedcoop/eval_dg.sh",
+      "sha256": "46667863b2f5592a76b23dceece8b4d122f7fdbdc7179b69fb4d34dcb494a5dc",
+      "bytes": 2098,
+      "mtime_ns": 1791985786666220098
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/biomedcoop/eval_fewshot.sh",
+      "sha256": "6d155287f4f4b3e658df0b4cd33d2479613ac16e9fea04f980efc50a2cea135e",
+      "bytes": 1479,
+      "mtime_ns": 1791985786666331321
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/biomedcoop/few_shot.sh",
+      "sha256": "99f7b9c318a97546aaa0031cc2322ec74813d4670b9a496e3d2fb51603f7a9ba",
+      "bytes": 924,
+      "mtime_ns": 1791985786666434887
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/clip_adapter/few_shot.sh",
+      "sha256": "fb5bd3d07fc344b3f6d754450bc3139243927fca4a92d3baeb5e9dbabde88f71",
+      "bytes": 419,
+      "mtime_ns": 1791985786666569461
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/cocoop/base2new.sh",
+      "sha256": "e255dcb59a43766f2195ee7154fb542f9f33dc8c0ac7b9e0c33328d4d333f53c",
+      "bytes": 1434,
+      "mtime_ns": 1791985786666722580
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/cocoop/dg.sh",
+      "sha256": "2df91a5188bef213e05efeb4fd7df6e0d53c8609f9e11e40f6736ba5105faf28",
+      "bytes": 2412,
+      "mtime_ns": 1791985786666830464
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/cocoop/few_shot.sh",
+      "sha256": "6f795be027fb7df43936199355adc47aac77fdc5c8397de09e425f3d9eff90ff",
+      "bytes": 902,
+      "mtime_ns": 1791985786666939829
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/coop/base2new.sh",
+      "sha256": "00b7d48933f49422761efc90c52e66bc1ae9c771f350ec9844f8d38dc272cedc",
+      "bytes": 1430,
+      "mtime_ns": 1791985786667090583
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/coop/dg.sh",
+      "sha256": "6f748361f8c6c36abcb2069fa5aca4bbc0be9d8b3afb2e2fe0761103e7732553",
+      "bytes": 2396,
+      "mtime_ns": 1791985786667204338
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/coop/few_shot.sh",
+      "sha256": "2b3ac3474b8be94bd7913f8b944969b2bdac143f1218caa96ebf93eafbfdeb59",
+      "bytes": 892,
+      "mtime_ns": 1791985786667317300
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/kgcoop/base2new.sh",
+      "sha256": "1c5e7208f022ba84e43807a0cbdefeff71faa17a1e7e92e47afdd81748a346de",
+      "bytes": 1436,
+      "mtime_ns": 1791985786667479800
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/kgcoop/dg.sh",
+      "sha256": "3847a53b2e77a9307e15fa19e2491651e9de1cd1c48b86d6e679103d393ad4ac",
+      "bytes": 2438,
+      "mtime_ns": 1791985786667589931
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/kgcoop/few_shot.sh",
+      "sha256": "c36f1c414d256962ee63724b71c51a480462e2c0770fabb55ff0e82ea83cb1ab",
+      "bytes": 903,
+      "mtime_ns": 1791985786667700647
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/linear_probe/few_shot.sh",
+      "sha256": "273cd9cb8136709a1a8bd5b7a536b90aa0b8b3e8625ebe0579f1b2c8369d144e",
+      "bytes": 409,
+      "mtime_ns": 1791985786667851179
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/linear_probe2/few_shot.sh",
+      "sha256": "36d27ac741d77cc03a763f6986b1ea691948730070e4c13ac2d4ef25b45bea10",
+      "bytes": 413,
+      "mtime_ns": 1791985786668006699
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/prograd/base2new.sh",
+      "sha256": "010a365ee1779988be87cf5f927f21c7a314691a3caf25ab0a119de89a9bfcbe",
+      "bytes": 1459,
+      "mtime_ns": 1791985786668155191
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/prograd/dg.sh",
+      "sha256": "659fbe262b3ec4e5c416224a16651bc604443dacd00c520621be33d71dc4d1e6",
+      "bytes": 2446,
+      "mtime_ns": 1791985786668262266
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/prograd/few_shot.sh",
+      "sha256": "dbf771052473ca2f228248d0fc9ac806a6aaf3850369ff0ff25b63aaecfdc6a9",
+      "bytes": 908,
+      "mtime_ns": 1791985786668373319
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/tip_adapter/few_shot.sh",
+      "sha256": "514ed8b6cf38fcbf6966fb0448c96c31902f0218e1d12ba934fe141ed06f2fbf",
+      "bytes": 417,
+      "mtime_ns": 1791985786668533197
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/zeroshot/zeroshot.sh",
+      "sha256": "d0883bd24c5c3c4a46e431594265f7ac37e1db258ed56fef6796c446a4fe954c",
+      "bytes": 314,
+      "mtime_ns": 1791985786668680489
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/zeroshot/zeroshot_base2new.sh",
+      "sha256": "0b9191453347e65c2995db022b204e8f39120b8ae9cc7512e24cd9102efd9239",
+      "bytes": 720,
+      "mtime_ns": 1791985786668784040
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/zeroshot/zeroshot_dg.sh",
+      "sha256": "27331dea15ade8a940dd8393ff4844b971cd645147c1abaa27fc2baaf1f670bc",
+      "bytes": 987,
+      "mtime_ns": 1791985786668886077
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/zeroshot/zeroshot_ensemble.sh",
+      "sha256": "9492d05a81b024310ea3265da95e61dedb97550cdbe72775f7ea293fd48d9177",
+      "bytes": 315,
+      "mtime_ns": 1791985786668993183
+    },
+    {
+      "path": "/root/BiomedCoOp/code/scripts/zeroshot/zeroshot_ensemble_base2new.sh",
+      "sha256": "720988842ce1c2813ac1c98cd1be5fa759682961f675f0a8d1075dc0d6ee9eff",
+      "bytes": 721,
+      "mtime_ns": 1791985786669100569
+    },
+    {
+      "path": "/root/BiomedCoOp/code/train.py",
+      "sha256": "b30f0ab23b655892f28bc99db70fdb999b6b6699f5d3c950aafef4b5ea46f11f",
+      "bytes": 8092,
+      "mtime_ns": 1791985786669265722
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/BiomedCoOp/biomedcoop_biomedclip.py",
+      "sha256": "296e76d13706166e7c835305c56e132ad9d08c7a9e729ea1aa94c0e1d2ef3ae4",
+      "bytes": 15650,
+      "mtime_ns": 1791985786669427734
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/BiomedCoOp/biomedcoop_clip.py",
+      "sha256": "5035c868a0eac628a82019eb7598904fe66ab677bb39aa5de37f2df5a123654d",
+      "bytes": 14041,
+      "mtime_ns": 1791985786669620470
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/BiomedCoOp/biomedcoop_pmcclip.py",
+      "sha256": "d21750cf3a48843bef0c6719cc2eb4dbaa84e0a4cb216210a54bd206097efb09",
+      "bytes": 17858,
+      "mtime_ns": 1791985786669795914
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/BiomedCoOp/biomedcoop_pubmedclip.py",
+      "sha256": "c37adadf1ee772c4b05c8f7f4f5f66331f324d96a46a3996c891daf63b7e71ae",
+      "bytes": 15624,
+      "mtime_ns": 1791985786669988857
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/ClipAdapter/clip_adapter_biomedclip.py",
+      "sha256": "ef5d6629dc0d26454a240771b1dfe87a7f825f33ca9d2af88dd88eb479313dde",
+      "bytes": 11161,
+      "mtime_ns": 1791985786670223625
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/ClipAdapter/clip_adapter_clip.py",
+      "sha256": "a199a255673b2668b630f7afeff62d5914419c4b5541c3853ce6c552163489da",
+      "bytes": 11121,
+      "mtime_ns": 1791985786670383799
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/ClipAdapter/clip_adapter_pmcclip.py",
+      "sha256": "acd70e0099c3ee0a1a000657a63ed57fe8703e1af42390560c659b89b699eb48",
+      "bytes": 11118,
+      "mtime_ns": 1791985786670551390
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/ClipAdapter/clip_adapter_pubmedclip.py",
+      "sha256": "164e4101bb59da989702151f7e3e0aa1c6989dad1336c96f7d4b0b01a84998e9",
+      "bytes": 11146,
+      "mtime_ns": 1791985786670711412
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/CoCoOp/cocoop_biomedclip.py",
+      "sha256": "72f891a2a14fc616aae488d5062531b99271f1b3e954a6b2e7f505d0d38143ba",
+      "bytes": 10577,
+      "mtime_ns": 1791985786670913464
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/CoCoOp/cocoop_clip.py",
+      "sha256": "4f3b23f423e571fb28a4c1231734756ef37a885e6099ee0e797cc6f316aacff6",
+      "bytes": 11418,
+      "mtime_ns": 1791985786671080467
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/CoCoOp/cocoop_pmcclip.py",
+      "sha256": "ce6f9ca0b3d99bfa99aa652df4cd399b4f3258081a93e63a40d463e494634e72",
+      "bytes": 14962,
+      "mtime_ns": 1791985786671248390
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/CoCoOp/cocoop_pubmedclip.py",
+      "sha256": "6b6b13ef3592a986dbd7d30b30e5e24c1a6e58ca22085b78282b0cdefd1f7510",
+      "bytes": 13142,
+      "mtime_ns": 1791985786671435930
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/CoOp/coop_biomedclip.py",
+      "sha256": "a01ccb9a7ac82d74d7dca93a89048b8f973d959a72e2a52082a162c54b5b9649",
+      "bytes": 10868,
+      "mtime_ns": 1791985786671672059
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/CoOp/coop_clip.py",
+      "sha256": "aeb3a803d63812b10af5679557e982ac8598e8af7218f3e614564adcf94e490d",
+      "bytes": 11796,
+      "mtime_ns": 1791985786671833945
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/CoOp/coop_pmcclip.py",
+      "sha256": "c3e88b8e01001d0b6b15b6bef7d587da37723136dc47615505d0f0ad1b80207f",
+      "bytes": 16142,
+      "mtime_ns": 1791985786672004098
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/CoOp/coop_pubmedclip.py",
+      "sha256": "685e55c1c46588c648a947788c9bb292dee5e888195f01e37ef2a96f4e66ec54",
+      "bytes": 13531,
+      "mtime_ns": 1791985786672187789
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/KgCoOp/kgcoop_biomedclip.py",
+      "sha256": "b24aca0d45383207bb13dbba1f675a5f4f6c111e356371fb2960b76af809a14d",
+      "bytes": 11914,
+      "mtime_ns": 1791985786672411967
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/KgCoOp/kgcoop_clip.py",
+      "sha256": "15609ad3d5e0c861bd5cff2607f0babd4ea77fdb1df90bc57f516854c59d9c16",
+      "bytes": 12591,
+      "mtime_ns": 1791985786672590008
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/KgCoOp/kgcoop_pmcclip.py",
+      "sha256": "f6252d5573e257e613cdb7bb53799f5327e02a3718228bd43824f987af578b25",
+      "bytes": 16168,
+      "mtime_ns": 1791985786672761780
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/KgCoOp/kgcoop_pubmedclip.py",
+      "sha256": "24110f04adc6d19de994f73f99a1245823dc0636d91f8c0bbd6b5ed251be2dd8",
+      "bytes": 14326,
+      "mtime_ns": 1791985786672949077
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/LP/linear_probe_biomedclip.py",
+      "sha256": "7aeee37efe67e52d81798ccff4dacd12eb23fee6831bcb067a60a6e6179aea24",
+      "bytes": 6393,
+      "mtime_ns": 1791985786673185645
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/LP/linear_probe_clip.py",
+      "sha256": "5c735fb96ebc765ec15197095f540ee6d0d455dcd18e7cb81ddf27ec45c30d3f",
+      "bytes": 6387,
+      "mtime_ns": 1791985786673323300
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/LP/linear_probe_pmcclip.py",
+      "sha256": "ec59b184b55b84f60c00b0314df7c649229bd84196fe0f5843dda079496d39b1",
+      "bytes": 6390,
+      "mtime_ns": 1791985786673469754
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/LP/linear_probe_pubmedclip.py",
+      "sha256": "6db21a607def20c9ce3de0c6e489f73e91e6941d989527d038d623e567c4200b",
+      "bytes": 6393,
+      "mtime_ns": 1791985786673604700
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/LP2/linear_probe_p2_biomedclip.py",
+      "sha256": "5b09e8460bdbd2a9a6ef057b851eb5cff7fa40a301c94f2fd6871b9ad705c99d",
+      "bytes": 7163,
+      "mtime_ns": 1791985786673789770
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/LP2/linear_probe_p2_clip.py",
+      "sha256": "25faed586fc8a5d152f6437eefd478555b61e66dff2758f0d513c9cd9ba82b76",
+      "bytes": 7012,
+      "mtime_ns": 1791985786673932548
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/LP2/linear_probe_p2_pmcclip.py",
+      "sha256": "23d94ec71e4049c8b69abe06d7109c405702f3e4f91da28a810c8234346f120e",
+      "bytes": 7070,
+      "mtime_ns": 1791985786674075842
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/LP2/linear_probe_p2_pubmedclip.py",
+      "sha256": "760ec5ab2cf868c8aeac5b35493c5a3d24bbcb0448a836657323b44cfec6e9e1",
+      "bytes": 7018,
+      "mtime_ns": 1791985786674213701
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/ProGrad/prograd_biomedclip.py",
+      "sha256": "a2fe84d27dc452fbb6c9df21a2869408183eacf9b45809dcda6e1218718f18e0",
+      "bytes": 15042,
+      "mtime_ns": 1791985786674399781
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/ProGrad/prograd_clip.py",
+      "sha256": "bfa96311f9abbbacc28cafac4a597cd78c1b2b74efd559855bec5840ba3fc353",
+      "bytes": 15340,
+      "mtime_ns": 1791985786674591582
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/ProGrad/prograd_pmcclip.py",
+      "sha256": "dc77daf99973e9d8f3c0cb128697bb822789f7cbc68f1ab9889d88d7b56761a2",
+      "bytes": 19596,
+      "mtime_ns": 1791985786674773296
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/ProGrad/prograd_pubmedclip.py",
+      "sha256": "e8717eea64ca1cb15769b28b9805c1dd3d01c4c0473749e9772b43f891a5d514",
+      "bytes": 17091,
+      "mtime_ns": 1791985786674972502
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/TipAdapter/tip_adapter_biomedclip.py",
+      "sha256": "ef7e47682c04df9365aa70667e976704f978068c6e89c1d9d01f07652eeb4233",
+      "bytes": 11053,
+      "mtime_ns": 1791985786675210573
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/TipAdapter/tip_adapter_clip.py",
+      "sha256": "5542ff3a92e5ad9ff9d6f0eb2b60a13eeac762f8252d9c4a92c7f5b5b6a33f1a",
+      "bytes": 10820,
+      "mtime_ns": 1791985786675367926
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/TipAdapter/tip_adapter_pmcclip.py",
+      "sha256": "820424f9320d8792bdb04cd1b516bee2619ad67a8861d0d7620051595584c1c5",
+      "bytes": 11020,
+      "mtime_ns": 1791985786675530239
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/TipAdapter/tip_adapter_pubmedclip.py",
+      "sha256": "3a305590fdedda6e8c403358903e3a79a119e3d5c53ab61c8321b5bcdaf229e9",
+      "bytes": 10826,
+      "mtime_ns": 1791985786675681317
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/Zeroshot/zeroshot.py",
+      "sha256": "c3d64142be606be641f1c91877e72420d9f76f65c6173de4af7e2fe17894a9c9",
+      "bytes": 16592,
+      "mtime_ns": 1791985786675880376
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/__init__.py",
+      "sha256": "26414e914cbc25b1d383b9bc0331620369616e7cd086ef8b8976ac231af22683",
+      "bytes": 715,
+      "mtime_ns": 1791985786676074874
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/method.py",
+      "sha256": "075fc680a39e1a657b20f1a2b31fc372dead002862ce9a326681174deb711252",
+      "bytes": 739,
+      "mtime_ns": 1791985786676178658
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/prompt_templates.py",
+      "sha256": "d86ace463948f992b43a7b19927265a77d355e0d76a2cad770c19e8dd21a582e",
+      "bytes": 453009,
+      "mtime_ns": 1791985786676711756
+    },
+    {
+      "path": "/root/BiomedCoOp/code/trainers/utils.py",
+      "sha256": "2f16904feb496a97c083d0b7aeaed6221405a0b9eca666d8861fc5f263762976",
+      "bytes": 6138,
+      "mtime_ns": 1791985786677968221
+    },
+    {
+      "path": "/root/BiomedCoOp/code/utils.py",
+      "sha256": "eba49cd2eed85f492ad9189aa5c765b5ca08e651e033ea1b0e8ac4ada9f56d46",
+      "bytes": 8202,
+      "mtime_ns": 1791985786678132956
+    }
+  ],
+  "runtime_environment": {
+    "executable": "/root/BiomedCoOp/.venv/bin/python",
+    "python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:42:22) [GCC 14.3.0]",
+    "versions": {
+      "torch": "2.1.0+cu121",
+      "torchvision": "0.16.0+cu121",
+      "numpy": "1.26.4",
+      "Pillow": "10.4.0",
+      "timm": "0.9.12",
+      "transformers": "4.35.2",
+      "scikit-learn": "1.3.2",
+      "matplotlib": "3.8.4",
+      "tensorboard": "2.15.2",
+      "open_clip_torch": "2.23.0"
+    },
+    "cuda": "12.1",
+    "device": "Tesla T4",
+    "numpy_bridge": true
+  },
+  "deviations": [
+    "PyTorch2.1.0+cu121/torchvision0.16.0 satisfy published torch>=2.0.1, instead of example torch2.0.1/cu118",
+    "Test batch100 to16; workers8 to2",
+    "CoOp batch32 from published file overridden to4 to match paper protocol and device; published CoOp LR0.002 retained",
+    "Prompt training RNG reset after model construction to avoid support-cache creation altering training RNG",
+    "LinearProbe uses exact shared train and min(K,4)-per-class validation supports; published entry point has a missing return and different validation resampling",
+    "Deterministic frozen visual test features cached with weight/transform/path/stat binding; final prompted logits algebra checked on validation images",
+    "Tensorboard2.15.2 replaces unpinned tb-nightly; unused lint/wilds not imported or installed",
+    "Per-epoch compact resume includes trainable weights/optimizer/scheduler/random states; unmodified author full final checkpoint retained"
+  ],
+  "constraints": [
+    "All public anonymous resources",
+    "No test parameter/model selection",
+    "Images are not confirmed independent patients",
+    "Patient and pretraining overlap unknown",
+    "Class descriptions are not patient reports",
+    "No GPU/VRAM occupancy keepalive or interference with other processes"
+  ]
+}
