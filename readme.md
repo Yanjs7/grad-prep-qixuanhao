@@ -23,7 +23,7 @@
 
 | 项目 | 状态 | 当前进度 |
 | --- | --- | --- |
-| 论文阅读与笔记 | 持续完善 | 12 篇已有笔记，继续补充方法、实验与局限分析 |
+| 论文阅读与笔记 | 持续完善 | 13 篇已有笔记，继续补充方法、实验与局限分析 |
 | 模型实现与实验 | 已有成果 | 3项工程实践 + 1项论文主实验复现：FIVES、ISIC、CTA及BiomedCoOp / BiomedCLIP |
 | 论文复现 | 已完成BiomedCoOp主实验 | 11数据集、5个shot档位、3种子，506项配置；[图文报告](research/reproduction/biomedcoop-biomedclip/复现报告.md) |
 
@@ -53,6 +53,7 @@
 - [Swin UNETR](research/papernotes/swin-unetr.md)：三维 CT 自监督预训练与有标注数据微调。
 - [EHR多模态表示学习综述](research/papernotes/ehr-multimodal-survey.md)：梳理早期、中间、晚期与混合融合，以及模态缺失、数据对齐和跨医院差异。
 - [BiomedCoOp](research/papernotes/biomedcoop.md)：理解冻结医学视觉语言模型后的少样本提示学习，以及语义约束、描述筛选与类别迁移。
+- [Gastric-X](research/papernotes/gastric-x.md)：理解胃癌多模态、多期相数据与评测基准，区分检验文本、空间提示和不同任务的输入范围。
 
 ### 实验与应用
 
@@ -107,6 +108,7 @@
 | --- | --- | --- | --- |
 | A survey on electronic health record driven multimodal representation learning | EHR驱动的患者表示、跨模态融合、模态缺失与数据对齐 | [PDF](research/papers/ehr-multimodal-survey.pdf) | [EHR多模态综述笔记](research/papernotes/ehr-multimodal-survey.md) |
 | BiomedCoOp: Learning to Prompt for Biomedical Vision-Language Models | 医学视觉语言模型的少样本提示学习、语义一致性与知识蒸馏 | [PDF](research/papers/biomedcoop.pdf) | [BiomedCoOp 笔记](research/papernotes/biomedcoop.md) |
+| Gastric-X: A Multimodal Multi-Phase Benchmark Dataset for Advancing Vision-Language Models in Gastric Cancer Analysis | 多期CT、检验文本与空间提示的多模态数据集及评测基准 | [PDF](research/papers/gastric-x.pdf) | [Gastric-X 笔记](research/papernotes/gastric-x.md) |
 
 
 

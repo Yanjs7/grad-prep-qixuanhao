@@ -2,13 +2,13 @@
 
 [返回仓库首页](../readme.md)
 
-本目录收录医学图像分析与医疗多模态表示学习相关论文及个人阅读记录，当前收录 12 篇论文的阅读笔记，12 篇均已附论文 PDF。
+本目录收录医学图像分析与医疗多模态表示学习相关论文及个人阅读记录，当前收录 13 篇论文的阅读笔记，13 篇均已附论文 PDF。
 
 ## 当前进度与实践入口
 
 | 内容 | 当前状态 | 入口 |
 | --- | --- | --- |
-| 论文阅读 | 12 篇已有笔记，继续深化精读 | 见下方论文列表 |
+| 论文阅读 | 13 篇已有笔记，继续深化精读 | 见下方论文列表 |
 | U-Net 血管分割实践 | 已有源码压缩包、实验报告与可视化 | [FIVES 报告](<../engineering/U-Net 在 FIVES 上的血管分割/U-net复现.md>) |
 | U-Net 病灶分割与 ResNet18 分类 | 已有验证指标、训练曲线与误判分析 | [ISIC 实验报告](../engineering/基于U-net和ResNet的皮肤病灶分析与分类平台/项目实验报告.md) |
 | 主动脉夹层CTA半监督研究 | 已完成固定5折、15训练及15评估阶段 | [第三项实践报告](../engineering/主动脉夹层CTA半监督研究/项目实验报告.md) |
@@ -49,6 +49,7 @@
 | --- | --- | --- | --- | --- |
 | A survey on electronic health record driven multimodal representation learning | EHR驱动的患者表示、跨模态融合、模态缺失与数据对齐 | [PDF](papers/ehr-multimodal-survey.pdf) | [EHR多模态综述笔记](papernotes/ehr-multimodal-survey.md) | 已有综述阅读笔记，尚未开展相关实验 |
 | BiomedCoOp: Learning to Prompt for Biomedical Vision-Language Models | 医学视觉语言模型的少样本提示学习、语义一致性与知识蒸馏 | [PDF](papers/biomedcoop.pdf) | [BiomedCoOp 笔记](papernotes/biomedcoop.md) | 已完成506项主实验配置；[复现材料](reproduction/biomedcoop-biomedclip/README.md) |
+| Gastric-X: A Multimodal Multi-Phase Benchmark Dataset for Advancing Vision-Language Models in Gastric Cancer Analysis | 多期CT、检验文本与空间提示的多模态数据集及评测基准 | [PDF](papers/gastric-x.pdf) | [Gastric-X 笔记](papernotes/gastric-x.md) | 已有阅读笔记，尚未开展相关实验 |
 
 
 
